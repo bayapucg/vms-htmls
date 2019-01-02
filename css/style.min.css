@@ -1,0 +1,46 @@
+.carousel,
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item,
+.view,
+body,
+html {
+	height: 100%
+}
+.blink_me { 
+  animation: blinker 3s linear infinite; 
+  
+} 
+.blink_me {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: blinker;
+    animation-timing-function: linear;
+}
+ @keyframes blinker {   
+   50% { opacity: 0; } 
+ } 
+ .main-container-start{
+	 margin-top:130px;
+ }
+.fixed-top {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar {
+	background-color: rgba(0, 0, 0, .2)
+}
+
+.page-footer,
+.top-nav-collapse {
+	background-color: #FF0000
+}
+
+@media only screen and (max-width:768px) {
+	.navbar {
+		background-color: #FF0000
+	}
+}
