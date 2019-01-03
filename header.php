@@ -97,7 +97,7 @@
             </a>
           </li>
 		  <li class="nav-item mx-2">
-            <a href="#" class="nav-link btn-sm btn btn-indigo"
+            <a href="login.php" class="nav-link btn-sm btn btn-indigo"
               target="_blank">
               <i class="fa fa-sign-in mr-2"></i>Login
             </a>

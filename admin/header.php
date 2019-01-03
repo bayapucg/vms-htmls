@@ -171,7 +171,7 @@
         </li>  
 		<li class="treeview">
           <a href="profile.php">
-            <i class="fa fa-dashboard"></i> <span>My Profile</span>
+            <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
@@ -187,7 +187,6 @@
 		  <ul class="treeview-menu">
             <li><a href="load-booking.php"><i class="fa fa-circle-o"></i> Load Booking</a></li>
             <li><a href="#"><i class="fa fa-circle-o"></i> Booking summary</a></li>
-            <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Payment</a></li>
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Payment</a></li>
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Reference code</a></li>
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Support</a></li>

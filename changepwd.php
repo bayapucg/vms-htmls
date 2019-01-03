@@ -82,7 +82,7 @@
    
   
     <h5 class="card-header  text-center py-4">
-        <strong>Login</strong>
+        <strong>Change Password</strong>
     </h5>	
     <!--Card content-->
 	<div class="card-body px-lg-5 pt-0">
@@ -118,53 +118,29 @@
 		
         <!-- Form -->
 		
-        <form class="text-center" action="admin" style="color: #757575;">
-
+        <form class="text-center" action="#"  style="color: #757575;">
+			
             <div class="form-row">
                 <div class="col">
                     <!-- First name -->
                     <div class="md-form">
                         <input type="text" id="materialRegisterFormFirstName" class="form-control">
-                        <label for="materialRegisterFormFirstName">User Name</label>
+                        <label for="materialRegisterFormFirstName">New Password</label>
                     </div>
-                </div>
-                
+                </div>    
             </div>
-			<div class="form-row">
-            <div class="col">
-                    <!-- Last name -->
+			  <div class="form-row">
+                <div class="col">
+                    <!-- First name -->
                     <div class="md-form">
-                        <input type="password" id="materialRegisterFormLastName" class="form-control">
-                        <label for="materialRegisterFormLastName">Password</label>
+                        <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                        <label for="materialRegisterFormFirstName">Confirm Password</label>
                     </div>
-                </div>
-
-           </div>
-
+                </div>    
+            </div>
             <!-- Sign up button -->
-            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Login</button>
-			<div>
-			<label style="float:left">
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-	  			<label style="float:right">
-        <a href="forgotpwd.php"> forgot password</a>
-      </label>
-			</div>
-			<div>
-            <!-- Social register -->
-            <p>or Login with:</p>
-
-            <a type="button" class="btn-floating btn-fb btn-sm">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a type="button" class="btn-floating btn-tw btn-sm">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a type="button" class="btn-floating btn-gplus btn-sm">
-                <i class="fa fa-google-plus"></i>
-            </a>
-           </div>
+            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Submit</button>
+		
 
         
 
