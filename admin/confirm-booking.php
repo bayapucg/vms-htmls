@@ -5,99 +5,47 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Load Booking
+        Confirm Booking
        
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Load Booking</li>
+        <li class="active">Confirm Booking</li>
       </ol>
     </section>
 
     <section class="content">
      <div class="panel with-nav-tabs panel-default">
-                <div class="panel-heading">
-                        <ul class="nav nav-tabs">
-                            <li class="active"><a href="#tab1default" data-toggle="tab">Part Load</a></li>
-                            <li><a href="#tab2default" data-toggle="tab">Full Load</a></li>
-                            
-                        </ul>
-                </div>
+                
                 <div class="panel-body">
                     <div class="tab-content">
                         <div class="tab-pane fade in active" id="tab1default">
 							<div class="col-md-12">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">Booking Steps</h3>
+              <h3 class="panel-title">Booking <h3>
             </div>
             <div class="panel-body">
               <div class="row">
                 <div class="col-md-12">
 						<section>
         <div class="wizard">
-            <div class="wizard-inner">
-                <div class="connecting-line"></div>
-                <ul class="nav nav-tabs" role="tablist">
-
-                    <li role="presentation" class="active">
-                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
-                            <span class="round-tab">
-                                <i class="">1</i>
-                            </span>
-                        </a>
-						<h4 class="text-center">Basic Load Details</h4>
-                    </li>
-
-                    <li role="presentation" class="disabled">
-                        <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Step 2">
-                            <span class="round-tab">
-                                <i class="">2</i>
-                            </span>
-                        </a>
-						<h4 class="text-center">Select Vehicle </h4>
-                    </li>
-                    <li role="presentation" class="disabled">
-                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Step 3">
-                            <span class="round-tab">
-                                <i class="">3</i>
-                            </span>
-                        </a>
-						<h4 class="text-center">Pickup & Droping Point</h4>
-                    </li>
-
-                    <li role="presentation" class="disabled">
-                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Complete">
-                            <span class="round-tab">
-                                <i class="4">4</i>
-                            </span>
-                        </a>
-							<h4 class="text-center">Estimated Amount </h4>
-                    </li>
-                </ul>
-            </div>
-
             <form role="form">
-                <div class="tab-content">
-                    <div class="tab-pane active" role="tabpanel" id="step1">
-                        <h3>Step 1</h3>
                        <div class="row">
 							<div class="col-md-6">
 							<div class="form-group">
-								<label>Date:</label>
+								<label class="control-label">Arrival Point</label>
 
-								<div class="input-group date">
-								  <div class="input-group-addon">
-									<i class="fa fa-calendar"></i>
-								  </div>
-								  <input type="text" class="form-control pull-right datepicker" id="">
+								<div ">
+						
+								  <input type="text" class="form-control " name="username" placeholder="Enter Your Purpose" >
 								</div>
 								<!-- /.input group -->
 							</div>
 							</div>
 							<div class="col-md-6">
 							<div class="form-group">
-								<label class=" control-label">Purpose</label>
+								<label class=" control-label">Destination point</label>
 								<div class="">
 									<input type="text" class="form-control" name="username" placeholder="Enter Your Purpose" />
 								</div>
@@ -285,9 +233,9 @@
                             
                             <li><button type="button" class="btn btn-success btn-info-full "> Continue for Payment</button></li>
                         </ul>
-                    </div>
+                    
                     <div class="clearfix"></div>
-                </div>
+                
             </form>
         </div>
     </section>

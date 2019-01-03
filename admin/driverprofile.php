@@ -39,8 +39,8 @@
    
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title pull-left">Customer 1</h3>
-			  <span class="pull-right"><a href="update-profile.php" class="btn btn-primary btn-sm">Update / Edit</a></span>
+              <h3 class="panel-title pull-left">Driver</h3>
+			  <span class="pull-right"><a href="update-driverpro.php" class="btn btn-primary btn-sm">Update / Edit</a></span>
 			  <div class="clearfix">&nbsp;</div>
             </div>
             <div class="panel-body">
@@ -61,7 +61,7 @@
                     <tbody>
                       <tr>
                         <td>Name:</td>
-                        <td>Customer1</td>
+                        <td>Driver</td>
                       </tr>
                       <tr>
                         <td>Contact number:</td>
@@ -69,13 +69,17 @@
                       </tr>
                       <tr>
                         <td>Email Id</td>
-                        <td>customer1@gamil.com</td>
+                        <td>driver1@gamil.com</td>
                       </tr>
                    
                          <tr>
+                        <td>License no</td>
+                        <td>GHFHG11472E</td>
+                      </tr>
+                   
                              <tr>
-                        <td>Company name or Individual</td>
-                        <td>Prachatech</td>
+                        <td>Badge No</td>
+                        <td>30</td>
                       </tr>
                        
                      

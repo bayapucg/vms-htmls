@@ -39,8 +39,8 @@
    
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title pull-left">Customer 1</h3>
-			  <span class="pull-right"><a href="update-profile.php" class="btn btn-primary btn-sm">Update / Edit</a></span>
+              <h3 class="panel-title pull-left">Owner</h3>
+			  <span class="pull-right"><a href="update-ownerpro.php" class="btn btn-primary btn-sm">Update / Edit</a></span>
 			  <div class="clearfix">&nbsp;</div>
             </div>
             <div class="panel-body">
@@ -61,24 +61,29 @@
                     <tbody>
                       <tr>
                         <td>Name:</td>
-                        <td>Customer1</td>
+                        <td>Owner</td>
+                      </tr>
+					  <tr>
+                        <td>Vehicle Type:</td>
+                        <td>Lorry</td>
+                      </tr>
+					  <tr>
+                        <td>Vehicle No:</td>
+                        <td>AP 2356</td>
+                      </tr>
+					  <tr>
+                        <td>Pan No:</td>
+                        <td>AQER116117Q</td>
+                      </tr>
+					  <tr>
+                        <td>Email Id</td>
+                        <td>owner1@gamil.com</td>
                       </tr>
                       <tr>
                         <td>Contact number:</td>
                         <td>850022xxxx</td>
                       </tr>
-                      <tr>
-                        <td>Email Id</td>
-                        <td>customer1@gamil.com</td>
-                      </tr>
-                   
-                         <tr>
-                             <tr>
-                        <td>Company name or Individual</td>
-                        <td>Prachatech</td>
-                      </tr>
-                       
-                     
+                      
                     </tbody>
                   </table>
                   

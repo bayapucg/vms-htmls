@@ -7,6 +7,7 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
+  <link rel="shortcut icon" href="img/heading-img.png" type="image/x-icon"/>
   <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrapValidator.min.css">
     <link rel="stylesheet" href="css/custom.css">
@@ -177,7 +178,7 @@
             </span>
           </a>
         </li> 
-		<li class="active treeview">
+		<li class=" treeview">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Load Bookings</span>
             <span class="pull-right-container">
@@ -193,6 +194,61 @@
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Contact</a></li>
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i> About us</a></li>
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i> Blog</a></li>
+          </ul>
+        </li>
+		<li class=" treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Driver</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+		  <ul class="treeview-menu">
+            <li><a href="driverdash.php"><i class="fa fa-circle-o"></i> Dashboard</a></li>
+            <li><a href="driverprofile.php"><i class="fa fa-circle-o"></i>My profile</a></li>
+            <li class="active"><a href="confirm-booking.php"><i class="fa fa-circle-o"></i>Confirm booking</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Booking summary</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Toll gate</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Employment</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Support</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Contact</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>About us</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Blog</a></li>
+          </ul>
+        </li>
+		<li class=" treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Owner</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+		  <ul class="treeview-menu">
+            <li><a href="ownerdash.php"><i class="fa fa-circle-o"></i> Dashboard</a></li>
+            <li><a href="ownerprofile.php"><i class="fa fa-circle-o"></i>My profile</a></li>
+			<li class=" treeview">
+            <a href="#">
+            <i class="fa fa-circle-o"></i> <span>Add Driver</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+		  
+			<ul class="treeview-menu">
+			<li class="active"><a href="driver.php">Driver </a></li>
+            <li class="active"><a href="driverlist.php">Driver List</a></li>
+			</ul>
+			</li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Confirm booking</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Vehicle management</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Booking summary</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Load information</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Payment management</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Manpower management</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Support</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Contact</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>About us</a></li>
+            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Blog</a></li>
           </ul>
         </li>
 		<li class="treeview">
@@ -221,7 +277,7 @@
           </a>
          
         </li>
-        <li class="treeview active">
+        <li class="treeview ">
           <a href="#">
             <i class="fa fa-files-o"></i>
             <span>Layout Options</span>
