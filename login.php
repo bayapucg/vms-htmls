@@ -24,7 +24,7 @@
   -ms-user-select: none;
   user-select: none;
   margin-bottom:-100px;
-  margin-top:-100px;
+  
 }
 .customradio input {
   position: absolute;
