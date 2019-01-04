@@ -7,7 +7,8 @@
        
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="ownerdash.php"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">owner</li>
         <li class="active">Dashboard</li>
       </ol>
     </section>

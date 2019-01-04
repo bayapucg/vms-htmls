@@ -7,8 +7,8 @@
         <small></small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li><a href="#">Owner</a></li>
+        <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li><a href="ownerdash.php">Owner</a></li>
         <li><a href="#">Add Driver</a></li>
         <li class="active">DriverList</li>
       </ol>

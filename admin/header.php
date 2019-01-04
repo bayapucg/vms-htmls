@@ -251,7 +251,7 @@
             <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Blog</a></li>
           </ul>
         </li>
-		<li class="treeview">
+		<!--<li class="treeview">
           <a href="ck-editor.php">
             <i class="fa fa-dashboard"></i> <span>Editor</span>
             <span class="pull-right-container">
@@ -291,7 +291,7 @@
             <li class="active"><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
             <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
-        </li>
+        </li>-->
        
        
     </section>
