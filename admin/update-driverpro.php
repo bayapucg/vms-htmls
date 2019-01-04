@@ -12,12 +12,20 @@
             <!-- /.box-header -->
             <!-- form start -->
 			<div style="padding:20px;">
-            <form id="defaultForm" method="post" class="" action="update-profile.php">
+            <form id="defaultForm" method="post" class="" action="update-driverpro.php">
 			<div class="col-md-6">
 							<div class="form-group">
 								<label class=" control-label">Name</label>
 								<div class="">
-									<input type="text" class="form-control" name="username" value="Customer1" />
+									<input type="text" class="form-control" name="name" value="Customer1" />
+								</div>
+							</div>
+                        </div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class=" control-label">Gender</label>
+								<div class="">
+									<input type="radio"  name="gender" value="male" checked> Male<br> <input type="radio" name="gender" value="female"> Female<br>
 								</div>
 							</div>
                         </div>
@@ -25,7 +33,7 @@
 							<div class="form-group">
 								<label class=" control-label">Contact Number</label>
 								<div class="">
-									<input type="text" class="form-control" name="username" value="850022xxxx" />
+									<input type="text" class="form-control" name="" value="850022xxxx" />
 								</div>
 							</div>
                         </div>
@@ -33,7 +41,7 @@
 							<div class="form-group">
 								<label class=" control-label">Email</label>
 								<div class="">
-									<input type="mail" class="form-control" name="username" value="customer1@gmail.com" />
+									<input type="mail" class="form-control" name="" value="customer1@gmail.com" />
 								</div>
 							</div>
                         </div>
@@ -41,7 +49,7 @@
 							<div class="form-group">
 								<label class=" control-label">License No</label>
 								<div class="">
-									<input type="text" class="form-control" name="username" value="GHFHG11472E" />
+									<input type="text" class="form-control" name="" value="GHFHG11472E" />
 								</div>
 							</div>
                         </div>
@@ -49,7 +57,15 @@
 							<div class="form-group">
 								<label class=" control-label">Badge no</label>
 								<div class="">
-									<input type="text" class="form-control" name="username" value="30" />
+									<input type="text" class="form-control" name="" value="30" />
+								</div>
+							</div>
+                        </div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label class=" control-label">Aadhaar Number</label>
+								<div class="">
+									<input type="text" class="form-control" name="" value="30" />
 								</div>
 							</div>
                         </div>
@@ -58,7 +74,7 @@
 							<div class="form-group col-md-9">
 								<label class=" control-label">Profile</label>
 								<div class="">
-									<input type="file" class="form-control" name="username" value="Prachatech" />
+									<input type="file" class="form-control" name=""  />
 								</div>
 							</div>
 							<div class="col-md-3">
