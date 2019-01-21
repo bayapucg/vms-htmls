@@ -7,9 +7,10 @@
 .bootstrap-datetimepicker-widget {
 	list-style: none;
 	 position: absolute !important;
-    top: -260px !important;
+    top: 0px !important;
     right: -40px !important;
 	height:320px;
+	
 }
 
 .bootstrap-datetimepicker-widget.dropdown-menu {
