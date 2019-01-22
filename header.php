@@ -60,11 +60,21 @@
           
 		  
           
-          <li class="nav-item">
-            <a href="signup.php" class="nav-linkbtn btn  btn-sm"
-              target="_blank" style="background-color: transparent;color:#fff;border:1px solid #fff;">
-              <i class="fa fa-user-plus mr-2"></i>Login / Signup
-            </a>
+          <li class="nav-item login-cust">
+		  
+      <ul class="nav navbar-nav ">
+        <li class="dropdown show-on-hover">
+          <a href="#" class="dropdown-toggle nav-linkbtn btn  btn-sm " style="background-color: transparent;color:#fff;border:1px solid #fff;" data-toggle="dropdown"> <i class="fa fa-user-plus mr-2"></i>Login / Signup</a>
+          <ul class="dropdown-menu hover-open">
+            <li><a href="#">Driver Login</a></li>
+            <li><a href="#">Dhaba Login</a></li>
+            <li><a href="#">Owner Login</a></li>
+            <li><a href="#">Load Provider Login</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            
           </li>
 		 <li class="nav-item mx-2 top-icons">
                  		<a href="#" class="nav-link btn-sm"
@@ -91,7 +101,7 @@
     </div>
   </nav>
   </div>
-  <div class="" style="background:#000;color:#fff;padding:6px;margin-top:45px;height:35px;" >
+  <div class="" style="background:#000;color:#fff;padding:6px;margin-top:40px;height:35px;" >
 	<div class="container" style="max-width:100%">
 		<div class="row">
 		<ul class="states-ul">
@@ -124,7 +134,7 @@
 			
 			
 			
-			<div class="col-md-8">
+			<div class="col-md-8 ml-auto">
 			<div class="pull-right">
 				<a class="h5"  href="#">
 				<i class="fa fa-cart-arrow-down text-white" aria-hidden="true"></i>

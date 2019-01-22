@@ -3,7 +3,7 @@
 
 <!--Carousel Wrapper-->
     <!--<div class="view" style="background-image: url('img/slider2.png'); ">-->
-     <div class="view" style="height:300px; ">
+     <div class="view" style="height:450px; ">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-light " style="background-image: url('img/search-bg.png'); "  >
@@ -14,7 +14,7 @@
 
         </div>
   <!--/.Carousel Wrapper-->
-<div style="position:absolute;top:40%;width:80%;-webkit-transform: translate(5%, -50%);
+<div style="position:absolute;top:46%;width:80%;-webkit-transform: translate(5%, -50%);
   transform: translate(12%, -50%);">
   	<div class="row py-2">
 	<div class="col-md-8 ">

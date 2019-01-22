@@ -7,7 +7,49 @@ body,
 html {
 	height: 100%
 }
+*{
+	font-size:11px;
+}
+.section-heading span{
+	font-size:23px;
+}
+.login-cust .dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:4px;
+    width:200px;
 
+}
+.login-cust  .dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 50%;
+    z-index: 10;
+}
+.login-cust .dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #ccc;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 49.4%;
+    z-index: 9;
+}
+.hover-open li{
+	border-bottom:0.1px solid #f5f5f5;
+	text-align:center;
+}
+.hover-open li:hover{
+	background-color:#f5f5f5;
+}
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
 .states-ul li{
 	float:left;
 	padding-right:20px;
