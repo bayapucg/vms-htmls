@@ -29,7 +29,7 @@
         </div>
         <div>
             <!-- Forgot password -->
-            <a href="">Forgot password?</a>
+            <a href="forgot-password.php">Forgot password?</a>
         </div>
     </div>
 
