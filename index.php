@@ -1,5 +1,15 @@
 <?php include("header.php"); ?>
-
+<style>
+    #myModal .list-inline-item{
+        margin-left: 5px;
+        padding: 5px;
+    }
+    .list-inline-item.active{
+        border: 1px solid red;
+        color: red;
+        padding: 5px;
+    }
+</style>
 
 <!--Carousel Wrapper-->
     <!--<div class="view" style="background-image: url('img/slider2.png'); ">-->
@@ -71,7 +81,7 @@
 			
 				
 				  <div class="md-form col-md-2">
-                      <a href="booking.php" type="submit" class="btn btn-indigo btn-sm pull-right">Find Price</a>
+                      <button type="button" class="btn btn-indigo btn-sm pull-right" data-toggle="modal" data-target="#myModal">Find Price</button>
                   </div>
                   </div>
 
@@ -621,6 +631,152 @@
 			</section>
 			
 			</main>
+
+<!-- Central Modal Small -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+    <!-- Change class .modal-sm to change the size of the modal -->
+    <div class="modal-dialog modal-md" role="document">
+
+
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h4 class="modal-title w-100" id="myModalLabel">Find Load</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-4">
+                        <p class="pt-5 bold-text">Select Size</p>
+                    </div>
+                    <div class="col-8">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-2x"></i><br>
+                                <span>Small</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-3x"></i><br>
+                                <span>Medium</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-4x"></i><br>
+                                <span>Large</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-5x"></i><br>
+                                <span>Extra Large</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row py-3">
+                    <div class="col-4">
+                        <p class="pt-3 bold-text">Vehicle Type</p>
+                    </div>
+                    <div class="col-8">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-3x"></i><br>
+                                <span>Open</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-3x"></i><br>
+                                <span>Container</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-3x"></i><br>
+                                <span>Troller</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-truck fa-3x"></i><br>
+                                <span>Some Type</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row py-3">
+                    <div class="col-4">
+                        <p class="pt-3 bold-text">Select Material</p>
+                    </div>
+                    <div class="col-8">
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-center active">
+                                <i class="fa fa-archive fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-car fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-cog fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-cubes fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-leaf fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-flask fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-fire-extinguisher fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-home fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                        </ul>
+                        <ul class="list-inline">
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-leanpub fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-pagelines fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-lightbulb-o fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                            <li class="list-inline-item text-center">
+                                <i class="fa fa-tint fa-2x"></i><br>
+                                <span>Some Text</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-4 mx-auto">
+                        <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
+                    </div>
+                    <div class="col-4 mx-auto">
+                        <a href="booking.php" type="button" class="btn btn-primary btn-block">Search</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Central Modal Small -->
+
+
 <?php include("footer.php"); ?>
 <script>
 		$('#blogCarousel').carousel({
