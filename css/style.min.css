@@ -206,5 +206,84 @@ html {
 	.border-1px-ddd{
 		border:1px solid #ddd;
 	}
+  .b-filters {
+        background: #eee;
+        margin-left: 0px;
+    }
 
+    .bff-type p {
+        font-weight: bold;
+        padding-top: 10px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .bff-checkbox {
+        margin-bottom: 5px;
+    }
+
+    .b-vans tr th {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .b-vans tr td {
+        padding: 5px 10px;
+    }
+
+    .b-vans tr th .input-group button {
+        font-size: 11px;
+    }
+
+    .b-vans tr th .input-group .btn {
+        padding: 3px 10px;
+    }
+
+    .b-vans p {
+        padding-top: 5px;
+        font-size: 14px;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+
+    .bv-vechile-info .bvv-name {
+        padding-top: 0px;
+    }
+
+    .bv-capacity i,
+    .bv-loading-dt i {
+        margin-right: 10px
+    }
+
+    .bv-capacity p,
+    .bv-loading-dt p {
+        line-height: 22px;
+        padding-top: 0px;
+    }
+
+    .bv-rating .list-inline {
+        margin-bottom: 1px;
+    }
+
+    .bv-rating .list-inline-item {
+        margin-right: 1px;
+    }
+
+    .bv-rating p {
+        padding-top: 0px;
+        line-height: 22px;
+    }
+
+    .bv-rating i {
+        color: orange;
+        font-size: 15px;
+    }
+
+    .bv-price h4 {
+        font-weight: 600;
+    }
+
+    .bv-book .btn {
+        font-size: 13px;
+    }
 /* tabs styles */
