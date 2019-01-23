@@ -1,6 +1,94 @@
 <?php include("header-links.php"); ?>
 
-<section class="booking">
+<style>
+    .navbar-nav p, .navbar-nav i{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn.font-20{
+        font-size: 11px;
+    }
+    span.line{
+        font-size: 16px;
+    }
+    .bv-book .btn.btn-sm .fa {
+        font-size: 13px;
+    }
+</style>
+<!-- Navbar -->
+<div class="fixed-top">
+    <!---->
+    <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
+
+        <div class="container" style="padding:0px;margin:0px;max-width:100%">
+            <a class="navbar-brand" href="index.php">
+                <strong><img style="width:60px;height:auto;" class="img-fluid" src="img/logo.png"></strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Right -->
+                <ul class="navbar-nav mx-auto text-white">
+                    <li class="nav-item mx-3">
+                        <p>Hyderabad</p>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <span><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <p>Guntur</p>
+                    </li>
+                    <li class="nav-item mx-3 mt-3">
+                        <span class="line">|</span>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <p>02/01/2019</p>
+                    </li>
+                    <li class="nav-item mx-3 pt-3">
+                        <select class="browser-default custom-select">
+                            <option selected>Medium</option>
+                            <option value="1">Option</option>
+                            <option value="2">Option</option>
+                            <option value="3">Option</option>
+                        </select>
+                    </li>
+                    <li class="nav-item mx-3 pt-3">
+                        <select class="browser-default custom-select">
+                            <option selected>Full Load</option>
+                            <option value="1">Option</option>
+                            <option value="2">Option</option>
+                            <option value="3">Option</option>
+                        </select>
+                    </li>
+                    <li class="nav-item mx-3 text-center">
+                        <i class="fa fa-truck fa-2x pt-2 mb-0"></i><br>
+                        <span>Container</span>
+                    </li>
+                    <li class="nav-item mx-3 text-center">
+                        <i class="fa fa-tint fa-2x pt-2 mb-0"></i><br>
+                        <span>Food Oil</span>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <button class="btn btn-md btn-warning mt-3 px-3 py-2 font-20">Modify</button>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-right ml-auto text-white">
+                    <i class="fa fa-user-plus fa-2x mt-3" aria-hidden="true"></i>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</div>
+
+<section class="booking mt-5 pt-4">
     <div class="container-fluid">
         <div class="row">
             
@@ -36,7 +124,7 @@
                                                         </div>
                                                     </div>
                                                 </th>
-                                                <th class="text-center" style="width:12%;">Book</th>
+                                                <th class="text-center">&nbsp;</th>
                                             </tr>
                                         </thead>
 
@@ -65,8 +153,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-tachometer"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -97,7 +185,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <button class="btn btn-md btn-warning">Book Now</button>
+                                                <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -155,8 +243,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-tachometer"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -187,7 +275,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <button class="btn btn-md btn-warning">Book Now</button>
+                                                <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -245,8 +333,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-tachometer"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -277,7 +365,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <button class="btn btn-md btn-warning">Book Now</button>
+                                                <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -335,8 +423,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-tachometer"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -367,7 +455,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <button class="btn btn-md btn-warning">Book Now</button>
+                                                <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -408,79 +496,72 @@
                 </div>
 
             </div>
-			<div class="col-md-3">
-<div class="card">
-  <div class="card-header">
-    Insurance
-  </div>
-  <div class="card-body">
-    <!-- Default unchecked -->
-<div class="custom-control custom-checkbox">
-    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
-    <label class="custom-control-label" for="defaultUnchecked">Insurance</label>
-</div>
-    
-    <form class="px-2" action="#">
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Material Value:</label>
-    <input type="text" class="form-control col-md-6" id="">
-  </div>  
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Insurance Provider:</label>
-	   <select class="form-control col-md-6" >
-		<option>HDFC</option>
-		<option>2</option>
-		<option>3</option>
-		<option>4</option>
-	  </select>
-  </div>
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Total Insurance Value:</label>
-	   <span class="col-md-6" > INR 15000/-</span>
-  </div>
-  
-  </div>
- 
-</form>
-</div>
-<br>
-<div class="card">
-  <div class="card-header">
-    Fare Details
-  </div>
-  <div class="card-body">
+            <div class="col-md-3 mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        Insurance
+                    </div>
+                    <div class="card-body">
+                        <!-- Default unchecked -->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                            <label class="custom-control-label" for="defaultUnchecked">Insurance</label>
+                        </div>
 
-    
-    <form class="px-2" action="#">
-  
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Basic Fare (4 Load)</label>
-	   <span class="col-md-6" > INR 36000/-</span>
-  </div> 
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Fee & Surcharges</label>
-	   <span class="col-md-6" > INR 120.14/-</span>
-  </div> 
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Insurance</label>
-	   <span class="col-md-6" > INR 1500/-</span>
-  </div> 
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Discount</label>
-	   <span class="col-md-6" > INR 500/-</span>
-  </div>
-  <div class="form-group row">
-    <label class="col-md-6" for="email">Total Load Value</label>
-	   <span class="col-md-6" > INR 37,120.14/-</span>
-  </div>
-  <button class="btn btn-success btn-sm">PAY NOW</button>
-  </div>
- 
-</form>
-</div>
-</div>
-			</div>
+                        <form class="px-2" action="#">
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Material Value:</label>
+                                <input type="text" class="form-control col-md-6" id="">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Insurance Provider:</label>
+                                <select class="form-control col-md-6">
+                                    <option>HDFC</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Total Insurance Value:</label>
+                                <span class="col-md-6"> INR 15000/-</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        Fare Details
+                    </div>
+                    <div class="card-body">
+                        <form class="px-2" action="#">
 
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Basic Fare (4 Load)</label>
+                                <span class="col-md-6"> INR 36000/-</span>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Fee & Surcharges</label>
+                                <span class="col-md-6"> INR 120.14/-</span>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Insurance</label>
+                                <span class="col-md-6"> INR 1500/-</span>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Discount</label>
+                                <span class="col-md-6"> INR 500/-</span>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Total Load Value</label>
+                                <span class="col-md-6"> INR 37,120.14/-</span>
+                            </div>
+                            <button class="btn btn-success btn-sm">PAY NOW</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

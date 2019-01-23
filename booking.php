@@ -84,7 +84,7 @@
     </nav>
 </div>
 
-<section class="booking mt-5 pt-2">
+<section class="booking mt-5 pt-4">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 b-filters">
@@ -271,8 +271,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-balance-scale"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -361,8 +361,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-balance-scale"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -451,8 +451,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-balance-scale"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
@@ -541,8 +541,8 @@
                                                 </div>
                                             </td>
                                             <td class="bv-capacity">
-                                                <p><i class="fa fa-weight"></i> 16 Ton</p>
-                                                <p><i class="fa fa-arrows-h"></i>18 fit</p>
+                                                <p><i class="fa fa-balance-scale"></i> 16 Ton</p>
+                                                <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                             </td>
                                             <td class="bv-loading-dt">
                                                 <div class="media">
