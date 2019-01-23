@@ -20,7 +20,7 @@
 	<div class="col-md-8 ">
 	<div class="px-5 search-main-label">
 
-				  <!-- Default inline 1-->
+				    <!-- Default inline 1-->
 					<div class="custom-control custom-checkbox custom-control-inline">
 					  <input type="checkbox" class="custom-control-input" id="defaultInline1">
 					  <label class="custom-control-label" for="defaultInline1">Full Load</label>
@@ -71,7 +71,7 @@
 			
 				
 				  <div class="md-form col-md-2">
-                      <button class="btn btn-indigo btn-sm pull-right">Find Price</button>
+                      <a href="booking.php" type="submit" class="btn btn-indigo btn-sm pull-right">Find Price</a>
                   </div>
                   </div>
 
