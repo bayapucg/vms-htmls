@@ -136,7 +136,7 @@
 			
 			<div class="col-md-8 ml-auto">
 			<div class="pull-right">
-				<a class="h5"  href="#">
+				<a class="h5"  href="cart.php">
 				<i class="fa fa-cart-arrow-down text-white" aria-hidden="true"></i>
 				</a> &nbsp;  &nbsp;<a class="h5" href="#">
 				<i class="fa fa fa-bell  text-white" aria-hidden="true"></i>
