@@ -176,6 +176,35 @@ html {
 	}
 }
 
+ .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
 
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+	.right-arrow{
+		position:absolute;bottom:5px;left:5px;background:#f00;color:#fff;padding:1px 6px;border-radius:50%;height:25px;width:25px;font-size:20px;
+		cursor:pointer;
+	}
+	.border-1px-ddd{
+		border:1px solid #ddd;
+	}
 
 /* tabs styles */
