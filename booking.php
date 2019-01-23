@@ -192,7 +192,12 @@
                 </div>
             </div>
             <div class="col-md-10 b-vans">
-                <div class="table-responsive">
+			<div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4  class="panel-title ">
+           
+         <div class="table-responsive">
                     <table width="100%">
                         <thead class="black white-text">
                             <tr>
@@ -221,6 +226,20 @@
                                 <th class="text-center" style="width:12%;">Book</th>
                             </tr>
                         </thead>
+                        
+                    </table>
+        </h4>
+      </div>
+    
+    </div>
+	 <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
+        <h4  class="panel-title ">
+		<div class="expand">
+           <div  data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="right-arrow " style="">+</div>
+		   </div>
+         <div class="table-responsive">
+                    <table width="100%">
+                        
                         <tbody class="">
                             <tr>
                                 <td class="bv-vechile-info">
@@ -269,6 +288,32 @@
                             </tr>
                         </tbody>
                     </table>
+        </h4>
+		  <div class="clearfix">&nbsp;</div>
+      </div>
+	
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body border-1px-ddd py-3 px-4">
+			<div class="row">
+				<div class="col">
+					<a href=""> <h3>Heading 1</h3></a>
+				</div>
+				<div class="col">
+					<a href=""> <h3>Heading 1</h3></a>
+				</div>
+				<div class="col">
+					<a href=""> <h3>Heading 1</h3></a>
+				</div>
+				<div class="col">
+					<a href=""> <h3>Heading 1</h3></a>
+				</div>
+			</div>
+		</div>
+      </div>
+    </div>
+    
+  </div> 
+                
                 </div>
             </div>
         </div>
@@ -276,3 +321,17 @@
 </section>
 
 <?php include("footer.php"); ?>
+<script>
+$(function() {
+  $(".expand").on( "click", function() {
+    // $(this).next().slideToggle(200);
+    $expand = $(this).find(">:first-child");
+    
+    if($expand.text() == "+") {
+      $expand.text("-");
+    } else {
+      $expand.text("+");
+    }
+  });
+});
+</script>
