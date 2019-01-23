@@ -1,134 +1,10 @@
 <?php include("header-links.php"); ?>
 
-
-
 <section class="booking">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2 b-filters">
-                <div class="bf-fields">
-                    <div class="bff-type">
-                        <p>Loading Time</p>
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline1">
-                                <label class="custom-control-label" for="defaultInline1">Checkbox1</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline2">
-                                <label class="custom-control-label" for="defaultInline2">Checkbox2</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline3">
-                                <label class="custom-control-label" for="defaultInline3">Checkbox3</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bff-type">
-                        <p>Vechile Type</p>
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline4">
-                                <label class="custom-control-label" for="defaultInline4">Checkbox1</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline5">
-                                <label class="custom-control-label" for="defaultInline5">Checkbox2</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline6">
-                                <label class="custom-control-label" for="defaultInline6">Checkbox3</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bff-type">
-                        <p>Pickup Point</p>
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline7">
-                                <label class="custom-control-label" for="defaultInline7">Checkbox1</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline8">
-                                <label class="custom-control-label" for="defaultInline8">Checkbox2</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline9">
-                                <label class="custom-control-label" for="defaultInline9">Checkbox3</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bff-type">
-                        <p>Deliver Point</p>
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline10">
-                                <label class="custom-control-label" for="defaultInline10">Checkbox1</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline11">
-                                <label class="custom-control-label" for="defaultInline11">Checkbox2</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline12">
-                                <label class="custom-control-label" for="defaultInline12">Checkbox3</label>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="bff-type">
-                        <p>Amenities</p>
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline13">
-                                <label class="custom-control-label" for="defaultInline13">Checkbox1</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline14">
-                                <label class="custom-control-label" for="defaultInline14">Checkbox2</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline15">
-                                <label class="custom-control-label" for="defaultInline15">Checkbox3</label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-10 b-vans">
+            
+            <div class="col-md-9 b-vans">
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -532,6 +408,78 @@
                 </div>
 
             </div>
+			<div class="col-md-3">
+<div class="card">
+  <div class="card-header">
+    Insurance
+  </div>
+  <div class="card-body">
+    <!-- Default unchecked -->
+<div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+    <label class="custom-control-label" for="defaultUnchecked">Insurance</label>
+</div>
+    
+    <form class="px-2" action="#">
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Material Value:</label>
+    <input type="text" class="form-control col-md-6" id="">
+  </div>  
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Insurance Provider:</label>
+	   <select class="form-control col-md-6" >
+		<option>HDFC</option>
+		<option>2</option>
+		<option>3</option>
+		<option>4</option>
+	  </select>
+  </div>
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Total Insurance Value:</label>
+	   <span class="col-md-6" > INR 15000/-</span>
+  </div>
+  
+  </div>
+ 
+</form>
+</div>
+<br>
+<div class="card">
+  <div class="card-header">
+    Fare Details
+  </div>
+  <div class="card-body">
+
+    
+    <form class="px-2" action="#">
+  
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Basic Fare (4 Load)</label>
+	   <span class="col-md-6" > INR 36000/-</span>
+  </div> 
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Fee & Surcharges</label>
+	   <span class="col-md-6" > INR 120.14/-</span>
+  </div> 
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Insurance</label>
+	   <span class="col-md-6" > INR 1500/-</span>
+  </div> 
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Discount</label>
+	   <span class="col-md-6" > INR 500/-</span>
+  </div>
+  <div class="form-group row">
+    <label class="col-md-6" for="email">Total Load Value</label>
+	   <span class="col-md-6" > INR 37,120.14/-</span>
+  </div>
+  <button class="btn btn-success btn-sm">PAY NOW</button>
+  </div>
+ 
+</form>
+</div>
+</div>
+			</div>
 
         </div>
     </div>
