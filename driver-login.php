@@ -38,7 +38,7 @@
 
     <!-- Register -->
     <p>Not a member?
-        <a href="">Register</a>
+        <a href="register.php">Register</a>
     </p>
 
     
