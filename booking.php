@@ -1,6 +1,90 @@
 <?php include("header-links.php"); ?>
+<style>
+    .navbar-nav p, .navbar-nav i{
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .btn.font-20{
+        font-size: 11px;
+    }
+    span.line{
+        font-size: 16px;
+    }
+</style>
+<!-- Navbar -->
+<div class="fixed-top">
+    <!---->
+    <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
 
-<section class="booking">
+        <div class="container" style="padding:0px;margin:0px;max-width:100%">
+            <a class="navbar-brand" href="index.php">
+                <strong><img style="width:60px;height:auto;" class="img-fluid" src="img/logo.png"></strong>
+            </a>
+
+            <!-- Collapse -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Right -->
+                <ul class="navbar-nav mx-auto text-white">
+                    <li class="nav-item mx-3">
+                        <p>Hyderabad</p>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <span><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <p>Guntur</p>
+                    </li>
+                    <li class="nav-item mx-3 mt-3">
+                        <span class="line">|</span>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <p>02/01/2019</p>
+                    </li>
+                    <li class="nav-item mx-3 pt-3">
+                        <select class="browser-default custom-select">
+                            <option selected>Medium</option>
+                            <option value="1">Option</option>
+                            <option value="2">Option</option>
+                            <option value="3">Option</option>
+                        </select>
+                    </li>
+                    <li class="nav-item mx-3 pt-3">
+                        <select class="browser-default custom-select">
+                            <option selected>Full Load</option>
+                            <option value="1">Option</option>
+                            <option value="2">Option</option>
+                            <option value="3">Option</option>
+                        </select>
+                    </li>
+                    <li class="nav-item mx-3 text-center">
+                        <i class="fa fa-truck fa-2x pt-2 mb-0"></i><br>
+                        <span>Container</span>
+                    </li>
+                    <li class="nav-item mx-3 text-center">
+                        <i class="fa fa-tint fa-2x pt-2 mb-0"></i><br>
+                        <span>Food Oil</span>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <button class="btn btn-md btn-warning mt-3 px-3 py-2 font-20">Modify</button>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-right ml-auto text-white">
+                    <i class="fa fa-user-plus fa-2x mt-3" aria-hidden="true"></i>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</div>
+
+<section class="booking mt-5 pt-2">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-2 b-filters">
