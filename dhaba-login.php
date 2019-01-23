@@ -6,7 +6,7 @@
 			<div class="position:relative">
 <form class="text-center  p-5">
 	<a href="index.php"><img src="img/heading-img.png" class="" style="width:150px;height:auto;margin:0 auto;"></a>
-    <p class="h4 mb-4">Driver Login</p>
+    <p class="h4 mb-4">Dhaba Login</p>
 
     <!-- Email -->
     <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
@@ -46,7 +46,7 @@
 </form>
 <!-- Default form login -->
 	<div class="" style="position:absolute;top:10px;">
-		<a href="index.php"><i class="fa fa-arrow-left " style="font-size:20px;color:#aaa"> </i></a>
+	<a href="index.php"> 	<i class="fa fa-arrow-left " style="font-size:20px;color:#aaa"> </i></a>
 	</div>
 			
           </div>

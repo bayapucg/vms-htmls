@@ -24,7 +24,13 @@ html {
 	padding:5px 30px;
 	list-style-type:none;
 	text-align:center;
-	
+}
+.login-bottom a{
+	color:#000;
+	text-align:center;
+}
+.login-bottom a:hover{
+	color:#f00;
 }
 .login-cust .dropdown ul.dropdown-menu {
     border-radius:4px;
@@ -118,7 +124,7 @@ html {
 	text-align:center;
 }
 .search-main-label label{
-	color:#f00;
+	color:#000;
 }
 .top-icons i{
 	font-size:25px;
