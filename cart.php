@@ -93,47 +93,56 @@
         <div class="row">
             
             <div class="col-md-9 b-vans">
-                <div class="panel-group" id="accordion">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title ">
-
-                                <div class="table-responsive">
-                                    <table width="100%">
-                                        <thead class="black white-text">
-                                            <tr>
-                                                <th>Vehicle Info</th>
-                                                <th>Capacity</th>
-                                                <th>Loading Date / Time</th>
-                                                <th>&nbsp;</th>
-                                                <th>Rating</th>
-                                                <th>Price</th>
-                                                <th>
-                                                    No.of Load
-                                                    <br>
-                                                    <div class="input-group">
-                                                        <div class="input-group-prepend">
-                                                            <button type="button" class="btn btn-info">4</button>
-                                                            <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                                <span class="sr-only">Toggle Dropdown</span>
-                                                            </button>
-                                                            <div class="dropdown-menu">
-                                                                <a class="dropdown-item" href="#"></a>
-                                                                <a class="dropdown-item" href="#"></a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </th>
-                                                <th class="text-center">&nbsp;</th>
-                                            </tr>
-                                        </thead>
-
-                                    </table>
-                                </div>
-                            </h4>
-                        </div>
-
+                <div class="card mt-3">
+                    <div class="card-header">
+                        Review Your Booking
                     </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-3 text-center mt-4">
+                                <i class="fa fa-truck fa-3x pt-2 mb-0"></i><br>
+                                <span>Container</span>
+                            </div>
+                            <div class="col-9">
+                                <div class="row text-center">
+                                    <div class="col bv">
+                                        <p><i class="fa fa-clock-o"></i> 16 hrs</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <h3>Hyderabad</h3>
+                                    </div>
+                                    <div class="col-6" style="position: relative;">
+                                        <hr>
+                                        <i class="fa fa-fighter-jet fa-3x" style="position: absolute; color: #aaa; top: -6px; left: 50%; transform: translateX(-50%);"></i>
+                                    </div>
+                                    <div class="col-3">
+                                        <h3>Guntur</h3>
+                                    </div>
+                                </div>
+                                <div class="row mt-3 text-center">
+                                    <div class="col-2"></div>
+                                    <div class="col-2">
+                                        <i class="fa fa-bus"></i>
+                                        <span>Medium</span>
+                                    </div>
+                                    <div class="col-4">
+                                        <i class="fa fa-calendar fa-1x mt-2"></i>
+                                        <span class="">06:00 - 10:00 AM</span>
+                                        <span class="">02/01/1995</span>
+                                    </div>
+                                    <div class="col-2">
+                                        <i class="fa fa-tint"></i>
+                                        <span>Food Oil</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="panel-group" id="accordion">
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                         <h4 class="panel-title ">
                             <div class="expand">
@@ -558,6 +567,22 @@
                                 <span class="col-md-6"> INR 37,120.14/-</span>
                             </div>
                             <button class="btn btn-success btn-sm">PAY NOW</button>
+                        </form>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header">
+                        Coupon Code
+                    </div>
+                    <div class="card-body">
+
+                        <form class="px-2" action="#">
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Enter Coupon Code:</label>
+                                <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
+                            </div>
+                            <button class="btn btn-success btn-sm">APPLY</button>
                         </form>
                     </div>
                 </div>
