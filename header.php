@@ -30,29 +30,12 @@
 
   <!-- Navbar -->
   <div class="fixed-top">
-<div class="" style="background:#000;color:#fff;padding:6px;" >
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-			<img src="img/support.png"> &nbsp; Support : 040 - 48541273</div>
-			<div class="col-md-3"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;  Email : Support@vms.com </div>
-			<div class="col-md-3">
-			<a href="#">
-			<img class="pull-right img-fluid" src="img/playstore.png">  </a> </div>
-			<div class="col-md-3 blink_me">
-				<a class="" href="#"  style="color:#ff9800;font-weight:600">
-				  <i class="fa fa-user mr-2"></i>Refer a Friend
-				</a>
-			</div>
-			
-		</div>
-	</div>
-</div>
+<!---->
   <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
     
-    <div class="container">
+    <div class="container" style="padding:0px;margin:0px;max-width:100%">
       <a class="navbar-brand" href="index.php" >
-        <strong><img style="width:100px;height:auto;" class ="img-fluid" src="img/logo.png"></strong>
+        <strong><img style="width:60px;height:auto;" class ="img-fluid" src="img/logo.png"></strong>
       </a>
 
       <!-- Collapse -->
@@ -68,40 +51,48 @@
 
         <!-- Right -->
         <ul class="navbar-nav ml-auto">
-		<li class="nav-item active">
-            <a class="nav-link" href="#">Home
+		<li class="nav-item ">
+            <a class="nav-link" ><i class="fa fa-whatsapp" aria-hidden="true"></i>
++91 9437887793
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about_us.php" target="_blank">About Us</a>
-          </li> 
-		  <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">For Drivers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">For Owners</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="contactus.php">Contact Us</a>
-          </li>
+          
 		  
           
-          <li class="nav-item">
-            <a href="signup.php" class="nav-linkbtn btn btn-success btn-sm"
-              target="_blank">
-              <i class="fa fa-user-plus mr-2"></i>Sign Up
-            </a>
+          <li class="nav-item login-cust">
+		  
+      <ul class="nav navbar-nav ">
+        <li class="dropdown show-on-hover">
+          <a href="#" class="dropdown-toggle nav-linkbtn btn  btn-sm " style="background-color: transparent;color:#fff;border:1px solid #fff;" data-toggle="dropdown"> <i class="fa fa-user-plus mr-2"></i>Login / Signup</a>
+          <ul class="dropdown-menu hover-open">
+            <li><a href="driver-login.php">Driver Login</a></li>
+            <li><a href="dhaba-login.php">Dhaba Login</a></li>
+            <li><a href="owner-login.php">Owner Login</a></li>
+            <li><a href="load-provider-login.php">Load Provider Login</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+            
           </li>
-		  <li class="nav-item mx-2">
-            <a href="login.php" class="nav-link btn-sm btn btn-indigo"
+		 <li class="nav-item mx-2 top-icons">
+                 		<a href="#" class="nav-link btn-sm"
               target="_blank">
-              <i class="fa fa-sign-in mr-2"></i>Login
-            </a>
+             <i class="fa fa-apple" aria-hidden="true"></i>
+</a> 
           </li>
+		   <li class="nav-item mx-2 top-icons">
+                 		<a href="#" class="nav-link btn-sm"
+              target="_blank">
+             <i class="fa fa-android" aria-hidden="true"></i></a> 
+          </li>
+		  <li class="nav-item mx-2 top-icons">
+                 		<a href="#" class="nav-link btn-sm"
+              target="_blank">
+          <i class="fa fa-handshake-o" aria-hidden="true"></i></a> 
+          </li>
+		 
 		 
         </ul>
 
@@ -110,4 +101,51 @@
     </div>
   </nav>
   </div>
+  <div class="" style="background:#000;color:#fff;padding:6px;margin-top:40px;height:35px;" >
+	<div class="container" style="max-width:100%">
+		<div class="row">
+		<ul class="states-ul">
+			<li>
+			   <div class="dropdown">
+				  <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					ODISHA
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+					<button class="dropdown-item" type="button">1</button>
+					<button class="dropdown-item" type="button">2</button>
+					<button class="dropdown-item" type="button">3</button>
+				  </div>
+				</div>
+			</li>
+			<li>
+			  <div class="dropdown">
+				  <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Aandra Pradesh
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+					<button class="dropdown-item" type="button">1</button>
+					<button class="dropdown-item" type="button">2</button>
+					<button class="dropdown-item" type="button">3</button>
+				  </div>
+				</div>
+			</li>
+		</ul>
+		
+			
+			
+			
+			<div class="col-md-8 ml-auto">
+			<div class="pull-right">
+				<a class="h5"  href="cart.php">
+				<i class="fa fa-cart-arrow-down text-white" aria-hidden="true"></i>
+				</a> &nbsp;  &nbsp;<a class="h5" href="#">
+				<i class="fa fa fa-bell  text-white" aria-hidden="true"></i>
+				</a>
+			</div>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
   <!-- Navbar -->

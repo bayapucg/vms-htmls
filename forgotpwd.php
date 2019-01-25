@@ -8,64 +8,6 @@
 	.font {
 		font-size:17px;
 	}
-.radiotext {
-  color: #213751;
-  font-size: 18px;
-      padding-right: 10px;
-}
-.customradio {
-  display: block;
-  position: relative;
-  padding-left: 30px;
-  margin-bottom: 0px;
-  cursor: pointer;
-  font-size: 18px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin-bottom:-100px;
-  
-}
-.customradio input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 22px;
-  width: 22px;
-  background-color: white;
-  border-radius: 50%;
-  border:1px solid #BEBEBE;
-  
-}
-.customradio:hover input ~ .checkmark {
-  background-color: transparent;
-}
-.customradio input:checked ~ .checkmark {
-  background-color: white;
-  border:1px solid #BEBEBE;
-}
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-.customradio input:checked ~ .checkmark:after {
-  display: block;
-}
-.customradio .checkmark:after {
-  top: 2px;
-  left: 2px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #213751;
-}
 
     </style>
 <!--Carousel Wrapper-->
