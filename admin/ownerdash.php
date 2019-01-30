@@ -63,6 +63,18 @@
         </div>
 		<div class="col-md-4 col-sm-6 col-xs-12">
           <div class="info-box">
+            <span class="info-box-icon bg-orange"><i class="fa fa-money" aria-hidden="true"></i></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text">Receivable Amount</span>
+              <span class="info-box-number">₹ 12,000</span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+		<div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="info-box">
             <span class="info-box-icon bg-blue"><i class="fa fa-medkit" aria-hidden="true"></i></span>
 
             <div class="info-box-content">
