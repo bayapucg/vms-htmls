@@ -11,15 +11,6 @@
 			<option>ww</option>
 			<option>cccc</option>
 		</select>
-      <!--<div class="dropdown">
-    <button class="btn btn-default btn-block dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Select
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">customer</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">owner</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">driver</a></li> 
-    </ul>
-  </div>-->
   </div>
   <div  class=" col-md-9">
 		<ul class="bottom-nav">	
@@ -29,19 +20,19 @@
 				<li class="icon_size"><i class="fa fa-arrows" aria-hidden="true"></i></li>
 				<li >
 					<form action="#">
-					  <input type="text"  name="search">
-					  <button type="submit"><i class="fa fa-search"></i></button>
+					<div>
+					  <input type="text" class="search_vms" name="search">
+					  <button type="submit"><i class="fa fa-search button_vms"></i></button>
+					  </div>
 					</form>
 				</li>
 		</ul>
 	</div>
 	</div>
     </section>
-	
     <section class="content">
       <!-- Info boxes -->
       <div class="row ">
-	
         <div class="col-md-3 col-sm-6 col-xs-12 ">
 		 <div class="panel panel-primary">
             <div class="panel-heading">
@@ -50,15 +41,31 @@
             <div class="panel-body">
               <div class="row">
                 <div class="  "> 
-					  <table class="table table-user-information">
+					  <table class="table table-user-information text-center">
 						<tbody>
 						  <tr>
-							<td>Name:</td>
-							<td>Owner</td>
+							<td>Date</td>
+							<td>Place</td>
 						  </tr>
 						  <tr>
-							<td>Vehicle Type:</td>
-							<td>Lorry</td>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -75,15 +82,37 @@
             <div class="panel-body">
               <div class="row">
                 <div class="  "> 
-					  <table class="table table-user-information">
+					  <table class="table table-user-information text-center">
 						<tbody>
 						  <tr>
-							<td>Name:</td>
-							<td>Owner</td>
+							<td>Date</td>
+							<td>Amount</td>
+							<td>Bank</td>
 						  </tr>
 						  <tr>
-							<td>Vehicle Type:</td>
-							<td>Lorry</td>
+							<td>01-01-2019</td>
+							<td>3500/-</td>
+							<td>canara bank</td>
+						  </tr> 
+						  <tr>
+							<td>01-01-2019</td>
+							<td>3500/-</td>
+							<td>canara bank</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>3500/-</td>
+							<td>canara bank</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>3500/-</td>
+							<td>canara bank</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>3500/-</td>
+							<td>canara bank</td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -100,15 +129,31 @@
             <div class="panel-body">
               <div class="row">
                 <div class="  "> 
-					  <table class="table table-user-information">
+					  <table class="table table-user-information text-center">
 						<tbody>
 						  <tr>
-							<td>Name:</td>
-							<td>Owner</td>
+							<td>Date</td>
+							<td>Amount</td>
 						  </tr>
 						  <tr>
-							<td>Vehicle Type:</td>
-							<td>Lorry</td>
+							<td>01-01-2019</td>
+							<td>4000</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>4000</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>4000</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>4000</td>
+						  </tr>
+						   <tr>
+							<td>01-01-2019</td>
+							<td>4000</td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -120,20 +165,36 @@
 		<div class="col-md-3 col-sm-6 col-xs-12 ">
 		 <div class="panel panel-danger">
             <div class="panel-heading">
-              <h3 class="panel-title text-center">And more.</h3>
+              <h3 class="panel-title text-center">ADD MORE..</h3>
             </div>
             <div class="panel-body">
               <div class="row">
                 <div class="  "> 
-					  <table class="table table-user-information">
+					  <table class="table table-user-information text-center">
 						<tbody>
 						  <tr>
-							<td>Name:</td>
-							<td>Owner</td>
+							<td>Date</td>
+							<td>Place</td>
 						  </tr>
 						  <tr>
-							<td>Vehicle Type:</td>
-							<td>Lorry</td>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
+						  </tr>
+						  <tr>
+							<td>01-01-2019</td>
+							<td>vizag-bihar</td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -142,114 +203,146 @@
             </div>
           </div>
 		</div>
-       
-		
 		</div>
-		<div class="row card_row">
-        <!-- /.col -->
-		<div class="col-md-6 col-sm-6 col-xs-12"> 
-		 <div id="piechart"></div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 ">
-		  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+		<div class="row ">
+		<div class="col-md-6 col-sm-6 col-xs-12 ">
+		 <div class="panel panel-warning ">           
+            <div class="panel-body">
+              <div class="row">
+                <div class="  "> 
+					  <table class="table table-user-information text-center">
+						<tbody>
+						  <div id="piechart"></div>
+						</tbody>
+					  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12 ">
+		 <div class="panel panel-success">           
+            <div class="panel-body">
+              <div class="row">
+                <div class="  "> 
+					  <table class="table table-user-information text-center">
+						<tbody>
+						  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-        </div>
-        <!-- /.col -->
-      </div>
-		<div class="row card_row">
-        <!-- /.col -->
+						</tbody>
+					  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+		</div>
+		</div>
+	  <div class="row ">
         <div class="col-md-6 col-sm-6 col-xs-12 ">
-          <div class="row table-col"><div class="col-lg-12">FULL LOAD</div></div>
-		  <div class="row vms-row">
-		  <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		 <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		 <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		  <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		  <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		  <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-        </div>
-		<div class="col-md-6 col-sm-6 col-xs-12">
-          <div class="row table-col"><div class="col-lg-12">PART LOAD</div></div>
-		  <div class="row vms-row">
-		 <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		   <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		   <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>	
-		  </div>
-		  <div class="row vms-row">
-		  <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		   <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-		  <div class="row vms-row">
-		   <div class="col-lg-2 " >text</div>
-		  <div class="col-lg-2 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-3 text-center" >text</div>
-		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
-		  </div>
-        </div>
-        <!-- /.col -->
-      </div>
+		 <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title text-center">FULL LOAD</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="  "> 
+					  <table class="table table-user-information text-center">
+						<tbody>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>	
+						  </tr>						  
+						</tbody>
+					  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12 ">
+		 <div class="panel panel-default ">
+            <div class="panel-heading">
+              <h3 class="panel-title text-center">PART LOAD</h3>
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="  "> 
+					  <table class="table table-user-information text-center">
+						<tbody>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr> 
+						  <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						   <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						   <tr>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td>text</td>
+							<td><button type="button" class="btn">Basic</button></td>
+						  </tr>
+						</tbody>
+					  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+		</div>
+		</div>
       <!-- /.row --> 
     </section>
     <!-- /.content -->

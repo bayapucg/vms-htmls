@@ -181,7 +181,7 @@
         </li> 
 		<li class=" treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Load Bookings</span>
+            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Load Bookings</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
