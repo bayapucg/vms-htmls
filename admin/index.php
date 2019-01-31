@@ -2,37 +2,37 @@
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header content-color">
+	<div class="Select_vms" style="" >
       <div class="dropdown">
     <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Select
     <span class="caret"></span></button>
     <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">customer</a></li>
       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">owner</a></li>
-      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">driver</a></li>
-     
+      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">driver</a></li> 
     </ul>
   </div>
-      <ol class="breadcrumb">
-        <li><div class="search-container">
+  </div>
+  <div style="float:right;" class="div_vms">
+      <ol class="breadcrumb">	
+  <li class="icon_size"><i class="fa fa-envelope" aria-hidden="true"></i>
+    <li class="icon_size"><i class="fa fa-bell-o" aria-hidden="true"></i></li>
+        <li class="icon_size"><i class="fa fa-cart-plus" aria-hidden="true"></i></li>
+        <li class="icon_size"><i class="fa fa-arrows" aria-hidden="true"></i></li>
+		<div class="search-container" >
     <form action="#">
       <input type="text"  name="search">
       <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-  </div></li>
-        
-        <li class="icon_size"><i class="fa fa-envelope" aria-hidden="true"></i></li>
-        <li class="icon_size"><i class="fa fa-bell-o" aria-hidden="true"></i></li>
-        <li class="icon_size"><i class="fa fa-cart-plus" aria-hidden="true"></i></li>
-        <li class="icon_size"><i class="fa fa-arrows" aria-hidden="true"></i></li>
+  </div>
       </ol>
+	  </div>
     </section>
 	<!-- <section class="content-header content-color1">
       <div class="" style="">
     <i class="fa fa-tachometer" aria-hidden="true"></i>
     <p>dashboard</p>
-	
   </div>
-   
       <ol class="breadcrumb">
         <p>Rating</p>
         <li class=""><p>2.5</p></li>
@@ -43,7 +43,6 @@
         <li class="active"><i class="fa fa-heart-o" aria-hidden="true"></i></li>
       </ol>
     </section>-->
-
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
@@ -135,17 +134,14 @@
 		  <a href="#" class="vms_more">more</a></div></div>
         </div>
         <!-- /.col -->
-
         <!-- fix for small devices only -->
         <div class="clearfix visible-sm-block"></div>
-
         <div class="col-md-3 col-sm-6 col-xs-12">
           <p class="vms_para vms_his2"><i class="fa fa-history" aria-hidden="true">WALLET</i></p>
 		  <div class="col-lg-12 vms_bor">
 		  <div class="row">INR 30000/-
 		 </div>
 		  </div>
-		 
 		  <div class="row">
 		  <div class="col-lg-6 ">01-03-2019</div>
 		  <div class="col-lg-6 ">vizag</div>
@@ -174,7 +170,6 @@
 		 <div class="col-lg-6 ">01-03-2019</div>
 		  <div class="col-lg-6 ">vizag</div>
 		  </div>
-		  
 		  <div class="row">
 		  <div class="col-lg-4"></div>
 		  <div class="col-lg-4"></div>
@@ -219,28 +214,17 @@
         </div>
 		</div>
 		<div class="row card_row">
-		
         <!-- /.col -->
-		<div class="col-md-6 col-sm-6 col-xs-12">
-          
+		<div class="col-md-6 col-sm-6 col-xs-12"> 
 		 <div id="piechart"></div>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12 ">
-          
 		  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-		  
-		  
-		  
-		  
-		  
         </div>
-		
-		
         <!-- /.col -->
       </div>
 		<div class="row card_row">
-		
         <!-- /.col -->
         <div class="col-md-6 col-sm-6 col-xs-12 ">
           <div class="row table-col"><div class="col-lg-12">FULL LOAD</div></div>
@@ -332,48 +316,33 @@
 		  <div class="col-lg-2 text-center" ><button type="button" class="btn btn-default btn-xs">save</button></div>
 		  </div>
         </div>
-		
         <!-- /.col -->
       </div>
-      <!-- /.row -->
-
-     
-
-      
+      <!-- /.row --> 
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
 <?php include("footer.php"); ?>
  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
 <script type="text/javascript">
-
 google.charts.load('current', {'packages':['corechart']});
 google.charts.setOnLoadCallback(drawChart);
-
-
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
   ['task', 'Hours per Day'],
   ['BOOKING HISTORY', 8],
    ['PAYMENT HISTORY', 8],
   ['WALLET', 2],
-  ['DUMMY', 4],
-  
+  ['DUMMY', 4], 
 ]);
-
-
-  var options = {'title':'', 'width':550, 'height':300};
-
-
+  var options = {'title':'', 'width':400, 'height':300};
   var chart = new google.visualization.PieChart(document.getElementById('piechart'));
   chart.draw(data, options);
 }
 </script>
 <script>
 window.onload = function () {
-
 var chart = new CanvasJS.Chart("chartContainer", {
 	animationEnabled: true,
 	theme: "light2",
@@ -402,6 +371,5 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	}]
 });
 chart.render();
-
 }
 </script>
