@@ -62,7 +62,7 @@
         <span class="icon-bar"></span>
       </a>
      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-       <i class="fa fa-arrow-down" aria-hidden="true"></i>                      
+       <i class="fa fa-arrow-down" aria-hidden="false" aria-hidden="true"></i>                      
       </button>
 	  <a class="navbar-brand" href="#"><p>VEHICLE MANAGEMNET SYSTEM </p></a>
     </div>

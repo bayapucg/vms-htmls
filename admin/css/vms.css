@@ -138,6 +138,14 @@ box-shadow: -1px 10px 5px 0px rgb(255, 255, 255));
 	margin-top:10px;
 }
 .button_vms {
+	font-size:20px;
+}
+.search_vm {
+	font-size:20px;
+	margin-right:-4px;
+
+}
+.button_vm {
 	font-size:25px;
 }
  .table .table_padding td{
@@ -148,3 +156,9 @@ box-shadow: -1px 10px 5px 0px rgb(255, 255, 255));
 	/* padding-bottom:0px; */
 	/* padding-top:0px; */
 /* } */
+@media screen and (max-width: 600px) {
+ .skin-blue .content-color {
+    background: #99ccff;
+	height:240px;
+}
+}

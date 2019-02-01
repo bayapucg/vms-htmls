@@ -13,9 +13,10 @@ ul li{
 		<ul class="">	
 		    <li >
 			<select class="form-control" style="margin-top:10px;">
-			<option>radha</option>
-			<option>test1</option>
-			<option>qqq</option>
+			<option>Select...</option>
+			<option>customer</option>
+			<option>driver</option>
+			<option>owner</option>
 			<option>ww</option>
 			<option>cccc</option>
 			</select>
@@ -24,8 +25,8 @@ ul li{
 				<li >
 					<form action="#">
 					<div>
-					  <input type="text" class="search_vms" name="search">
-					  <button type="submit"><i class="fa fa-search button_vms"></i></button>
+					  <input type="text" class="search_vms" name="search" placeholder="Load Scarch">
+					  <button type="submit" class="button_vms">Scarch</button>
 					  </div>
 					</form>
 				</li>
@@ -45,8 +46,8 @@ ul li{
 				<li >
 					<form action="#">
 					<div>
-					  <input type="text" class="" name="search">
-					  <button type="submit"><i class="fa fa-search "></i></button>
+					  <input type="text" class="search_vm" name="search" placeholder="Lorry No">
+					  <button type="submit"><i class="fa fa-search button_vm"></i></button>
 					  </div>
 					</form>
 				</li>
@@ -75,8 +76,15 @@ ul li{
 		</ul>
 	</div>
   <div  class=" col-md-6">
+
 		<ul class="bottom-nav">	
-		<li class="icon_size1"><i class="fa fa-arrows" aria-hidden="true"></i></li>
+		
+		<li class="icon_size1"><i class="fa fa-heart" aria-hidden="true"></i>
+		<i class="fa fa-heart" aria-hidden="true"></i>
+		<i class="fa fa-heart" aria-hidden="true"></i>
+		<i class="fa fa-heart" aria-hidden="true"></i>
+		<i class="fa fa-heart-o" aria-hidden="true"></i></li>
+		<li><p>3.0</p></li>
 		</ul>
 	</div>
 	</div>
