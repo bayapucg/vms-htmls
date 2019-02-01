@@ -1,23 +1,35 @@
 <?php include("header.php"); ?>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header content-color">
-	<div class="row">
-	<div class=" col-md-3"  >
-		<select class="form-control" style="margin-top:5px;">
+	  <div class="container-fluid">
+    <div class="navbar-header">
+     <li class="icon_size"><i class="fa fa-book" aria-hidden="true"></i></li>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="icon_size">
+			<select class="form-control" style="margin-top:5px;">
 			<option>radha</option>
 			<option>test1</option>
 			<option>qqq</option>
 			<option>ww</option>
 			<option>cccc</option>
 		</select>
+			</li>
+      
+      <li><a href="#">Page 2</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
   </div>
-  <div  class=" col-md-9">
-		<ul class="bottom-nav">	
-		  <li class="icon_size"><i class="fa fa-envelope" aria-hidden="true"></i></li>
-			<li class="icon_size"><i class="fa fa-bell-o" aria-hidden="true"></i></li>
-				<li class="icon_size"><i class="fa fa-cart-plus" aria-hidden="true"></i></li>
-				<li class="icon_size"><i class="fa fa-arrows" aria-hidden="true"></i></li>
+
+    <section class="content-header content-color">
+	<div class="row">
+	<div  class="col-md-6">
+		<ul class="bottom-nav1">	
+		  
+			
 				<li >
 					<form action="#">
 					<div>
@@ -26,6 +38,54 @@
 					  </div>
 					</form>
 				</li>
+				
+				
+		</ul>
+	</div>
+  <div  class=" col-md-6">
+		<ul class="bottom-nav">	
+		<li class="icon_size"><i class="fa fa-arrows" aria-hidden="true"></i></li>
+		<li class="icon_size"><i class="fa fa-cart-plus" aria-hidden="true"></i></li>
+		<li class="icon_size"><i class="fa fa-bell-o" aria-hidden="true"></i></li>
+		  <li class="icon_size"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+			
+				
+				
+				<li >
+					<form action="#">
+					<div>
+					  <input type="text" class="" name="search">
+					  <button type="submit"><i class="fa fa-search "></i></button>
+					  </div>
+					</form>
+				</li>
+		</ul>
+	</div>
+	</div>
+    </section>
+	<section class="content-header content-color1">
+	<div class="row">
+	<div  class="col-md-6">
+		<ul class="bottom-nav1">	
+		  <li class="icon_size1"><a href="index.php">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            
+          </a></li>
+			<li class="icon_size1"><a href="profile.php">
+            <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
+            
+          </a>
+		  </i>
+			</li>
+		
+		
+				
+				
+		</ul>
+	</div>
+  <div  class=" col-md-6">
+		<ul class="bottom-nav">	
+		<li class="icon_size1"><i class="fa fa-arrows" aria-hidden="true"></i></li>
 		</ul>
 	</div>
 	</div>
@@ -43,29 +103,32 @@
                 <div class="  "> 
 					  <table class="table table-user-information text-center">
 						<tbody>
-						  <tr>
-							<td>Date</td>
-							<td>Place</td>
+
+						  <tr class="table_padding">
+							<td><p>10 <a href="#"><i class="fa fa-caret-up" aria-hidden="true"></i></a></p>
+							<p>25% LOAD</p></td>
+							<td><p>90 <a href="#"><i class="fa fa-caret-down" aria-hidden="true"></i></a></p>
+							<p>75% LOAD</p></td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
-							<td>01-01-2019</td>
-							<td>vizag-bihar</td>
+						  <tr class="table_padding">
+							<td></td>
+							<td><a href="#">more...</a></td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -84,35 +147,37 @@
                 <div class="  "> 
 					  <table class="table table-user-information text-center">
 						<tbody>
-						  <tr>
-							<td>Date</td>
-							<td>Amount</td>
-							<td>Bank</td>
+						  <tr class="table_padding">
+							<td colspan="2"><P>BALANCE 10%</P>
+							<P>INR 1000</P></td>
+							<td><P>PAID 90%</P>
+							<P>INR 90000</P></td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>3500/-</td>
 							<td>canara bank</td>
 						  </tr> 
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>3500/-</td>
 							<td>canara bank</td>
 						  </tr>
-						   <tr>
+						   <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>3500/-</td>
 							<td>canara bank</td>
 						  </tr>
-						   <tr>
+						   <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>3500/-</td>
 							<td>canara bank</td>
 						  </tr>
-						   <tr>
-							<td>01-01-2019</td>
-							<td>3500/-</td>
-							<td>canara bank</td>
+						  
+						   <tr class="table_padding">
+							<td></td>
+							<td></td>
+							<td><a href="#">more...</a></td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -131,29 +196,32 @@
                 <div class="  "> 
 					  <table class="table table-user-information text-center">
 						<tbody>
-						  <tr>
-							<td>Date</td>
-							<td>Amount</td>
+						  <tr class="table_padding">
+							<td colspan="2">INR 200000</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>4000</td>
 						  </tr>
-						   <tr>
+						   <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>4000</td>
 						  </tr>
-						   <tr>
+						   <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>4000</td>
 						  </tr>
-						   <tr>
+						   <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>4000</td>
 						  </tr>
-						   <tr>
+						   <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>4000</td>
+						  </tr>
+						   <tr class="table_padding">
+							<td></td>
+							<td><a href="#">more...</a></td>
 						  </tr>
 						</tbody>
 					  </table>
@@ -169,32 +237,36 @@
             </div>
             <div class="panel-body">
               <div class="row">
-                <div class="  "> 
-					  <table class="table table-user-information text-center">
-						<tbody>
-						  <tr>
+                <div class=""> 
+					  <table class="table table-user-information text-center table_padding">
+						<tbody class="">
+						  <tr class="table_padding">
 							<td>Date</td>
 							<td>Place</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
 						  </tr>
-						  <tr>
+						  <tr class="table_padding">
 							<td>01-01-2019</td>
 							<td>vizag-bihar</td>
+						  </tr>
+						   <tr class="table_padding">
+							<td></td>
+							<td><a href="#">more...</a></td>
 						  </tr>
 						</tbody>
 					  </table>

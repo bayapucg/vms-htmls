@@ -1,9 +1,17 @@
  <footer class="main-footer">
     <div class="pull-right hidden-xs">
      
+	 </ul>
     </div>
-    <strong>Copyright &copy; 2018 <a href="#">VMS</a>.</strong> All rights
-    reserved.
+	<div class="row">
+	
+	 <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
+	 <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
+	 <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
+	 <div class="col-md-6 col-sm-6 col-xs-12 text-center"><strong>Copyright &copy; 2018 <a href="#">VMS</a>.</strong> All rights
+    reserved.</div>
+	</div>
+    
   </footer>
 
 
