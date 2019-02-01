@@ -1,34 +1,25 @@
 <?php include("header.php"); ?>
+<style>
+ul li{
+	list-style-type:none;
+}
+</style>
 <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-	  <div class="container-fluid">
-    <div class="navbar-header">
-     <li class="icon_size"><i class="fa fa-book" aria-hidden="true"></i></li>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="icon_size">
-			<select class="form-control" style="margin-top:5px;">
+    
+
+    <section class="content-header content-color">
+	<div class="row">
+	<div  class="col-md-6 bottom-nav1">
+		<ul class="">	
+		    <li >
+			<select class="form-control" style="margin-top:10px;">
 			<option>radha</option>
 			<option>test1</option>
 			<option>qqq</option>
 			<option>ww</option>
 			<option>cccc</option>
-		</select>
+			</select>
 			</li>
-      
-      <li><a href="#">Page 2</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-
-    <section class="content-header content-color">
-	<div class="row">
-	<div  class="col-md-6">
-		<ul class="bottom-nav1">	
-		  
 			
 				<li >
 					<form action="#">
@@ -42,8 +33,8 @@
 				
 		</ul>
 	</div>
-  <div  class=" col-md-6">
-		<ul class="bottom-nav">	
+  <div  class=" col-md-6 bottom-nav">
+		<ul class="">	
 		<li class="icon_size"><i class="fa fa-arrows" aria-hidden="true"></i></li>
 		<li class="icon_size"><i class="fa fa-cart-plus" aria-hidden="true"></i></li>
 		<li class="icon_size"><i class="fa fa-bell-o" aria-hidden="true"></i></li>
@@ -63,10 +54,10 @@
 	</div>
 	</div>
     </section>
-	<section class="content-header content-color1">
+	<section class=" bg-breadcumb" >
 	<div class="row">
-	<div  class="col-md-6">
-		<ul class="bottom-nav1">	
+	<div  class="col-md-6 bottom-nav1">
+		<ul class="pad-breadcumb">	
 		  <li class="icon_size1"><a href="index.php">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             
