@@ -1,27 +1,17 @@
- <footer class="main-footer">
-    <div class="pull-right hidden-xs">
-     
-	 </ul>
+<footer class="main-footer">
+    <div class="row">
+        <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
+        <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
+        <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
+        <div class="col-md-6 col-sm-6 col-xs-12 text-center"><strong>Copyright &copy; 2018 <a href="#">VMS</a>.</strong> All rights reserved.</div>
     </div>
-	<div class="row">
-	
-	 <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
-	 <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
-	 <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
-	 <div class="col-md-6 col-sm-6 col-xs-12 text-center"><strong>Copyright &copy; 2018 <a href="#">VMS</a>.</strong> All rights
-    reserved.</div>
-	</div>
-    
-  </footer>
-
-
-  <div class="control-sidebar-bg"></div>
+</footer>
 </div>
 <!-- ./wrapper -->
 <!-- DataTables -->
 
 <!-- Bootstrap 3.3.7 -->
-  <!-- jQuery 2.2.3 -->
+<!-- jQuery 2.2.3 -->
 <script src="js/jquery-2.2.3.min.js"></script>
 <script src="js/bootstrapValidator.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
@@ -51,6 +41,14 @@
 <!-- Bootstrap WYSIHTML5 -->
 <script src="js/dashboard.js"></script>
 
+<script>
+    $(document).ready(function() {
+        $('#example1').DataTable();
+    });
+</script>
+
+
 
 </body>
+
 </html>

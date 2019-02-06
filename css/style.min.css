@@ -82,6 +82,11 @@ html {
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #007bff;
 }
+.custom-radio .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #f00;
+    background-color: #f00;
+}
 .page-footer a:hover{
 	color:#f00;
 
@@ -277,6 +282,23 @@ html {
     .bv-rating i {
         color: orange;
         font-size: 15px;
+    }
+
+    .rating .list-inline {
+        margin-bottom: 1px;
+    }
+
+    .rating .list-inline-item {
+        margin-right: 1px;
+    }
+
+    .rating p {
+        padding-top: 0px;
+    }
+
+    .rating i {
+        color: orange;
+        font-size: 11px;
     }
 
     .bv-price h4 {

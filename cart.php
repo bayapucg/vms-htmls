@@ -1,10 +1,6 @@
-<?php include("header-links.php"); ?>
+<?php include("header.php"); ?>
 
 <style>
-    .navbar-nav p, .navbar-nav i{
-        padding-top: 10px;
-        margin-bottom: 10px;
-    }
     .btn.font-20{
         font-size: 11px;
     }
@@ -16,82 +12,11 @@
     }
 </style>
 <!-- Navbar -->
-<div class="fixed-top">
-    <!---->
-    <nav class="navbar  navbar-expand-lg navbar-dark scrolling-navbar">
 
-        <div class="container" style="padding:0px;margin:0px;max-width:100%">
-            <a class="navbar-brand" href="index.php">
-                <strong><img style="width:60px;height:auto;" class="img-fluid" src="img/logo.png"></strong>
-            </a>
-
-            <!-- Collapse -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Links -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <!-- Right -->
-                <ul class="navbar-nav mx-auto text-white">
-                    <li class="nav-item mx-3">
-                        <p>Hyderabad</p>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <span><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <p>Guntur</p>
-                    </li>
-                    <li class="nav-item mx-3 mt-3">
-                        <span class="line">|</span>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <p>02/01/2019</p>
-                    </li>
-                    <li class="nav-item mx-3 pt-3">
-                        <select class="browser-default custom-select">
-                            <option selected>Medium</option>
-                            <option value="1">Option</option>
-                            <option value="2">Option</option>
-                            <option value="3">Option</option>
-                        </select>
-                    </li>
-                    <li class="nav-item mx-3 pt-3">
-                        <select class="browser-default custom-select">
-                            <option selected>Full Load</option>
-                            <option value="1">Option</option>
-                            <option value="2">Option</option>
-                            <option value="3">Option</option>
-                        </select>
-                    </li>
-                    <li class="nav-item mx-3 text-center">
-                        <i class="fa fa-truck fa-2x pt-2 mb-0"></i><br>
-                        <span>Container</span>
-                    </li>
-                    <li class="nav-item mx-3 text-center">
-                        <i class="fa fa-tint fa-2x pt-2 mb-0"></i><br>
-                        <span>Food Oil</span>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <button class="btn btn-md btn-warning mt-3 px-3 py-2 font-20">Modify</button>
-                    </li>
-                </ul>
-                
-                <ul class="navbar-right ml-auto text-white">
-                    <i class="fa fa-user-plus fa-2x mt-3" aria-hidden="true"></i>
-                </ul>
-            </div>
-
-        </div>
-    </nav>
-</div>
-
-<section class="booking mt-5 pt-4">
+<section class="booking mt-3 mb-3">
     <div class="container-fluid">
         <div class="row">
-            
+
             <div class="col-md-9 b-vans">
                 <div class="card mt-3">
                     <div class="card-header">
@@ -194,6 +119,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
+                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -207,30 +133,98 @@
                     <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body border-1px-ddd py-3 px-4">
                             <div class="row">
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
+                                <div class="col-md-12">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#tab1">Reviews</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab2" role="tab">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab3" role="tab">Vechile Images</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade pt-3 show active" id="tab1" role="tabpanel">
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab2" role="tabpanel">
+                                            
+                                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+                                            <br>
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab3" role="tabpanel">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <br>
                     
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
@@ -284,6 +278,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
+                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -297,30 +292,98 @@
                     <div id="collapse2" class="panel-collapse collapse">
                         <div class="panel-body border-1px-ddd py-3 px-4">
                             <div class="row">
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
+                                <div class="col-md-12">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#tab1">Reviews</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab2" role="tab">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab3" role="tab">Vechile Images</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade pt-3 show active" id="tab1" role="tabpanel">
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab2" role="tabpanel">
+                                            
+                                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+                                            <br>
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab3" role="tabpanel">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <br>
                     
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
@@ -374,6 +437,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
+                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -387,30 +451,98 @@
                     <div id="collapse3" class="panel-collapse collapse">
                         <div class="panel-body border-1px-ddd py-3 px-4">
                             <div class="row">
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
+                                <div class="col-md-12">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#tab1">Reviews</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab2" role="tab">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab3" role="tab">Vechile Images</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade pt-3 show active" id="tab1" role="tabpanel">
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab2" role="tabpanel">
+                                            
+                                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+                                            <br>
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab3" role="tabpanel">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <br>
                     
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
@@ -464,6 +596,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
+                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -477,30 +610,98 @@
                     <div id="collapse4" class="panel-collapse collapse">
                         <div class="panel-body border-1px-ddd py-3 px-4">
                             <div class="row">
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <a href="">
-                                        <h3>Heading 1</h3>
-                                    </a>
+                                <div class="col-md-12">
+                                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#tab1">Reviews</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab2" role="tab">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#tab3" role="tab">Vechile Images</a>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade pt-3 show active" id="tab1" role="tabpanel">
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                            <div class="media mb-4">
+                                                <img class="d-flex mr-3" src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="Generic placeholder image" width="auto" height="40px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 font-weight-bold">Customer Name</h5>
+                                                    <div class="rating">
+                                                        <ul class="list-inline">
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star"></i></li>
+                                                            <li class="list-inline-item mr-0"><i class="fa fa-star-half-o"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+                                                    vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia
+                                                    congue felis in faucibus.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab2" role="tabpanel">
+                                            
+                                            Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
+                                            <br>
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                        </div>
+                                        
+                                        <div class="tab-pane fade pt-3" id="tab3" role="tabpanel">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+
                     <br>
                 </div>
 
@@ -579,7 +780,15 @@
 
                         <form class="px-2" action="#">
                             <div class="form-group row">
-                                <label class="col-md-6" for="email">Enter Coupon Code:</label>
+                                <label class="col-md-6" for="email">Coupon Code:</label>
+                                <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Paytm Coupon Code:</label>
+                                <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-md-6" for="email">Other Coupon Code:</label>
                                 <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
                             </div>
                             <button class="btn btn-success btn-sm">APPLY</button>
