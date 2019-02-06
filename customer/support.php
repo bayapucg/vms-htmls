@@ -5,18 +5,18 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Load Details
+            Support
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Order Confirmation</li>
+            <li class="active">Support</li>
         </ol>
     </section>
 
     <section class="content">
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
-                <h3>Order Confirmation</h3>
+                <h3>Customer Support</h3>
             </div>
             <div class="panel-body">
                 <div class="tab-content">
@@ -35,9 +35,10 @@
                                                                 <th class="col-md-2">Vehicle Info</th>
                                                                 <th class="col-md-2">Capacity</th>
                                                                 <th class="col-md-2">Loading Date / Time</th>
-                                                                <th class="col-md-2">Duration</th>
+                                                                <th class="col-md-1">Duration</th>
                                                                 <th class="col-md-2">Rating</th>
                                                                 <th class="col-md-2">Price</th>
+                                                                <th class="col-md-1">&nbsp;</th>
                                                             </tr>
                                                         </thead>
 
@@ -75,7 +76,7 @@
                                                                     </div>
                                                                 </div>
                                                             </td>
-                                                            <td class="bv col-md-2">
+                                                            <td class="bv col-md-1">
                                                                 <p><i class="fa fa-clock-o"></i> 16 hrs</p>
                                                             </td>
                                                             <td class="bv-rating col-md-2">
@@ -93,6 +94,9 @@
                                                             <td class="bv-price col-md-2">
                                                                 <h4>INR 2000.00</h4>
                                                             </td>
+                                                            <td>
+                                                                <a href="queries.php" type="button" class="btn btn-warning">Query</a>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -104,9 +108,6 @@
 
                             </div>
                         </div>
-                        <ul class="list-inline pull-right">
-                            <li><a href="load-booking.php" type="button" class="btn btn-primary next-step">Procced to Payment</a></li>
-                        </ul>
                     </form>
                 </div>
 
@@ -117,19 +118,32 @@
 </div>
 <!-- /.content-wrapper -->
 
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Delivery Address</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label>Enter your query here</label>
+                            <textarea class="form-control" placeholder="Enter here...."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
 <?php include("footer.php"); ?>
-
-<script>
-    $(function() {
-        $(".expand").on("click", function() {
-            // $(this).next().slideToggle(200);
-            $expand = $(this).find(">:first-child");
-
-            if ($expand.text() == "+") {
-                $expand.text("-");
-            } else {
-                $expand.text("+");
-            }
-        });
-    });
-</script>

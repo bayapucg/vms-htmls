@@ -218,8 +218,9 @@
 }
 
 .material-type .list-inline-item {
-    margin: 0px 5px;
+    margin: 0px 5px 15px;
     padding: 5px;
+    border: 1px solid #f3f3f3;
 }
 
 .material-type .list-inline-item.active {
@@ -357,6 +358,12 @@
 }
 .mr-3{
     margin-right: 15px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.pr-10{
+    padding-right: 10px;
 }
 
 .rating .list-inline {

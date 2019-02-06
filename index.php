@@ -781,7 +781,7 @@
     <div class="modal-dialog modal-md" role="document">
         <div class="modal-content">
             <div class="modal-header text-center">
-                <h4 class="modal-title w-100" id="myModalLabel">Heading</h4>
+                <h4 class="modal-title w-100" id="myModalLabel">Delivery Address</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -789,7 +789,52 @@
             <div class="modal-body">
                 <div class="row">
                     <div class="col-12">
-                        Some Text
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked11" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked11">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+
+                        <!-- Default inline 2-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked22" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked22">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+
+                        <!-- Default inline 3-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked33" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked33">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+                        
+                        <!-- Default inline 3-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked4" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked4">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+                        
+                        <!-- Default inline 3-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked5" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked5">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+                        
+                        <!-- Default inline 3-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked6" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked6">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+                        
+                        <!-- Default inline 3-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked7" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked7">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
+                        
+                        <!-- Default inline 3-->
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked8" name="addresses">
+                            <label class="custom-control-label" for="defaultUnchecked8">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                        </div>
                     </div>
                 </div>
             </div>

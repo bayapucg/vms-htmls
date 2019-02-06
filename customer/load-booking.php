@@ -32,7 +32,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="panel  panel-default back-load">
-			 <a class="" href="">
+			 <a class="" href="part-load.php">
 				<div class="panel-body">
 					<h3 class="text-center"><i class="fa fa-edit"></i> Full Load</h3>
 				</div>
@@ -42,7 +42,7 @@
 	
 		<div class="col-md-4">
 			<div class="panel  panel-default back-load">
-			 <a class="" href="">
+			 <a class="" href="part-load.php">
 				<div class="panel-body">
 					<h3 class="text-center"><i class="fa fa-edit"></i> Box</h3>
 				</div>

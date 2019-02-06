@@ -168,7 +168,7 @@
                         </a>
                     </li>
                     <li class=" treeview">
-                        <a href="#">
+                        <a href="support.php">
                             <i class="fa fa-tasks" aria-hidden="true"></i> <span>Support</span>
                         </a>
                     </li>
@@ -177,104 +177,7 @@
                             <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
                         </a>
                     </li>
-                    <li class=" treeview">
-                        <a href="#">
-                            <i class="fa fa-dashboard"></i> <span>Driver</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="driverdash.php"><i class="fa fa-circle-o"></i> Dashboard</a></li>
-                            <li><a href="driverprofile.php"><i class="fa fa-circle-o"></i>My profile</a></li>
-                            <li class="active"><a href="confirm-booking.php"><i class="fa fa-circle-o"></i>Confirm booking</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Booking summary</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Toll gate</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Employment</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Support</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Contact</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>About us</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Blog</a></li>
-                        </ul>
-                    </li>
-                    <li class=" treeview">
-                        <a href="#">
-                            <i class="fa fa-dashboard"></i> <span>Owner</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="ownerdash.php"><i class="fa fa-circle-o"></i> Dashboard</a></li>
-                            <li><a href="ownerprofile.php"><i class="fa fa-circle-o"></i>My profile</a></li>
-                            <li class=" treeview">
-                                <a href="#">
-                                    <i class="fa fa-circle-o"></i> <span>Add Driver</span>
-                                    <span class="pull-right-container">
-                                        <i class="fa fa-angle-left pull-right"></i>
-                                    </span>
-                                </a>
-
-                                <ul class="treeview-menu">
-                                    <li class="active"><a href="driver.php">Driver </a></li>
-                                    <li class="active"><a href="driverlist.php">Driver List</a></li>
-                                </ul>
-                            </li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Confirm booking</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Vehicle management</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Booking summary</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Load information</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Payment management</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Manpower management</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Support</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Contact</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>About us</a></li>
-                            <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Blog</a></li>
-                        </ul>
-                    </li>
-                    <!--<li class="treeview">
-          <a href="ck-editor.php">
-            <i class="fa fa-dashboard"></i> <span>Editor</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-        </li>
-		<li class="treeview">
-          <a href="form-validations.php">
-            <i class="fa fa-dashboard"></i> <span>form validations</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-         
-        </li>
-		<li class="treeview">
-          <a href="datatable.php">
-            <i class="fa fa-dashboard"></i> <span>Datatables</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-         
-        </li>
-        <li class="treeview ">
-          <a href="#">
-            <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
-            <span class="pull-right-container">
-              <span class="label label-primary pull-right">4</span>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="../layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="../layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li class="active"><a href="../layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
-          </ul>
-        </li>-->
-
-
+                </ul>
             </section>
             <!-- /.sidebar -->
         </aside>

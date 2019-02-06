@@ -35,9 +35,10 @@
                                                                 <th class="col-md-2">Vehicle Info</th>
                                                                 <th class="col-md-2">Capacity</th>
                                                                 <th class="col-md-2">Loading Date / Time</th>
-                                                                <th class="col-md-2">Duration</th>
+                                                                <th class="col-md-1">Duration</th>
                                                                 <th class="col-md-2">Rating</th>
                                                                 <th class="col-md-2">Price</th>
+                                                                <th class="col-md-1">Status</th>
                                                             </tr>
                                                         </thead>
 
@@ -95,6 +96,9 @@
                                                             </td>
                                                             <td class="bv-price col-md-2">
                                                                 <h4>INR 2000.00</h4>
+                                                            </td>
+                                                            <td class="col-md-1">
+                                                                <span class="text-red">Pending</span>
                                                             </td>
                                                         </tr>
                                                     </tbody>
@@ -183,13 +187,13 @@
                                                         </div>
                                                         <div id="tab3" class="tab-pane fade">
                                                             <div class="mt-10">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
                                                             </div>
                                                         </div>
                                                     </div>

@@ -5,7 +5,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Part Load
+            Load Details
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -188,13 +188,14 @@
                                                         </div>
                                                         <div id="tab3" class="tab-pane fade">
                                                             <div class="mt-10">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                                            <img class="mr-3" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
                                                             </div>
                                                         </div>
                                                     </div>
