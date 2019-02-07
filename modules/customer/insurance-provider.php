@@ -26,6 +26,7 @@
                         <table id="example1" class="table table-bordered">
                             <thead>
                                 <tr>
+                                    <th>Policy Number</th>
                                     <th>Order Number</th>
                                     <th>Date</th>
                                     <th>Pickup Place</th>
@@ -37,6 +38,7 @@
                             </thead>
                             <tbody>
                                 <tr>
+                                    <td>xxx</td>
                                     <td>123542</td>
                                     <td>23/2/2019</td>
                                     <td>Hyderabad</td>
@@ -45,7 +47,8 @@
                                     <td>6600.00</td>
                                     <td>5 days</td>
                                 </tr>
-                                <tr>
+								  <tr>
+                                    <td>xxx</td>
                                     <td>123542</td>
                                     <td>23/2/2019</td>
                                     <td>Hyderabad</td>
@@ -54,7 +57,8 @@
                                     <td>6600.00</td>
                                     <td>5 days</td>
                                 </tr>
-                                <tr>
+								  <tr>
+                                    <td>xxx</td>
                                     <td>123542</td>
                                     <td>23/2/2019</td>
                                     <td>Hyderabad</td>
@@ -63,24 +67,7 @@
                                     <td>6600.00</td>
                                     <td>5 days</td>
                                 </tr>
-                                <tr>
-                                    <td>123542</td>
-                                    <td>23/2/2019</td>
-                                    <td>Hyderabad</td>
-                                    <td>Guntur</td>
-                                    <td>6530.00</td>
-                                    <td>6600.00</td>
-                                    <td>5 days</td>
-                                </tr>
-                                <tr>
-                                    <td>123542</td>
-                                    <td>23/2/2019</td>
-                                    <td>Hyderabad</td>
-                                    <td>Guntur</td>
-                                    <td>6530.00</td>
-                                    <td>6600.00</td>
-                                    <td>5 days</td>
-                                </tr>
+                                
                             </tbody>
                         </table>
 
