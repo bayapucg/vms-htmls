@@ -22,7 +22,7 @@
                 <h3 class="box-title">Refer & Earn</h3>
             </div>
             <div class="box-body">
-                <img src="img/refer-friend.png" alt="image" width="10%" style="float:right; margin-right:10%;"/>
+                <img src="../img/refer-friend.png" alt="image" width="10%" style="float:right; margin-right:10%;"/>
                 <h4 class="mt-30">We have a gift for you! Refer your friend and earn a 10% discount voucher. Your refernce code is
                     <span class="icon_size text-orange text-center ml-10">v52gs1</span></h4>
                 <br>

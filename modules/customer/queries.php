@@ -16,7 +16,8 @@
     <section class="content">
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
-                <h3>Booking Query</h3>
+                <a href="support.php" type="button" class="btn btn-info pull-right">Back</a>
+                <h3 class="mt-0">Booking Query</h3>
             </div>
             <div class="panel-body">
                 <div class="tab-content">
@@ -28,11 +29,9 @@
                                     <label class=" control-label">Enter Your Query here</label>
                                     <textarea type="text" class="form-control" name="" placeholder="Enter here" rows="5"></textarea>
                                 </div>
-                                <button href="support.php" type="button" class="btn btn-primary next-step">Submit</button>
-                                <a href="support.php" type="button" class="btn btn-info pull-right">Back</a>
+                                <button href="support.php" type="button" class="btn btn-primary next-step pull-right">Submit</button>
                             </div>
                             <br>
-                            
                         </div>
                         <ul class="list-inline ">
                             <li></li>

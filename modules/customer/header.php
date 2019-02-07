@@ -9,28 +9,28 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
     <link rel="shortcut icon" href="img/heading-img.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrapValidator.min.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrapValidator.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- DataTables -->
-    <link rel="stylesheet" href="plugins/datepicker/datepicker3.css">
-    <link rel="stylesheet" href="css/dataTables.bootstrap.css">
-    <link rel="stylesheet" href="css/select2.min.css">
+    <link rel="stylesheet" href="../plugins/datepicker/datepicker3.css">
+    <link rel="stylesheet" href="../css/dataTables.bootstrap.css">
+    <link rel="stylesheet" href="../css/select2.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="css/AdminLTE.min.css">
+    <link rel="stylesheet" href="../css/AdminLTE.min.css">
 
-    <link rel="stylesheet" href="css/_all-skins.min.css">
-    <link rel="stylesheet" href="css/vms.css">
+    <link rel="stylesheet" href="../css/_all-skins.min.css">
+    <link rel="stylesheet" href="../css/vms.css">
     <!-- jQuery 2.2.3 -->
-    <script src="js/jquery-2.2.3.min.js"></script>
-    <script src="js/bootstrapValidator.min.js"></script>
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <script src="../js/bootstrapValidator.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 
 
@@ -46,9 +46,9 @@
             <!-- Logo -->
             <a href="index.php" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><img style="width:50px;height:auto;" src="img/logo.png" /></span>
+                <span class="logo-mini"><img style="width:50px;height:auto;" src="../img/logo.png" /></span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><img style="width:100px;height:auto;" src="img/logo.png" /></span>
+                <span class="logo-lg"><img style="width:100px;height:auto;" src="../img/logo.png" /></span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
 
@@ -87,8 +87,8 @@
 
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="img/user.png" class="user-image" alt="User Image">
-                                    <span class="hidden-xs">admin</span>
+                                    <img src="../img/user.png" class="user-image" alt="User Image">
+                                    <span class="hidden-xs">Customer</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
@@ -126,7 +126,7 @@
                 <!-- Sidebar user panel -->
                 <div class="user-panel">
                     <div class="pull-left image">
-                        <img src="img/user.png" class="img-circle" alt="User Image">
+                        <img src="../img/user.png" class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
                         <p>Customer 1</p>
