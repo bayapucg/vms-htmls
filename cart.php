@@ -67,6 +67,9 @@
                     </div>
                 </div>
                 <br>
+                <a href="#" class="btn btn-warning pull-right"><i class="fa fa-edit"></i> Edit</a>
+                <div class="clearfix"></div>
+                <br>
                 <div class="panel-group" id="accordion">
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                         <h4 class="panel-title ">
@@ -119,7 +122,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -202,21 +205,21 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="tab-pane fade pt-3" id="tab2" role="tabpanel">
-                                            
+
                                             Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
                                             <br>
                                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                         </div>
-                                        
+
                                         <div class="tab-pane fade pt-3" id="tab3" role="tabpanel">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
                                             <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
                                         </div>
                                     </div>
@@ -226,7 +229,7 @@
                     </div>
 
                     <br>
-                    
+
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                         <h4 class="panel-title ">
                             <div class="expand">
@@ -278,7 +281,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -361,21 +364,21 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="tab-pane fade pt-3" id="tab5" role="tabpanel">
-                                            
+
                                             Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
                                             <br>
                                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                         </div>
-                                        
+
                                         <div class="tab-pane fade pt-3" id="tab6" role="tabpanel">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
                                             <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
                                         </div>
                                     </div>
@@ -385,7 +388,7 @@
                     </div>
 
                     <br>
-                    
+
                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                         <h4 class="panel-title ">
                             <div class="expand">
@@ -437,7 +440,7 @@
                                             </td>
                                             <td>&nbsp;</td>
                                             <td class="bv-book">
-                                                <a href="#" class="btn btn-sm btn-warning"><i class="fa fa-edit"></i></a>
+
                                                 <a href="#" class="btn btn-sm btn-danger"><i class="fa fa-trash"></i></a>
                                             </td>
                                         </tr>
@@ -520,21 +523,21 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
+
                                         <div class="tab-pane fade pt-3" id="tab8" role="tabpanel">
-                                            
+
                                             Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.
                                             <br>
                                             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                                         </div>
-                                        
+
                                         <div class="tab-pane fade pt-3" id="tab9" role="tabpanel">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
-                                            <img class="mr-3 img-thumbnail"src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image"><img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
+                                            <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder7.jpg" alt="image">
                                             <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder5.jpg" alt="image">
                                         </div>
                                     </div>
@@ -545,7 +548,7 @@
 
                     <br>
                 </div>
-                
+
             </div>
             <div class="col-md-3 mt-3">
                 <div class="card">
@@ -621,18 +624,59 @@
 
                         <form class="px-2" action="#">
                             <div class="form-group row">
-                                <label class="col-md-6" for="email">Coupon Code:</label>
+                                <label class="col-md-5" for="email">Coupon Code:</label>
                                 <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
                             </div>
-                            <div class="form-group row">
-                                <label class="col-md-6" for="email">Paytm Coupon Code:</label>
-                                <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
+                            <span>or Choose from below offers</span>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <!-- Default inline 1-->
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="defaultUnchecked1" name="types" value="fullLoad">
+                                        <label class="custom-control-label" for="defaultUnchecked1">
+                                            <span class="coupon-code-design">HESDFG</span><br>
+                                            <span>Get up to INR 2000 OFF. Hurry! Book Now.</span>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group row">
-                                <label class="col-md-6" for="email">Other Coupon Code:</label>
-                                <input type="text" class="form-control col-md-6" placeholder="Coupon Code">
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <!-- Default inline 1-->
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="defaultUnchecked2" name="types" value="fullLoad">
+                                        <label class="custom-control-label" for="defaultUnchecked2">
+                                            <span class="coupon-code-design">HESDFG</span><br>
+                                            <span>Get up to INR 2000 OFF. Hurry! Book Now.</span>
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
-                            <button class="btn btn-success btn-sm">APPLY</button>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <!-- Default inline 1-->
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="defaultUnchecked3" name="types" value="fullLoad">
+                                        <label class="custom-control-label" for="defaultUnchecked3">
+                                            <span class="coupon-code-design">HESDFG</span><br>
+                                            <span>Get up to INR 2000 OFF. Hurry! Book Now.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-md-12">
+                                    <!-- Default inline 1-->
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" class="custom-control-input" id="defaultUnchecked4" name="types" value="fullLoad">
+                                        <label class="custom-control-label" for="defaultUnchecked4">
+                                            <span class="coupon-code-design">HESDFG</span><br>
+                                            <span>Get up to INR 2000 OFF. Hurry! Book Now.</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-success btn-sm mt-3">APPLY</button>
                         </form>
                     </div>
                 </div>

@@ -5,7 +5,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Load Details
+            Part Load
         </h1>
         <ol class="breadcrumb">
             <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -16,7 +16,18 @@
     <section class="content">
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
-                <h3>Basic load</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="mt-0 mb-0">Basic load</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress active mt-5">
+                            <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
+                                <span>30% Complete (success)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="panel-body">
                 <div class="tab-content">
@@ -30,23 +41,23 @@
                                             <tr>
 												<th>Loading Point</th>
                                                 <th>Droping Point</th>
+                                                <th>&nbsp;</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                            <tr class="mb-0">
                                                 <td>
                                                     <div class="form-group">
-                                                        <div class="">
                                                             <input type="text" class="form-control" name="loadPoint" placeholder="Enter Your Loading  point" />
-                                                        </div>
                                                     </div>
                                                 </td>
 												<td>
                                                     <div class="form-group">
-                                                        <div class="">
                                                             <input type="text" class="form-control" name="username" placeholder="Enter Your Droping  point" />
-                                                        </div>
                                                     </div>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-md" id="addRow">Add Row</button>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -54,7 +65,7 @@
                                 </div>
                             </div>
                                 
-                                <div class="col-md-6">
+                                <div class="col-md-5">
                                     <div class="form-group ml-10">
                                         <label>Date:</label>
 
@@ -66,9 +77,6 @@
                                         </div>
                                         <!-- /.input group -->
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <button type="button" class="btn btn-md mt-10" id="addRow">Add Row</button>
                                 </div>
                             </div>
                         <ul class="list-inline pull-right">
@@ -91,9 +99,9 @@
             var newRow = $("<tr>");
             var cols = "";
 
-            cols += '<td><input type="text" class="form-control" name="loadPoint' + counter + '" placeholder="Enter Your Loading  point"/></td>';
+            cols += '<td><div class="form-group"><input type="text" class="form-control" name="loadPoint' + counter + '" placeholder="Enter Your Loading  point"/></div></td>';
             
-            cols += '<td><input type="text" class="form-control" name="username" placeholder="Enter Your Droping  point" /></td>';
+            cols += '<td><div class="form-group"><input type="text" class="form-control" name="username" placeholder="Enter Your Droping  point" /></div></td>';
 
             cols += '<td><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
             newRow.append(cols);

@@ -27,23 +27,23 @@
     <div class="row py-2">
         <div class="col-md-8 ">
             <div class="px-5 search-main-label">
-                
+
                 <!-- Default inline 1-->
                 <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" class="custom-control-input" id="defaultUnchecked1" name="types" value="fullLoad">
-                  <label class="custom-control-label" for="defaultUnchecked1">Full Load</label>
+                    <input type="radio" class="custom-control-input" id="defaultUnchecked1" name="types" value="fullLoad">
+                    <label class="custom-control-label" for="defaultUnchecked1">Full Load</label>
                 </div>
 
                 <!-- Default inline 2-->
                 <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" class="custom-control-input" id="defaultUnchecked2" name="types" value="partLoad">
-                  <label class="custom-control-label" for="defaultUnchecked2">Part Load</label>
+                    <input type="radio" class="custom-control-input" id="defaultUnchecked2" name="types" value="partLoad">
+                    <label class="custom-control-label" for="defaultUnchecked2">Part Load</label>
                 </div>
 
                 <!-- Default inline 3-->
                 <div class="custom-control custom-radio custom-control-inline">
-                  <input type="radio" class="custom-control-input" id="defaultUnchecked3" name="types" value="box">
-                  <label class="custom-control-label" for="defaultUnchecked3">Box</label>
+                    <input type="radio" class="custom-control-input" id="defaultUnchecked3" name="types" value="box">
+                    <label class="custom-control-label" for="defaultUnchecked3">Box</label>
                 </div>
             </div>
         </div>
@@ -787,58 +787,31 @@
                 </button>
             </div>
             <div class="modal-body">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked11" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked11">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
+                <form id="addContactsForm" name="addContactsForm" action="" method="">
+                    <div class="box-body">
+                        <div class="col-md-12">
 
-                        <!-- Default inline 2-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked22" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked22">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
-
-                        <!-- Default inline 3-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked33" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked33">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
-                        
-                        <!-- Default inline 3-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked4" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked4">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
-                        
-                        <!-- Default inline 3-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked5" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked5">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
-                        
-                        <!-- Default inline 3-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked6" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked6">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
-                        
-                        <!-- Default inline 3-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked7" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked7">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
-                        </div>
-                        
-                        <!-- Default inline 3-->
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="defaultUnchecked8" name="addresses">
-                            <label class="custom-control-label" for="defaultUnchecked8">9-25, narayana, prathap road , gumadikonda, andhra pardesh.</label>
+                            <div class="">
+                                <table id="myTable" class="table table-list mb-0">
+                                    <tbody>
+                                        <tr class="row">
+                                            <td class="bt-0 col-md-9">
+                                                <input type="text" name="address" placeholder="Address" class="form-control" />
+                                            </td>
+                                            <td class="bt-0 col-md-3">
+                                                <button type="button" class="btn btn-md" id="addRow">Add Row</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
+
             </div>
             <div class="mb-3">
+                <hr>
                 <div class="row">
                     <div class="col-4 mx-auto">
                         <button type="button" class="btn btn-secondary btn-block" data-dismiss="modal">Close</button>
@@ -864,12 +837,34 @@
 </script>
 
 <script>
-$('input:radio[name="types"]').change(function(){
-    if (this.checked && this.value == 'partLoad') {
-        $("#popupFocus").focus(function(){
-            $("#popupFocus").attr("data-toggle","modal");
-            $("#popupFocus").attr("data-target","#focusModal");
-        });   
-    }
-});
+    $('input:radio[name="types"]').change(function() {
+        if (this.checked && this.value == 'partLoad') {
+            $("#popupFocus").focus(function() {
+                $("#popupFocus").attr("data-toggle", "modal");
+                $("#popupFocus").attr("data-target", "#focusModal");
+            });
+        }
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        var counter = 0;
+
+        $("#addRow").on("click", function() {
+            var newRow = $("<tr class='row'>");
+            var cols = "";
+
+            cols += '<td class="col-md-9 bt-0"><input type="text" class="form-control" placeholder="Address" name="address' + counter + '"/></td>';
+
+            cols += '<td class="col-md-3 bt-0"><button type="button" class="ibtnDel btn btn-md btn-danger"><i class="fa fa-trash"></i></button></td>';
+            newRow.append(cols);
+            $("table.table-list").append(newRow);
+            counter++;
+        });
+
+        $("table.table-list").on("click", ".ibtnDel", function(event) {
+            $(this).closest("tr").remove();
+            counter -= 1
+        });
+    });
 </script>

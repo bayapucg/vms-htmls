@@ -52,8 +52,8 @@
         <!-- Right -->
         <ul class="navbar-nav ml-auto">
 		<li class="nav-item ">
-            <a class="nav-link" ><i class="fa fa-whatsapp" aria-hidden="true"></i>
-+91 9437887793
+            <a class="nav-link" ><i class="fa fa-phone" aria-hidden="true"></i>
+                    +91 9437887793
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -120,7 +120,31 @@
 			<li>
 			  <div class="dropdown">
 				  <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Aandra Pradesh
+					Andhra Pradesh
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+					<button class="dropdown-item" type="button">1</button>
+					<button class="dropdown-item" type="button">2</button>
+					<button class="dropdown-item" type="button">3</button>
+				  </div>
+				</div>
+			</li>
+            <li>
+			  <div class="dropdown">
+				  <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Telangana
+				  </a>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+					<button class="dropdown-item" type="button">1</button>
+					<button class="dropdown-item" type="button">2</button>
+					<button class="dropdown-item" type="button">3</button>
+				  </div>
+				</div>
+			</li>
+            <li>
+			  <div class="dropdown">
+				  <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					West Bengal
 				  </a>
 				  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 					<button class="dropdown-item" type="button">1</button>

@@ -308,5 +308,12 @@ html {
     .bv-book .btn {
         font-size: 13px;
     }
-	
+.coupon-code-design{
+    border: 1px dotted red;
+    padding: 2px 5px;
+}
+
+.bt-0{
+    border-top: 0px !important;
+}
 /* tabs styles */
