@@ -69,7 +69,7 @@
                         </select>
                     </div>
                     <div class="form-group col-md-3 md-form mt-3">
-                        <input id="datetimepicker1"  type="text" class="form-control" placeholder="Date">
+                        <input id="datetimepicker1" type="text" class="form-control" placeholder="Date">
                     </div>
                     <div class="md-form col-md-2">
                         <button type="submit" class="btn btn-indigo btn-md pull-right">Find Price</button>
@@ -105,7 +105,7 @@
                         <!--Card content-->
                         <div class="card-body">
                             <!--Title-->
-                            <h4 class="card-title">Push notifications</h4>
+                            <h4 class="card-title">Service 1</h4>
                             <!--Text-->
                         </div>
 
@@ -127,7 +127,7 @@
                         <!--Card content-->
                         <div class="card-body">
                             <!--Title-->
-                            <h4 class="card-title">Push notifications</h4>
+                            <h4 class="card-title">Service 2</h4>
                             <!--Text-->
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                         <!--Card content-->
                         <div class="card-body">
                             <!--Title-->
-                            <h4 class="card-title">Push notifications</h4>
+                            <h4 class="card-title">Service 3</h4>
                             <!--Text-->
                         </div>
 
@@ -174,103 +174,23 @@
             <div class="row mb-4 wow fadeIn">
                 <!--Grid column-->
                 <div class="col mb-4">
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="img/st1.png" class="card-img-top" alt="" style="height:110px;overflow:hidden;">
-                            <a href="">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h6 class="card-title">notifications</h6>
-                            <!--Text-->
-                        </div>
-                    </div>
-                    <!--/.Card-->
+                    <blockquote class="blockquote bq-primary text-left">
+                        <p class="bq-title p-0">Our Mission</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam dignissimos itaque harum illo! Quidem, corporis at quae tempore nisi impedit cupiditate perferendis nesciunt, ex dolores doloremque!</p>
+                    </blockquote>
                 </div>
                 <div class="col mb-4">
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="img/st-2.jpg" class="card-img-top" alt="" style="height:110px;overflow:hidden;">
-                            <a href="">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h6 class="card-title">notifications</h6>
-                            <!--Text-->
-                        </div>
-                    </div>
-                    <!--/.Card-->
-                </div>
-                <div class="col  mb-4">
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="img/st-3.jpg" class="card-img-top" alt="" style="height:110px;overflow:hidden;">
-                            <a href="">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h6 class="card-title">notifications</h6>
-                            <!--Text-->
-                        </div>
-                    </div>
-                    <!--/.Card-->
+                    <blockquote class="blockquote bq-warning text-left">
+                        <p class="bq-title p-0">Our Vision</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam dignissimos itaque harum illo! Quidem, corporis at quae tempore nisi impedit cupiditate perferendis nesciunt, ex dolores doloremque!</p>
+                    </blockquote>
                 </div>
                 <div class="col mb-4">
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="img/st1.png" class="card-img-top" alt="" style="height:110px;overflow:hidden;">
-                            <a href="">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h6 class="card-title">notifications</h6>
-                            <!--Text-->
-                        </div>
-                    </div>
-                    <!--/.Card-->
+                    <blockquote class="blockquote bq-success text-left">
+                        <p class="bq-title p-0">Our Values</p>
+                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quibusdam dignissimos itaque harum illo! Quidem, corporis at quae tempore nisi impedit cupiditate perferendis nesciunt, ex dolores doloremque!</p>
+                    </blockquote>
                 </div>
-                <div class="col mb-4">
-                    <div class="card">
-                        <!--Card image-->
-                        <div class="view overlay">
-                            <img src="img/st-2.jpg" class="card-img-top" alt="" style="height:110px;overflow:hidden;">
-                            <a href="">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                        </div>
-
-                        <!--Card content-->
-                        <div class="card-body">
-                            <!--Title-->
-                            <h6 class="card-title">notifications</h6>
-                            <!--Text-->
-                        </div>
-                    </div>
-                    <!--/.Card-->
-                </div>
-
-
-
             </div>
             <!--Grid row-->
         </section>

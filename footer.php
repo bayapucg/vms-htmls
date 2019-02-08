@@ -2,9 +2,6 @@
     <div class="container">
         <div class="row design-top-foot">
             <div class="col" style="border-left:1px solid #fff;">
-                <a href="">Link</a>
-            </div>
-            <div class="col">
                 <a href="">Support</a>
             </div>
             <div class="col">
@@ -14,16 +11,10 @@
                 <a href="">Offers</a>
             </div>
             <div class="col">
-                <a href="">Link</a>
-            </div>
-            <div class="col">
                 <a href="">Insurance</a>
             </div>
             <div class="col">
                 <a href="">Media Center</a>
-            </div>
-            <div class="col">
-                <a href="">Link</a>
             </div>
         </div>
     </div>
@@ -70,9 +61,7 @@
                     </li>
 
                 </ul>
-
             </div>
-
 
             <!-- Grid column -->
             <div class="col-md-4 mx-auto" style="border-right:1px solid #fff">
