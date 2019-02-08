@@ -373,6 +373,14 @@
     padding-right: 10px;
 }
 
+.mt-15{
+    margin-top: 15px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
 .rating .list-inline {
     margin-bottom: 1px;
 }
@@ -402,6 +410,6 @@
     font-weight: 600;
 }
 .progress{
-    background: #fff;
+    background: #dbe8ff;
     margin-bottom: 0px;
 }

@@ -66,7 +66,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <i class="fa fa-arrow-down" aria-hidden="false" aria-hidden="true"></i>
                         </button>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="">
                             <p>OWNER MANAGEMNET SYSTEM </p>
                         </a>
                     </div>
@@ -79,11 +79,13 @@
                             </li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+<!--
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
+-->
 
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -93,7 +95,7 @@
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
-                                        <img src="img/user.png" class="img-circle" alt="User Image">
+                                        <img src="../img/user.png" class="img-circle" alt="User Image">
                                         <p>
                                             Owner 1
                                         </p>

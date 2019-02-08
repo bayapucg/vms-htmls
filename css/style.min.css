@@ -316,4 +316,15 @@ html {
 .bt-0{
     border-top: 0px !important;
 }
+.custom-select{
+    border:0px solid black;
+    border-bottom: 1px solid #ced4da;
+}
+.custom-select:focus{
+    border:0px solid black;
+    border-bottom: 1px solid #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+
+
 /* tabs styles */

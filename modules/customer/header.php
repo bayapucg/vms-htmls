@@ -66,7 +66,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                             <i class="fa fa-arrow-down" aria-hidden="false" aria-hidden="true"></i>
                         </button>
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="">
                             <p>VEHICLE MANAGEMNET SYSTEM </p>
                         </a>
                     </div>
@@ -79,11 +79,13 @@
                             </li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
+<!--
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
+-->
 
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -93,7 +95,7 @@
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
-                                        <img src="img/user.png" class="img-circle" alt="User Image">
+                                        <img src="../img/user.png" class="img-circle" alt="User Image">
 
                                         <p>
                                             Customer 1
@@ -143,33 +145,45 @@
                         </a>
                     </li>
                     <li class="treeview">
-                        <a href="contacts.php">
-                            <i class="fa fa-user" aria-hidden="true"></i> <span>Contact</span>
+                        <a href="#">
+                            <i class="fa fa-users"></i> <span>Contacts</span>
+                            <span class="pull-right-container">
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </span>
                         </a>
+                        <ul class="treeview-menu">
+                            <li><a href="add-contact.php"><i class="fa fa-circle-o"></i>Add Contact</a></li>
+                            <li><a href="contacts-list.php"><i class="fa fa-circle-o"></i>Contacts List</a></li>
+                        </ul>
                     </li>
-                    <li class=" treeview">
+                    <li class="treeview">
                         <a href="load-booking.php">
                             <i class="fa fa-tasks" aria-hidden="true"></i> <span>Load Bookings</span>
                         </a>
                     </li>
-                    <li class=" treeview">
+                    <li class="treeview">
                         <a href="booking-summary.php">
                             <i class="fa fa-tasks" aria-hidden="true"></i> <span>Booking summary</span>
                         </a>
                     </li>
-                    <li class=" treeview">
+                    <li class="treeview">
                         <a href="insurance-provider.php">
                             <i class="fa fa-tasks" aria-hidden="true"></i> <span>Insurance Provider </span>
                         </a>
                     </li>
-                    <li class=" treeview">
+                    <li class="treeview">
                         <a href="refer-earn.php">
                             <i class="fa fa-tasks" aria-hidden="true"></i> <span>Reference code</span>
                         </a>
                     </li>
-                    <li class=" treeview">
+                    <li class="treeview">
                         <a href="support.php">
                             <i class="fa fa-tasks" aria-hidden="true"></i> <span>Support</span>
+                        </a>
+                    </li>
+                    <li class="treeview">
+                        <a href="wallet.php">
+                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Wallet</span>
                         </a>
                     </li>
                     <li class="treeview">

@@ -8,7 +8,7 @@
             Load Booking
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
             <li class="active">Load Booking</li>
         </ol>
     </section>
@@ -22,7 +22,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="panel  panel-default back-load">
-                            <a class="" href="part-load.php">
+                            <a class="" href="full-load.php">
                                 <div class="panel-body">
                                     <h3 class="text-center"><i class="fa fa-edit"></i> Full Load</h3>
                                 </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="panel  panel-default back-load">
-                            <a class="" href="part-load.php">
+                            <a class="" href="box-load.php">
                                 <div class="panel-body">
                                     <h3 class="text-center"><i class="fa fa-edit"></i> Box</h3>
                                 </div>

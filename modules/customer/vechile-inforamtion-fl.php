@@ -5,18 +5,31 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Load Details
+            Full Load
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Vechile inforamtion</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="load-booking.php">Load Booking</a></li>
+            <li><a href="#">Full Load</a></li>
+            <li class="active">Vehicle inforamtion</li>
         </ol>
     </section>
 
     <section class="content">
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
-                <h3>Vechile inforamtion</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="mt-0 mb-0">Vehicle inforamtion</h3>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress active mt-5">
+                            <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                <span>20% Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="panel-body">
                 <div class="tab-content">
@@ -60,7 +73,7 @@
                             </div>
                         </div>
                         <ul class="list-inline pull-right">
-                            <li><a href="material-type.php" type="button" class="btn btn-primary next-step">Save and continue</a></li>
+                            <li><a href="material-type-fl.php" type="button" class="btn btn-primary next-step">Save and continue</a></li>
                         </ul>
                     </form>
                 </div>

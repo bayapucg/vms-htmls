@@ -7,8 +7,8 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <a href="profile.php" type="button" class="btn btn-info pull-right">Back</a>
-                        <h3 class="box-title">Update or Edit Profile</h3>
+                        <a href="profile.php" type="button" class="btn btn-info btn-sm pull-right">Back</a>
+                        <h3 class="mt-0 mb-0">Update Profile</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->
@@ -66,7 +66,7 @@
                             <div class="clearfix">&nbsp;</div>
                             <div class="form-group">
                                 <div class="pull-right mr-3">
-                                    <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Update Profile</button>
+                                    <button type="submit" class="btn btn-primary" name="signup" value="Sign up">Save Changes</button>
                                 </div>
                             </div>
 

@@ -7,7 +7,7 @@
             Insurance Provider
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
             <li class="active">Insurance Provider</li>
         </ol>
     </section>
@@ -16,12 +16,8 @@
     <section class="content">
         <div class="row">
             <div class="col-md-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        Insurance Provider
-                    </div>
-                    <!-- /.box-header -->
-                    <div class="panel-body">
+                <div class="box box-primary">
+                    <div class="box-body">
 
                         <table id="example1" class="table table-bordered">
                             <thead>

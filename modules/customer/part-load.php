@@ -8,8 +8,10 @@
             Part Load
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Load Booking</li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="load-booking.php">Load Booking</a></li>
+            <li><a href="#">Part Load</a></li>
+            <li class="active">Basic Load</li>
         </ol>
     </section>
 
@@ -22,8 +24,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="progress active mt-5">
-                            <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 30%">
-                                <span>30% Complete (success)</span>
+                            <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%">
+                                <span>0% Completed</span>
                             </div>
                         </div>
                     </div>
@@ -80,7 +82,7 @@
                                 </div>
                             </div>
                         <ul class="list-inline pull-right">
-                            <li><a href="vechile-inforamtion.php" type="button" class="btn btn-primary next-step">Save and continue</a></li>
+                            <li><a href="vechile-inforamtion-pl.php" type="button" class="btn btn-primary next-step">Save and continue</a></li>
                         </ul>
                     </form>
                 </div>
@@ -117,12 +119,9 @@
 </script>
 <?php include("footer.php"); ?>
 
-
-
 <script>
     //Date picker
     $('.datepicker').datepicker({
         autoclose: true
     });
 </script>
-

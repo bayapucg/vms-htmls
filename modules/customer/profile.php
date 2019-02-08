@@ -1,7 +1,7 @@
 <?php include("header.php"); ?>
 
 <style>
-#pic{
+    #pic{
     display: none;
 }
        
@@ -23,7 +23,7 @@
             Profile
         </h1>
         <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>Home</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard" aria-hidden="true"></i>Home</a></li>
             <li class="active">Profile</li>
         </ol>
     </section>
@@ -35,7 +35,7 @@
                 <div class="col-md-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 class="panel-title pull-left">Customer 1</h3>
+                            <h3 class="mt-0 mb-0 pull-left">Personal Info</h3>
                             <span class="pull-right"><a href="update-profile.php" class="btn btn-primary btn-sm">Update / Edit</a></span>
                             <div class="clearfix">&nbsp;</div>
                         </div>
