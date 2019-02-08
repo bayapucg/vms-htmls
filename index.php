@@ -69,7 +69,7 @@
                         </select>
                     </div>
                     <div class="form-group col-md-3 md-form mt-3">
-                        <input type="text" class="form-control" placeholder="Search For Delivery">
+                        <input id="datetimepicker1"  type="text" class="form-control" placeholder="Date">
                     </div>
                     <div class="md-form col-md-2">
                         <button type="submit" class="btn btn-indigo btn-md pull-right">Find Price</button>
