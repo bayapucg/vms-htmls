@@ -94,21 +94,21 @@
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline1">
-                                <label class="custom-control-label" for="defaultInline1">Checkbox1</label>
+                                <label class="custom-control-label" for="defaultInline1">7:30 AM – 12:00 PM</label>
                             </div>
                         </div>
 
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline2">
-                                <label class="custom-control-label" for="defaultInline2">Checkbox2</label>
+                                <label class="custom-control-label" for="defaultInline2">12:00 PM – 04:00 PM</label>
                             </div>
                         </div>
 
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline3">
-                                <label class="custom-control-label" for="defaultInline3">Checkbox3</label>
+                                <label class="custom-control-label" for="defaultInline3">4:00 PM – 6:30 PM</label>
                             </div>
                         </div>
                     </div>
@@ -118,21 +118,27 @@
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline4">
-                                <label class="custom-control-label" for="defaultInline4">Checkbox1</label>
+                                <label class="custom-control-label" for="defaultInline4">Small</label>
                             </div>
                         </div>
 
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline5">
-                                <label class="custom-control-label" for="defaultInline5">Checkbox2</label>
+                                <label class="custom-control-label" for="defaultInline5">Medium</label>
                             </div>
                         </div>
 
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline6">
-                                <label class="custom-control-label" for="defaultInline6">Checkbox3</label>
+                                <label class="custom-control-label" for="defaultInline6">Large</label>
+                            </div>
+                        </div>
+                        <div class="bff-checkbox">
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                                <input type="checkbox" class="custom-control-input" id="defaultInline11">
+                                <label class="custom-control-label" for="defaultInline11">Ex-Large</label>
                             </div>
                         </div>
                     </div>
@@ -142,21 +148,21 @@
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline7">
-                                <label class="custom-control-label" for="defaultInline7">Checkbox1</label>
+                                <label class="custom-control-label" for="defaultInline7">Kukatpaly</label>
                             </div>
                         </div>
 
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline8">
-                                <label class="custom-control-label" for="defaultInline8">Checkbox2</label>
+                                <label class="custom-control-label" for="defaultInline8">Ameerpet</label>
                             </div>
                         </div>
 
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline9">
-                                <label class="custom-control-label" for="defaultInline9">Checkbox3</label>
+                                <label class="custom-control-label" for="defaultInline9">Miyapur</label>
                             </div>
                         </div>
                     </div>
@@ -166,21 +172,7 @@
                         <div class="bff-checkbox">
                             <div class="custom-control custom-checkbox custom-control-inline">
                                 <input type="checkbox" class="custom-control-input" id="defaultInline10">
-                                <label class="custom-control-label" for="defaultInline10">Checkbox1</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline11">
-                                <label class="custom-control-label" for="defaultInline11">Checkbox2</label>
-                            </div>
-                        </div>
-
-                        <div class="bff-checkbox">
-                            <div class="custom-control custom-checkbox custom-control-inline">
-                                <input type="checkbox" class="custom-control-input" id="defaultInline12">
-                                <label class="custom-control-label" for="defaultInline12">Checkbox3</label>
+                                <label class="custom-control-label" for="defaultInline10">Guntur</label>
                             </div>
                         </div>
                     </div>
