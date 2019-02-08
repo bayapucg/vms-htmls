@@ -6,9 +6,7 @@
             Dashboard
         </h1>
         <ol class="breadcrumb">
-            <li><a href="ownerdash.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">owner</li>
-            <li class="active">Dashboard</li>
+            <li class="active"><i class="fa fa-dashboard"></i> Home</li>
         </ol>
     </section>
 
