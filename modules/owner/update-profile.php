@@ -7,8 +7,8 @@
                 <!-- general form elements -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <a href="profile.php" type="button" class="btn btn-info pull-right">Back</a>
-                        <h3 class="box-title">Update or Edit Profile</h3>
+                        <a href="profile.php" type="button" class="btn btn-info btn-sm pull-right">Back</a>
+                        <h3 class="pull-left mb-0 mt-0">Update Profile</h3>
                     </div>
                     <!-- /.box-header -->
                     <!-- form start -->

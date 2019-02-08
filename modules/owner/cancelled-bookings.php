@@ -9,9 +9,8 @@
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
             <li><a href="#">Load Information</a></li>
-            <li class="active">Cared Booking</li>
+            <li class="active">Cancelled Booking</li>
         </ol>
-  Cancelledction>
 
     <!-- Main content -->
     <section class="content">
