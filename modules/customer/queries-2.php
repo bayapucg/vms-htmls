@@ -16,7 +16,32 @@
     <section class="content">
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
-                <h3 class="mt-0 mb-0">Booking Query <small>(Step 2)</small></h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3 class="mt-0 mb-0">Booking Query</h3>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="stepper">
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" class="completed">
+                                    <a class="persistant-disabled" href="queries-1.php" title="Step 1">
+                                        <span class="round-tab">1</span>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="active">
+                                    <a class="persistant-disabled" href="queries-2.php" title="Step 2">
+                                        <span class="round-tab">2</span>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a class="persistant-disabled" href="queries-3.php" title="Complete">
+                                        <span class="round-tab">3</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="panel-body">
                 <div class="tab-content">
@@ -75,7 +100,6 @@
                                     </select>
                                 </div>
                                 <a href="queries-3.php" type="button" class="btn btn-primary next-step pull-right">Save and Continue</a>
-                                <a href="queries-1.php" type="button" class="btn btn-info">Back</a>
                             </div>
                             <br>
                         </div>
