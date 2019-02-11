@@ -67,7 +67,7 @@
                             <i class="fa fa-arrow-down" aria-hidden="false" aria-hidden="true"></i>
                         </button>
                         <a class="navbar-brand" href="">
-                            <p>VEHICLE MANAGEMNET SYSTEM </p>
+                            <p>DHABA MANAGEMNET SYSTEM </p>
                         </a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
@@ -79,26 +79,18 @@
                             </li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-<!--
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
--->
 
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <img src="../img/user.png" class="user-image" alt="User Image">
-                                    <span class="hidden-xs">Customer</span>
+                                    <span class="hidden-xs">Dhaba Owner 1</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
                                         <img src="../img/user.png" class="img-circle" alt="User Image">
-
                                         <p>
-                                            Customer 1
+                                            Dhaba Owner 1
                                         </p>
                                     </li>
 
@@ -131,7 +123,7 @@
                         <img src="../img/user.png" class="img-circle" alt="User Image">
                     </div>
                     <div class="pull-left info">
-                        <p>Customer 1</p>
+                        <p>Dhaba Owner 1</p>
                         <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                     </div>
                 </div>
@@ -146,61 +138,36 @@
                     </li>
                     <li class="treeview">
                         <a href="#">
-                            <i class="fa fa-users"></i> <span>Category</span>
+                            <i class="fa fa-tags"></i> <span>Category</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="add-contact.php"><i class="fa fa-circle-o"></i>Add Category</a></li>
-                            <li><a href="contacts-list.php"><i class="fa fa-circle-o"></i>Category List</a></li>
+                            <li><a href="add-category.php"><i class="fa fa-circle-o"></i>Add Category</a></li>
+                            <li><a href="category-list.php"><i class="fa fa-circle-o"></i>Category List</a></li>
                         </ul>
                     </li>
                     <li class="treeview">
                         <a href="#">
-                            <i class="fa fa-users"></i> <span>Contacts</span>
+                            <i class="fa fa-th-large"></i> <span>Menu</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>
                             </span>
                         </a>
                         <ul class="treeview-menu">
-                            <li><a href="add-contact.php"><i class="fa fa-circle-o"></i>Add Contact</a></li>
-                            <li><a href="contacts-list.php"><i class="fa fa-circle-o"></i>Contacts List</a></li>
+                            <li><a href="add-item.php"><i class="fa fa-circle-o"></i>Add Item</a></li>
+                            <li><a href="items-list.php"><i class="fa fa-circle-o"></i>Items List</a></li>
                         </ul>
                     </li>
                     <li class="treeview">
-                        <a href="load-booking.php">
-                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Load Bookings</span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="booking-summary.php">
-                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Booking summary</span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="insurance-provider.php">
-                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Insurance Provider </span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="refer-earn.php">
-                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Reference code</span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="support.php">
-                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Support</span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="wallet.php">
-                            <i class="fa fa-tasks" aria-hidden="true"></i> <span>Wallet</span>
+                        <a href="payments.php">
+                            <i class="fa fa-money"></i> <span>Payments</span>
                         </a>
                     </li>
                     <li class="treeview">
                         <a href="profile.php">
-                            <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
+                            <i class="fa fa-user"></i> <span>My Profile</span>
                         </a>
                     </li>
                 </ul>

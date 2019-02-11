@@ -339,6 +339,11 @@
     font-size: 13px;
 }
 
+.mx-auto{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
 .ml-10 {
     margin-left: 10px;
 }
@@ -389,6 +394,10 @@
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.p-0{
+    padding: 0px !important;
 }
 
 .rating .list-inline {
@@ -566,4 +575,12 @@
 
 .stepper .disabled a.persistant-disabled{
     pointer-events: none;
+}
+
+.view-more{
+    color: #337ab7;
+}
+
+.view-more:hover{
+    text-decoration: underline;
 }
