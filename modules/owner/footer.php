@@ -1,11 +1,44 @@
-<footer class="main-footer">
-    <div class="row">
-        <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
-        <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
-        <div class="col-md-2 col-sm-6 col-xs-12 text-center">qsert</div>
-        <div class="col-md-6 col-sm-6 col-xs-12 text-center"><strong>Copyright &copy; 2018 <a href="#">VMS</a>.</strong> All rights reserved.</div>
+<footer class="main-footer custom-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <p>Quick Links</p>
+                <ul class="list-unstyled">
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="profile.php">My Profile</a></li>
+                    <li><a href="payment.php">Payments</a></li>
+                    <li><a href="support.php">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <p>Listing</p>
+                <ul class="list-unstyled">
+                    <li><a href="add-vehicle.php">Add Vehicle</a></li>
+                    <li><a href="vehiclelist.php">Vehicles List</a></li>
+                    <li><a href="add-driver.php">Add Driver</a></li>
+                    <li><a href="driverlist.php">Drivers List</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <p>Loads</p>
+                <ul class="list-unstyled">
+                    <li><a href="load-booking.php">Load Booking</a></li>
+                    <li><a href="active-bookings.php">Active Bookings</a></li>
+                    <li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
+                    <li><a href="load-delivery-list.php">Load Delivered List</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
 </footer>
+<div class="copyright">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+            <strong>Copyright &copy; 2018 <a href="#">VMS</a>.</strong> All rights reserved.
+        </div>
+    </div>
+</div>
+
 </div>
 <!-- ./wrapper -->
 <!-- DataTables -->

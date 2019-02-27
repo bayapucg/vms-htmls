@@ -93,6 +93,22 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class=" control-label">Fuel Capacity</label>
+                                        <div class="">
+                                            <input type="text" class="form-control" name="fuel" value="90" placeholder="in liters"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class=" control-label">RTO Document</label>
+                                        <div class="">
+                                            <input type="file" class="form-control" name=""/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">

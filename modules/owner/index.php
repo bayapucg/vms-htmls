@@ -13,74 +13,56 @@
     <!-- Main content -->
     <section class="content">
         <!-- Info boxes -->
-        <div class="row">
+        <!--<div class="row">
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="info-box">
                     <span class="info-box-icon bg-aqua"><i class="ion ion-ios-gear-outline"></i></span>
-
                     <div class="info-box-content">
                         <span class="info-box-text">Booking Pending Details</span>
                         <span class="info-box-number">90<small></small></span>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
-                <!-- /.info-box -->
             </div>
-            <!-- /.col -->
-
-            <!-- /.col -->
-
-            <!-- fix for small devices only -->
+        
             <div class="clearfix visible-sm-block"></div>
-
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="info-box">
                     <span class="info-box-icon bg-green"><i class="fa fa-money" aria-hidden="true"></i></span>
-
                     <div class="info-box-content">
                         <span class="info-box-text">Paid Amount</span>
                         <span class="info-box-number">₹ 45000</span>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
-                <!-- /.info-box -->
             </div>
-            <!-- /.col -->
+            
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="info-box">
                     <span class="info-box-icon bg-orange"><i class="fa fa-money" aria-hidden="true"></i></span>
-
                     <div class="info-box-content">
                         <span class="info-box-text">Unpaid Amount</span>
                         <span class="info-box-number">₹ 12,000</span>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
-                <!-- /.info-box -->
             </div>
+            
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="info-box">
                     <span class="info-box-icon bg-orange"><i class="fa fa-money" aria-hidden="true"></i></span>
-
                     <div class="info-box-content">
                         <span class="info-box-text">Receivable Amount</span>
                         <span class="info-box-number">₹ 12,000</span>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
-                <!-- /.info-box -->
             </div>
+            
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="info-box">
                     <span class="info-box-icon bg-blue"><i class="fa fa-medkit" aria-hidden="true"></i></span>
-
                     <div class="info-box-content">
                         <span class="info-box-text">Account Health</span>
                         <span class="info-box-number">Good</span>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
-                <!-- /.info-box -->
             </div>
             <div class="col-md-4 col-sm-6 col-xs-12">
                 <div class="info-box">
@@ -90,15 +72,112 @@
                         <span class="info-box-text">Parameter</span>
                         <span class="info-box-number">xxxx</span>
                     </div>
-                    <!-- /.info-box-content -->
+                 
                 </div>
-                <!-- /.info-box -->
+                
             </div>
-            <!-- /.col -->
+            
         </div>
         <!-- /.row -->
+        
+        <div class="row">
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-orange">
+                    <div class="inner">
+                        <h3>90</h3>
+                        <p>Booking Pending Details</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-green">
+                    <div class="inner">
+                        <h3>₹ 5300</h3>
+                        <p>Paid Amount</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-red">
+                    <div class="inner">
+                        <h3>₹ 1500</h3>
+                        <p>Un Paid Amount</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-aqua">
+                    <div class="inner">
+                        <h3>₹ 6500</h3>
+                        <p>Receivable Amount</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-3 col-xs-6">
+                <div class="small-box bg-primary">
+                    <div class="inner">
+                        <h3>Good</h3>
+                        <p>Account Health</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-medkit"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-xs-6">    
+                <div class="small-box bg-yellow">
+                    <div class="inner">
+                        <h3>xxxx</h3>
+                        <p>Parameter</p>
+                    </div>
+                    <div class="icon">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <a href="#" class="small-box-footer">
+                        More info <i class="fa fa-arrow-circle-right"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        
     </section>
     <!-- /.content -->
+    
+    <div class="pt-5 pb-5 mt-5"></div>
 </div>
 <!-- /.content-wrapper -->
 <?php include("footer.php"); ?>

@@ -3,15 +3,16 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Cancelled Booking List
+            Cancelled Bookings List
             <small></small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Load Information</a></li>
-            <li class="active">Cancelled Booking</li>
+            <li><a href="#">Loads</a></li>
+            <li class="active">Cancelled Bookings</li>
         </ol>
-
+    </section>
+    
     <!-- Main content -->
     <section class="content">
         <div class="row">

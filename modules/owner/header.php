@@ -38,55 +38,61 @@
 <!-- ADD THE CLASS fixed TO GET A FIXED HEADER AND SIDEBAR LAYOUT -->
 <!-- the fixed layout is not compatible with sidebar-mini -->
 
-<body class="hold-transition skin-blue fixed sidebar-mini">
+<body class="hold-transition skin-blue layout-top-nav">
     <!-- Site wrapper -->
     <div class="wrapper">
 
         <header class="main-header">
-            <!-- Logo -->
-            <a href="index.php" class="logo">
-                <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini"><img style="width:50px;height:auto;" src="../img/logo.png" /></span>
-                <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><img style="width:100px;height:auto;" src="../img/logo.png" /></span>
-            </a>
-            <!-- Header Navbar: style can be found in header.less -->
-
-            <nav class="navbar navbar-default nav_hover">
+            <nav class="navbar navbar-static-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
-
-
-                        <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
+                        <a href="index.php" class="navbar-brand" style="padding-top: 2px;">
+                            <img style="width:100px;height:auto;" src="../img/logo.png" />
                         </a>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <i class="fa fa-arrow-down" aria-hidden="false" aria-hidden="true"></i>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="">
-                            <p>OWNER MANAGEMNET SYSTEM </p>
-                        </a>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-left custom-style" id="navbar-collapse">
                         <ul class="nav navbar-nav">
-                            <li class="">
-                                <a href="#" class="">
-                                    <p>13456</p>
+                            <li class="active">
+                                <a href="index.php">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="confirmed-bookings.php">
+                                    <span>Listing</span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="add-vehicle.php">Add Vehicle</a></li>
+                                    <li><a href="vehiclelist.php">Vehicles List</a></li>
+                                    <li><a href="add-driver.php">Add Driver</a></li>
+                                    <li><a href="driverlist.php">Drivers List</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">
+                                    <span>Loads</span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="load-booking.php">Load Booking</a></li>
+                                    <li><a href="active-bookings.php">Active Bookings</a></li>
+                                    <li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
+                                    <li><a href="load-delivery-list.php">Load Delivered List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="support.php">
+                                    <span>Support</span>
                                 </a>
                             </li>
                         </ul>
-                        <ul class="nav navbar-nav navbar-right">
-<!--
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
--->
-
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <!-- Navbar Right Menu -->
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <img src="../img/user.png" class="user-image" alt="User Image">
@@ -113,93 +119,10 @@
                             </li>
                         </ul>
                     </div>
+                    <!-- /.navbar-custom-menu -->
                 </div>
+                <!-- /.container-fluid -->
             </nav>
-
         </header>
-
-        <!-- =============================================== -->
-
-        <!-- Left side column. contains the sidebar -->
-        <aside class="main-sidebar">
-            <!-- sidebar: style can be found in sidebar.less -->
-            <section class="sidebar">
-                <!-- Sidebar user panel -->
-                <div class="user-panel">
-                    <div class="pull-left image">
-                        <img src="../img/user.png" class="img-circle" alt="User Image">
-                    </div>
-                    <div class="pull-left info">
-                        <p>Owner 1</p>
-                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-                    </div>
-                </div>
-
-                <!-- sidebar menu: : style can be found in sidebar.less -->
-                <ul class="sidebar-menu">
-                    <li class="header">MAIN NAVIGATION</li>
-                    <li class="treeview">
-                        <a href="index.php">
-                            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="profile.php">
-                            <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
-                        </a>
-                    </li>
-                    <li class=" treeview">
-                        <a href="#">
-                            <i class="fa fa-truck"></i> <span>Load Information</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="active"><a href="confirmed-bookings.php"><i class="fa fa-circle-o"></i>Confirmed Bookings</a></li>
-                            <li class="active"><a href="cancelled-bookings.php"><i class="fa fa-circle-o"></i>Cancelled Bookings</a></li>
-                            <li class="active"><a href="onroad-bookings.php"><i class="fa fa-circle-o"></i>Onroad</a></li>
-                            <li class="active"><a href="delivered-bookings.php"><i class="fa fa-circle-o"></i>Delivered</a></li>
-                        </ul>
-                    </li>
-                    <li class=" treeview">
-                        <a href="#">
-                            <i class="fa fa-bus"></i> <span>Vehicle Management</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="active"><a href="add-vehicle.php"><i class="fa fa-circle-o"></i>Add Vehicle</a></li>
-                            <li class="active"><a href="vehiclelist.php"><i class="fa fa-circle-o"></i>Vehicles List</a></li>
-                        </ul>
-                    </li>
-                    <li class=" treeview">
-                        <a href="#">
-                            <i class="fa fa-users"></i> <span>Manpower Management</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li class="active"><a href="add-driver.php"><i class="fa fa-circle-o"></i>Add Driver</a></li>
-                            <li class="active"><a href="driverlist.php"><i class="fa fa-circle-o"></i>Drivers List</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="payment.php">
-                            <i class="fa fa-money" aria-hidden="true"></i> <span>Payment</span>
-                        </a>
-                    </li>
-                    <li class="treeview">
-                        <a href="partner-education.php">
-                            <i class="fa fa-book" aria-hidden="true"></i> <span>Partner Education</span>
-                        </a>
-                    </li>
-                    
-                </ul>
-            </section>
-            <!-- /.sidebar -->
-        </aside>
 
         <!-- =============================================== -->

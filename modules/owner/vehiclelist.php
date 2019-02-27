@@ -34,6 +34,8 @@
                                     <th>Capacity</th>
                                     <th>Size</th>
                                     <th>Vehicle Type</th>
+                                    <th>Fuel capacity</th>
+                                    <th>RTO document</th>
                                     <th>R.C Number</th>
                                     <th>R.C Issued Date</th>
                                     <th>R.C Expiry Date</th>
@@ -55,6 +57,8 @@
                                     <td>16 Ton</td>
                                     <td>Medium</td>
                                     <td>Open</td>
+                                    <td>50 liters</td>
+                                    <td>file</td>
                                     <td>123DFVN</td>
                                     <td>31-1-2019</td>
                                     <td>30-1-2023</td>
@@ -74,6 +78,8 @@
                                     <td>Tata 1309</td>
                                     <td>16 Ton</td>
                                     <td>Medium</td>
+                                    <td>50 liters</td>
+                                    <td>file</td>
                                     <td>Open</td>
                                     <td>123DFVN</td>
                                     <td>31-1-2019</td>
@@ -94,6 +100,8 @@
                                     <td>Tata 1309</td>
                                     <td>16 Ton</td>
                                     <td>Medium</td>
+                                    <td>50 liters</td>
+                                    <td>file</td>
                                     <td>Open</td>
                                     <td>123DFVN</td>
                                     <td>31-1-2019</td>
@@ -117,12 +125,17 @@
                                     <th>Capacity</th>
                                     <th>Size</th>
                                     <th>Vehicle Type</th>
+                                    <th>Fuel capacity</th>
+                                    <th>RTO document</th>
                                     <th>R.C Number</th>
                                     <th>R.C Issued Date</th>
                                     <th>R.C Expiry Date</th>
                                     <th>Pollution Certificate Number</th>
                                     <th>Pollution Issued Date</th>
                                     <th>Pollution Expiry Date</th>
+                                    <th>Insurance Policy Number</th>
+                                    <th>Policy Issued Date</th>
+                                    <th>Policy Expiry Date</th>
                                     <th>Action</th>
                                 </tr>
                             </tfoot>

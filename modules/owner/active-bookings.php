@@ -3,13 +3,13 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Load Delivered List
+            Active Bookings List
             <small></small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Load Information</a></li>
-            <li class="active">Delivered</li>
+            <li><a href="#">Loads</a></li>
+            <li class="active">Active Bookings</li>
         </ol>
     </section>
 
@@ -76,7 +76,7 @@
                                     <td>31-1-2019</td>
                                     <td>30-1-2023</td>
                                     <td>2000.00</td>
-                                    <td><span class="text-success font-weight-bold icon_size2">Delivered</span></td>
+                                    <td><span class="text-yellow font-weight-bold icon_size2">Pending</span></td>
                                 </tr>
                                 <tr>
                                     <td>Customer1</td>
@@ -101,7 +101,7 @@
                                     <td>31-1-2019</td>
                                     <td>30-1-2023</td>
                                     <td>2000.00</td>
-                                    <td><span class="text-success font-weight-bold icon_size2">Delivered</span></td>
+                                    <td><span class="text-yellow font-weight-bold icon_size2">Pending</span></td>
                                 </tr>
                                 <tr>
                                     <td>Customer1</td>
@@ -126,7 +126,7 @@
                                     <td>31-1-2019</td>
                                     <td>30-1-2023</td>
                                     <td>2000.00</td>
-                                    <td><span class="text-success font-weight-bold icon_size2">Delivered</span></td>
+                                    <td><span class="text-yellow font-weight-bold icon_size2">Pending</span></td>
                                 </tr>
                             </tbody>
                             <tfoot>
