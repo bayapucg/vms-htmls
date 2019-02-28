@@ -63,23 +63,71 @@
                                 </a>
                             </li>
                             <li class="dropdown">
-                                <a href="confirmed-bookings.php">
+                                <a href="add-vehicle.php">
                                     <span>Listing</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="add-vehicle.php">Add Vehicle</a></li>
                                     <li><a href="vehiclelist.php">Vehicles List</a></li>
                                     <li><a href="add-driver.php">Add Driver</a></li>
                                     <li><a href="driverlist.php">Drivers List</a></li>
+                                    <li><a href="assign-driver.php">Assign Driver</a></li>
+                                    <li><a href="assigned-drivers-list.php">Assigned Drivers List</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Inventory</span>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="load-booking.php">
+                                    <span>Loads</span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="load-booking.php">Create Load</a></li>
+                                    <li><a href="active-bookings.php">Active Bookings</a></li>
+                                    <li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
+                                    <li><a href="load-delivery-list.php">Load Delivered List</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#">
-                                    <span>Loads</span><span class="caret"></span></a>
+                                    <span>Payment</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="load-booking.php">Load Booking</a></li>
-                                    <li><a href="active-bookings.php">Active Bookings</a></li>
-                                    <li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
-                                    <li><a href="load-delivery-list.php">Load Delivered List</a></li>
+                                    <li><a href="payments-overview.php">Payments Overview</a></li>
+                                    <li><a href="previous-payments-list.php">Previous Payments</a></li>
+                                    <li><a href="transactions.php">Transaction</a></li>
+                                    <li><a href="#">Invoice</a></li>
+                                    <li><a href="#">Statements</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">
+                                    <span>Third-Party</span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Fuel</a></li>
+                                    <li><a href="#">Garage</a></li>
+                                    <li><a href="#">RTO / Insurance</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">
+                                    <span>Growth</span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="performance-overview.php">Performance Overview</a></li>
+                                    <li><a href="#">Advertising</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span>Report</span>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#">
+                                    <span>Advertisement</span><span class="caret"></span></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Driver</a></li>
+                                    <li><a href="#">Banner</a></li>
                                 </ul>
                             </li>
                             <li>

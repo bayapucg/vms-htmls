@@ -9,7 +9,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Manpower Management</a></li>
+            <li><a href="#">Listing</a></li>
             <li><a href="driverlist.php">Drivers List</a></li>
             <li class="active">Edit Driver</li>
         </ol>

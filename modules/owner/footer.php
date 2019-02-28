@@ -1,31 +1,64 @@
 <footer class="main-footer custom-footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-2 col-sm-6 col-xs-12">
                 <p>Quick Links</p>
                 <ul class="list-unstyled">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="profile.php">My Profile</a></li>
-                    <li><a href="payment.php">Payments</a></li>
+                    <li><a href="#">Inventory</a></li>
+                    <li><a href="#">Reports</a></li>
                     <li><a href="support.php">Support</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-2 col-sm-6 col-xs-12">
                 <p>Listing</p>
                 <ul class="list-unstyled">
                     <li><a href="add-vehicle.php">Add Vehicle</a></li>
                     <li><a href="vehiclelist.php">Vehicles List</a></li>
                     <li><a href="add-driver.php">Add Driver</a></li>
                     <li><a href="driverlist.php">Drivers List</a></li>
+                    <li><a href="assign-driver.php">Assign Driver</a></li>
+                    <li><a href="assigned-drivers-list.php">Assigned Drivers List</a></li>
                 </ul>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-2 col-sm-6 col-xs-12">
                 <p>Loads</p>
                 <ul class="list-unstyled">
                     <li><a href="load-booking.php">Load Booking</a></li>
                     <li><a href="active-bookings.php">Active Bookings</a></li>
                     <li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
                     <li><a href="load-delivery-list.php">Load Delivered List</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <p>Payments</p>
+                <ul class="list-unstyled">
+                    <li><a href="payments-overview.php">Payments Overview</a></li>
+                    <li><a href="previous-payments-list.php">Previous Payments</a></li>
+                    <li><a href="transactions.php">Transaction</a></li>
+                    <li><a href="#">Invoice</a></li>
+                    <li><a href="#">Statements</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <p>Third Party</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Fuel</a></li>
+                    <li><a href="#">Garage</a></li>
+                    <li><a href="#">RTO / Insurance</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6 col-xs-12">
+                <p>Growth</p>
+                <ul class="list-unstyled">
+                    <li><a href="performance-overview.php">Performance Overview</a></li>
+                    <li><a href="#">Advertising</a></li>
+                </ul>
+                <br>
+                <p>Advertisement</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Driver</a></li>
+                    <li><a href="#">Banner</a></li>
                 </ul>
             </div>
         </div>
@@ -49,7 +82,6 @@
 <script src="../js/bootstrapValidator.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="../js/bootstrap.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery.dataTables.min.js"></script>
 <script src="../js/dataTables.bootstrap.min.js"></script>
 <script src="../js/select2.full.min.js"></script>
@@ -59,7 +91,6 @@
 <script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
 <script src="../js/jquery.slimscroll.min.js"></script>
 <!-- SlimScroll 1.3.0 -->
-
 
 <!-- FastClick -->
 <script src="../js/fastclick.js"></script>
@@ -79,8 +110,6 @@
         $('#example1').DataTable();
     });
 </script>
-
-
 
 </body>
 
