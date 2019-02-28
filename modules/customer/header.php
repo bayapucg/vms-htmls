@@ -146,18 +146,6 @@
                     </li>
                     <li class="treeview">
                         <a href="#">
-                            <i class="fa fa-users"></i> <span>Category</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
-                        </a>
-                        <ul class="treeview-menu">
-                            <li><a href="add-contact.php"><i class="fa fa-circle-o"></i>Add Category</a></li>
-                            <li><a href="contacts-list.php"><i class="fa fa-circle-o"></i>Category List</a></li>
-                        </ul>
-                    </li>
-                    <li class="treeview">
-                        <a href="#">
                             <i class="fa fa-users"></i> <span>Contacts</span>
                             <span class="pull-right-container">
                                 <i class="fa fa-angle-left pull-right"></i>

@@ -955,3 +955,20 @@
     padding: 15px;
     background-color: #ffe4c4;
 }
+
+.custom-rating{
+    font-size: 28px;
+}
+
+.custom-rating ul{
+    display: inline-block;
+}
+
+.custom-rating ul li{
+    display: inline-block;
+    font-size: 13px;
+}
+
+.custom-rating ul li .fa{
+    color: orange;
+}

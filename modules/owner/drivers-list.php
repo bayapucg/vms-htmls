@@ -3,12 +3,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
         <h1>
-            Driver List
+            Drivers List
             <small></small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Listing</a></li>
+            <li>Listing</li>
             <li class="active">Drivers List</li>
         </ol>
     </section>
@@ -48,8 +48,10 @@
                                     <td>8765XXXXXX</td>
                                     <td>3 yrs</td>
                                     <td>20000</td>
-                                    <td><a href="edit-driver.php"><button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a>
-                                        <button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i>Delete</button></td>
+                                    <td>
+                                        <a href="edit-driver.php" type="button" class="btn btn-warning btn-sm mr-2 mb-2"><i class="fa fa-pencil-square-o"></i>Edit</a>
+                                        <a href="#" type="button" class="btn btn-danger btn-sm mr-2 mb-2"><i class="fa fa-trash"></i>Delete</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>ram</td>
@@ -61,8 +63,10 @@
                                     <td>8765XXXXXX</td>
                                     <td>3 yrs</td>
                                     <td>20000</td>
-                                    <td><button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button>
-                                        <button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i>Delete</button></td>
+                                    <td>
+                                        <a href="edit-driver.php" type="button" class="btn btn-warning btn-sm mr-2 mb-2"><i class="fa fa-pencil-square-o"></i>Edit</a>
+                                        <a href="#" type="button" class="btn btn-danger btn-sm mr-2 mb-2"><i class="fa fa-trash"></i>Delete</a>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>ram</td>
@@ -74,8 +78,10 @@
                                     <td>8765XXXXXX</td>
                                     <td>3 yrs</td>
                                     <td>20000</td>
-                                    <td><button type="button" class="btn btn-warning"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button>
-                                        <button type="button" class="btn btn-danger"><i class="fa fa-trash" aria-hidden="true"></i>Delete</button></td>
+                                    <td>
+                                        <a href="edit-driver.php" type="button" class="btn btn-warning btn-sm mr-2 mb-2"><i class="fa fa-pencil-square-o"></i>Edit</a>
+                                        <a href="#" type="button" class="btn btn-danger btn-sm mr-2 mb-2"><i class="fa fa-trash"></i>Delete</a>
+                                    </td>
                                 </tr>
                             </tbody>
                             <tfoot>
@@ -100,6 +106,7 @@
         <!-- /.row -->
     </section>
     <!-- /.content -->
+    <div class="p-5"></div>
 </div>
 <script>
     $(function() {

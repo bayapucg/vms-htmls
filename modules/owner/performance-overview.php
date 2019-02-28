@@ -21,7 +21,21 @@
                 <!-- BAR CHART -->
                 <div class="box box-primary">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Bar Chart</h3>
+                        <div class="row">
+                            <div class="col-md-11">
+                                <h3 class="m-0">Chart</h3>
+                            </div>
+                            <div class="col-md-1">
+                                <div class="form-group">
+                                    <select class="form-control" name="year">
+                                        <option value="1">2016</option>
+                                        <option value="2">2017</option>
+                                        <option value="3" selected>2018</option>
+                                        <option value="4">2019</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="box-body">
                         <div class="chart">

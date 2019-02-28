@@ -9,6 +9,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li>Loads</li>
             <li class="active">Load Booking</li>
         </ol>
     </section>

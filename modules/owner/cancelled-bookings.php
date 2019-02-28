@@ -8,7 +8,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Loads</a></li>
+            <li>Loads</li>
             <li class="active">Cancelled Bookings</li>
         </ol>
     </section>
@@ -168,6 +168,7 @@
         <!-- /.row -->
     </section>
     <!-- /.content -->
+    <div class="p-5"></div>
 </div>
 <script>
     $(function() {

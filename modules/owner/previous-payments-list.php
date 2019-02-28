@@ -8,7 +8,7 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Payment</a></li>
+            <li>Payment</li>
             <li class="active">Previous Payments List</li>
         </ol>
     </section>

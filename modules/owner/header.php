@@ -66,12 +66,9 @@
                                 <a href="add-vehicle.php">
                                     <span>Listing</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="add-vehicle.php">Add Vehicle</a></li>
-                                    <li><a href="vehiclelist.php">Vehicles List</a></li>
-                                    <li><a href="add-driver.php">Add Driver</a></li>
-                                    <li><a href="driverlist.php">Drivers List</a></li>
-                                    <li><a href="assign-driver.php">Assign Driver</a></li>
-                                    <li><a href="assigned-drivers-list.php">Assigned Drivers List</a></li>
+                                    <li><a href="vehicle.php">Vehicle</a></li>
+                                    <li><a href="add-driver.php">Driver</a></li>
+                                    <li><a href="all-approvals.php">All Approvals</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -96,7 +93,7 @@
                                     <li><a href="payments-overview.php">Payments Overview</a></li>
                                     <li><a href="previous-payments-list.php">Previous Payments</a></li>
                                     <li><a href="transactions.php">Transaction</a></li>
-                                    <li><a href="#">Invoice</a></li>
+                                    <li><a href="invoices.php">Invoice</a></li>
                                     <li><a href="#">Statements</a></li>
                                 </ul>
                             </li>
@@ -113,12 +110,13 @@
                                 <a href="#">
                                     <span>Growth</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="account-health.php">Account Health</a></li>
                                     <li><a href="performance-overview.php">Performance Overview</a></li>
                                     <li><a href="#">Advertising</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="reports.php">
                                     <span>Report</span>
                                 </a>
                             </li>

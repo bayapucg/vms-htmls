@@ -8,16 +8,16 @@
         </h1>
         <ol class="breadcrumb">
             <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Listing</a></li>
-            <li class="active">Add Driver</li>
+            <li>Listing</li>
+            <li class="active">Driver</li>
         </ol>
     </section>
 
     <section class="content">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title pull-left">Driver Details</h3>
-                <span class="pull-right"><a href="driverlist.php" class="btn btn-primary btn-sm">Drivers List</a></span>
+                <h3 class="m-0 pull-left">Driver Info</h3>
+                <span class="pull-right"><a href="drivers-list.php" class="btn btn-primary btn-sm">Drivers List</a></span>
                 <div class="clearfix">&nbsp;</div>
             </div>
             <div class="panel-body">
@@ -101,6 +101,7 @@
         </div>
     </section>
 <!-- /.content -->
+    <div class="p-5"></div>
 </div>
 <!-- /.content-wrapper -->
 
