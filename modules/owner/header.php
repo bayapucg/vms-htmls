@@ -101,9 +101,9 @@
                                 <a href="#">
                                     <span>Third-Party</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Fuel</a></li>
-                                    <li><a href="#">Garage</a></li>
-                                    <li><a href="#">RTO / Insurance</a></li>
+                                    <li><a href="fuels-tie-up-list.php">Fuel</a></li>
+                                    <li><a href="garage-tie-up-list.php">Garage</a></li>
+                                    <li><a href="rto-tie-up-list.php">RTO / Insurance</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -112,7 +112,7 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="account-health.php">Account Health</a></li>
                                     <li><a href="performance-overview.php">Performance Overview</a></li>
-                                    <li><a href="#">Advertising</a></li>
+                                    <li><a href="advertising-list.php">Advertising</a></li>
                                 </ul>
                             </li>
                             <li>
@@ -124,7 +124,7 @@
                                 <a href="#">
                                     <span>Advertisement</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Driver</a></li>
+                                    <li><a href="advertise-driver.php">Driver</a></li>
                                     <li><a href="#">Banner</a></li>
                                 </ul>
                             </li>

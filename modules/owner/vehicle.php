@@ -39,6 +39,15 @@
                             </a>
                         </div>
                     </div>
+                    <div class="col-md-4">
+                        <div class="panel  panel-default back-load">
+                            <a class="" href="third-paty-services.php">
+                                <div class="panel-body">
+                                    <h3 class="text-center"><i class="fa fa-cogs mr-3"></i>Third Party Services</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

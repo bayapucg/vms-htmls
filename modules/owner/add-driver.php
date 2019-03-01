@@ -28,7 +28,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="control-label">First Name</label>
-                                        <input type=" text" class="form-control " name="username" placeholder="Enter First Name">
+                                        <input type=" text" class="form-control " name="firstname" placeholder="Enter First Name">
                                     </div>
                                     <!-- /.input group -->
                                 </div>
@@ -37,7 +37,7 @@
                                     <div class="form-group">
                                         <label class=" control-label">Last Name</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Last Name" />
+                                            <input type="text" class="form-control" name="lastname" placeholder="Enter Last Name" />
                                         </div>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@
                                     <div class="form-group">
                                         <label>License No</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter License No" />
+                                            <input type="text" class="form-control" name="license" placeholder="Enter License No" />
                                         </div>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                                     <div class="form-group">
                                         <label>Badge No</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Badge No" />
+                                            <input type="text" class="form-control" name="badgeno" placeholder="Enter Badge No" />
                                         </div>
                                     </div>
                                 </div>
@@ -61,7 +61,7 @@
                                     <div class="form-group">
                                         <label class=" control-label">Email Id</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Emailid" />
+                                            <input type="text" class="form-control" name="emailid" placeholder="Enter Emailid" />
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                     <div class="form-group">
                                         <label class=" control-label">Phone Number</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Phonrnumber" />
+                                            <input type="text" class="form-control" name="mobile" placeholder="Enter Phone number" />
                                         </div>
                                     </div>
                                 </div>
@@ -77,7 +77,7 @@
                                     <div class="form-group">
                                         <label class=" control-label">Experience</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Experience" />
+                                            <input type="text" class="form-control" name="experience" placeholder="Enter Experience" />
                                         </div>
                                     </div>
                                 </div>
@@ -85,7 +85,7 @@
                                     <div class="form-group">
                                         <label class=" control-label">Salary</label>
                                         <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Salary" />
+                                            <input type="text" class="form-control" name="salary" placeholder="Enter Salary" />
                                         </div>
                                     </div>
                                 </div>
