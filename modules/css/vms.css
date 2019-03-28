@@ -972,3 +972,9 @@
 .custom-rating ul li .fa{
     color: orange;
 }
+.row-sec:hover {
+   -webkit-box-shadow: -1px 2px 8px -4px rgba(43,40,43,1);
+-moz-box-shadow: -1px 2px 8px -4px rgba(43,40,43,1);
+box-shadow: -1px 2px 8px -4px rgba(43,40,43,1);
+    transition: 1s;
+}
