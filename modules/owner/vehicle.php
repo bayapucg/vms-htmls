@@ -18,7 +18,7 @@
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
 				<h4 class="m-0 pull-left">Select your module</h4>
-                <span class="pull-right"><a href="#" class="btn btn-primary btn-sm">+ Add Vehicle</a></span>
+                <span class="pull-right"><a href="add-vehicle.php" class="btn btn-primary btn-sm">+ Add Vehicle</a></span>
                 <div class="clearfix">&nbsp;</div>
             </div>
             <div class="panel-body ">
@@ -26,7 +26,7 @@
                     <form action="" method="">
                         <div class="row">
                             <div class="col-md-12 b-vans ">
-                                <div class="panel-group row-sec" id="accordion">
+                                <div class="panel-group row-sec" id="accordion1">
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <h4 class="panel-title ">
@@ -54,7 +54,7 @@
                                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                                         <h4 class="panel-title vechiles-list">
                                             <div class="expand">
-                                                <div data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="right-arrow " style="">+</div>
+                                                <div data-toggle="collapse" data-parent="#accordion1" href="#collapse1" class="right-arrow " style="">+</div>
                                             </div>
                                             <div class="table-responsive">
                                                 <table width="100%">
@@ -222,7 +222,7 @@
                     <form action="" method="">
                         <div class="row">
                             <div class="col-md-12 b-vans">
-                                <div class="panel-group row-sec" id="accordion">
+                                <div class="panel-group row-sec" id="accordion2">
                                     <div class="panel panel-default">
                                         <div class="panel-heading">
                                             <h4 class="panel-title ">
@@ -250,7 +250,7 @@
                                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                                         <h4 class="panel-title vechiles-list">
                                             <div class="expand">
-                                                <div data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="right-arrow " style="">+</div>
+                                                <div data-toggle="collapse" data-parent="#accordion2" href="#collapse2" class="right-arrow " style="">+</div>
                                             </div>
                                             <div class="table-responsive">
                                                 <table width="100%">
@@ -308,7 +308,7 @@
                                         <div class="clearfix">&nbsp;</div>
                                     </div>
 
-                                    <div id="collapse1" class="panel-collapse collapse">
+                                    <div id="collapse2" class="panel-collapse collapse">
                                         <div class="panel-body border-1px-ddd py-3 px-4">
                                             <div class="row">
                                                 <div class="col-md-12">
