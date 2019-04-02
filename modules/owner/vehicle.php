@@ -15,6 +15,7 @@
     </section>
 
     <section class="content">
+	
         <div class="panel with-nav-tabs panel-default">
             <div class="panel-heading">
 				<h4 class="m-0 pull-left">Select your module</h4>
@@ -51,10 +52,12 @@
                                         </div>
 
                                     </div>
+									
+									
                                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                                         <h4 class="panel-title vechiles-list">
-                                            <div class="expand">
-                                                <div data-toggle="collapse" data-parent="#accordion1" href="#collapse1" class="right-arrow " style="">+</div>
+                                            <div class="expand" id="expand_content">
+                                                <div data-toggle="collapse" data-parent="#accordion1" data-target="#collapse1" class="right-arrow " style="">+</div>
                                             </div>
                                             <div class="table-responsive">
                                                 <table width="100%">
@@ -313,12 +316,12 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <ul class="nav nav-tabs">
-                                                        <li class="active"><a data-toggle="tab" href="#tab1">Reviews</a></li>
-                                                        <li><a data-toggle="tab" href="#tab2">Features</a></li>
-                                                        <li><a data-toggle="tab" href="#tab3">Vechile Images</a></li>
+                                                        <li class="active"><a data-toggle="tab" href="#tab4">Reviews</a></li>
+                                                        <li><a data-toggle="tab" href="#tab5">Features</a></li>
+                                                        <li><a data-toggle="tab" href="#tab6">Vechile Images</a></li>
                                                     </ul>
                                                     <div class="tab-content">
-                                                        <div id="tab1" class="tab-pane fade in active">
+                                                        <div id="tab4" class="tab-pane fade in active">
                                             <div class="media mt-10">
                                                 <div class="media-left">
                                                     <img src="http://pluspng.com/img-png/user-png-icon-male-user-icon-512.png" alt="image" width="auto" height="40px" class="media-object">
@@ -380,12 +383,12 @@
                                                 </div>
                                             </div>
                                                         </div>
-                                                        <div id="tab2" class="tab-pane fade">
+                                                        <div id="tab5" class="tab-pane fade">
                                                             <p class="mt-10">Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
                                                             
                                                             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
                                                         </div>
-                                                        <div id="tab3" class="tab-pane fade">
+                                                        <div id="tab6" class="tab-pane fade">
                                                             <div class="mt-10">
                                                             <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" alt="image">
                                                             <img class="mr-3 img-thumbnail" src="https://mdbootstrap.com/img/Photos/Others/placeholder6.jpg" alt="image">
@@ -420,18 +423,3 @@
 </div>
 <!-- /.content-wrapper -->
 <?php include("footer.php"); ?>
-
-<script>
-    $(function() {
-        $(".expand").on("click", function() {
-            // $(this).next().slideToggle(200);
-            $expand = $(this).find(">:first-child");
-
-            if ($expand.text() == "+") {
-                $expand.text("-");
-            } else {
-                $expand.text("+");
-            }
-        });
-    });
-</script>
