@@ -72,7 +72,7 @@
                         <input id="datetimepicker1" type="text" class="form-control" placeholder="Date">
                     </div>
                     <div class="md-form col-md-2">
-                        <button type="submit" class="btn btn-indigo btn-md pull-right">Find Price</button>
+                        <button  data-toggle="modal" data-target="#myModal" type="button" class="btn btn-indigo btn-md pull-right">Find Price</button>
                     </div>
                 </div>
             </form>
