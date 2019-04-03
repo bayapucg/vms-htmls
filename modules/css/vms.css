@@ -605,7 +605,12 @@
     margin-bottom: 0px;
     font-weight: 600;
 }
-
+.bvv-text {
+	font-weight:bold;
+}
+.bvv-number {
+	font-weight:bold;
+}
 .bv-vechile-info .bvv-name {
     padding-top: 0px;
 }
