@@ -70,7 +70,7 @@
 }
 
 .onoffswitch1-inner {
-    display: block; width: 200%; margin-left: -100%;
+    display: block; width: 200%; margin-left: -92%;
     -moz-transition: margin 0.3s ease-in 0s; -webkit-transition: margin 0.3s ease-in 0s;
     -o-transition: margin 0.3s ease-in 0s; transition: margin 0.3s ease-in 0s;
 }
@@ -102,7 +102,7 @@
     display: block; width: 30px; margin: 0px;
     background: #FFFFFF;
     border: 2px solid #999999; border-radius: 30px;
-    position: absolute; top: 0; bottom: 0; right: 56px;
+    position: absolute; top: 0; bottom: 0; right: 59px;
     -moz-transition: all 0.3s ease-in 0s; -webkit-transition: all 0.3s ease-in 0s;
     -o-transition: all 0.3s ease-in 0s; transition: all 0.3s ease-in 0s; 
     background-image: -moz-linear-gradient(center top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0) 80%); 
