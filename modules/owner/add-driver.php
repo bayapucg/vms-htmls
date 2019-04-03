@@ -7,7 +7,7 @@
     <section class="content">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="m-0 pull-left">Driver Info</h3>
+                <h3 class="m-0 pull-left"> Upload  files </h3>
                 <span class="pull-right"><a href="drivers-list.php" class="btn btn-primary btn-sm">Drivers List</a></span>
                 <div class="clearfix">&nbsp;</div>
             </div>
@@ -83,7 +83,7 @@
                             </div>
                             <br>
                             <ul class="list-inline text-center">
-                                <li><button type="button" class="btn btn-primary next-step">Submit</button></li>
+                                <li><a href="add-driver-step2.php" class="btn btn-primary next-step">Save & Continue</a></li>
                             </ul>
                         </form>
                     </div>
