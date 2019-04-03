@@ -17,6 +17,7 @@
     <link href="css/style.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
     <style type="text/css">
         @media (min-width: 800px) and (max-width: 850px) {

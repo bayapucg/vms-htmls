@@ -578,4 +578,18 @@
     <div class="p-5"></div>
 </div>
 <!-- /.content-wrapper -->
+<script>
+    $(function() {
+        $(".expand").on("click", function() {
+            // $(this).next().slideToggle(200);
+            $expand = $(this).find(">:first-child");
+
+            if ($expand.text() == "+") {
+                $expand.text("-");
+            } else {
+                $expand.text("+");
+            }
+        });
+    });
+</script>
 <?php include("footer.php"); ?>

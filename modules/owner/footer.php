@@ -101,10 +101,7 @@
         $('#example2').DataTable();
     });
 </script>
- <script src="../js/jquery-2.2.3.min.js"></script>
-    <script src="../js/bootstrapValidator.min.js"></script>
-    <!-- Bootstrap 3.3.7 -->
-    <script src="../js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

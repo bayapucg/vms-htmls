@@ -27,7 +27,10 @@
     <link rel="stylesheet" href="../css/_all-skins.min.css">
     <link rel="stylesheet" href="../css/vms.css">
     <!-- jQuery 2.2.3 -->
-   
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <script src="../js/bootstrapValidator.min.js"></script>
+    <!-- Bootstrap 3.3.7 -->
+    <script src="../js/bootstrap.min.js"></script>
 
 
 
