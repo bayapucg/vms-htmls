@@ -67,7 +67,7 @@
                                     <span>Listing</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="vehicle.php">Vehicle</a></li>
-                                    <li><a href="add-driver.php">Driver</a></li>
+                                    <li><a href="drivers-list.php">Driver</a></li>
                                     <li><a href="all-approvals.php">All Approvals</a></li>
                                 </ul>
                             </li>
