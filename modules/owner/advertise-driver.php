@@ -15,7 +15,7 @@
         </section>
 
         <section class="content">
-            <div class="box box-primary">
+            <div class="box box-danger">
                 <div class="box-body">
                     <div class="row">
                         <div class="col-md-12">

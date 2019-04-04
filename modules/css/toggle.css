@@ -147,13 +147,13 @@
 }
 
 .onoffswitch2-inner:before {
-    content: "YES";
+    content: "Confirm";
     padding-left: 10px;
     background-color: #2FCCFF; color: #FFFFFF;
 }
 
 .onoffswitch2-inner:after {
-    content: "NO";
+    content: "Reject";
     padding-right: 10px;
     background-color: #EEEEEE; color: #999999;
     text-align: right;

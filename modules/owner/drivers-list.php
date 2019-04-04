@@ -7,6 +7,7 @@
     <section class="content">
         <div class="row">
             <div class="col-xs-12">
+			
                 <div class="box panel-default">
              <div class="panel-heading">
                 <h3 class="m-0 pull-left">Drivers List</h3>
@@ -15,6 +16,7 @@
             </div>
 
                     <!-- /.box-header -->
+					
                     <div class="box-body">
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
@@ -91,7 +93,7 @@
                         </table>
                     </div>
                     <!-- /.box-body -->
-                </div>
+                
                 <!-- /.box -->
             </div>
             <!-- /.col -->
