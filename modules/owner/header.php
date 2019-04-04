@@ -9,6 +9,7 @@
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
     <link rel="shortcut icon" href="../img/heading-img.png" type="image/x-icon" />
+	
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrapValidator.min.css">
     <link rel="stylesheet" href="../css/custom.css">
@@ -20,6 +21,7 @@
     <!-- DataTables -->
     <link rel="stylesheet" href="../plugins/datepicker/datepicker3.css">
     <link rel="stylesheet" href="../css/dataTables.bootstrap.css">
+	 <link rel="stylesheet" href="../css/responsive.bootstrap.min.css">
     <link rel="stylesheet" href="../css/select2.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="../css/AdminLTE.min.css">
@@ -27,6 +29,11 @@
     <link rel="stylesheet" href="../css/_all-skins.min.css">
     <link rel="stylesheet" href="../css/vms.css">
     <link rel="stylesheet" href="../css/toggle.css">
+   
+    <link rel="stylesheet" href="../css/dataTables.bootstrap.min.css">
+
+	
+
     <!-- jQuery 2.2.3 -->
     <script src="../js/jquery-2.2.3.min.js"></script>
     <script src="../js/bootstrapValidator.min.js"></script>
