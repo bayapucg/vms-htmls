@@ -36,7 +36,7 @@
                                                                 <th class="col-md-2">Capacity</th>
 																<th class="col-md-2">Rating</th>
                                                                 <th class="col-md-2">Driver</th>
-                                                                <th class="col-md-1">Action</th>
+                                                                <th class="col-md-2">Action</th>
                                                             </tr>
                                                         </thead>
 
@@ -153,6 +153,7 @@
       
     </div>
   </div>
+  <div><a href="#"><button type="button" class="btn btn-success"><i class="fa fa-truck" aria-hidden="true"></i>Track</button></a></div>
 																
                                                             </td>
                                                             
@@ -165,7 +166,7 @@
                                                 </table>
                                             </div>
                                         </h4>
-										<div class="clearfix">&nbsp;</div>
+										
 									</div>
 									<div id="collapse1" class="panel-collapse collapse">
 										<div class="panel-body border-1px-ddd py-3 px-4">

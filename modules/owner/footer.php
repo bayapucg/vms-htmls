@@ -72,8 +72,11 @@
 <!-- Bootstrap 3.3.7 -->
 <!-- jQuery 2.2.3 -->
 
-<script src="../js/jquery.dataTables.min.js"></script>
-<script src="../js/dataTables.bootstrap.min.js"></script>
+
+
+
+
+
 <script src="../js/select2.full.min.js"></script>
 <!-- SlimScroll -->
 
@@ -94,11 +97,20 @@
 
 <!-- Bootstrap WYSIHTML5 -->
 <script src="../js/dashboard.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap.min.js"></script>
+
+
+
+
 
 <script>
     $(document).ready(function() {
         $('#example1').DataTable();
         $('#example2').DataTable();
+		 
     });
 </script>
 

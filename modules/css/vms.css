@@ -561,7 +561,9 @@
     font-size: 20px;
     cursor: pointer;
 }
-
+.row-sec {
+	margin-bottom:-27px;
+}
 .border-1px-ddd {
     border: 1px solid #ddd;
 }
