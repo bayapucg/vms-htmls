@@ -28,194 +28,52 @@
                         <form role="form">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label">Registration number</label>
-                                        <input type=" text" class="form-control " name="username" placeholder="Enter First Name">
-                                    </div>
-                                    <!-- /.input group -->
-                                </div>
-                            
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label class=" control-label">Issued Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
+										 <div class="form-group">
+                                        <label class="control-label">Insurance</label>
+                                        <input type="file" class="form-control "  >
                                     </div>
                                 </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Expiry Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">Vehicle Name</label>
-                                        <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="Enter Name"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">Capacity</label>
-                                        <div class="">
-                                            <input type="text" class="form-control" name="username" placeholder="in ton's"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Size</label>
-                                        <select class="form-control" name="">
-                                            <option value="" disabled selected>Select</option>
-                                            <option value="">Small</option>
-                                            <option value="">Medium</option>
-                                            <option value="">Large</option>
-                                            <option value="">Extra Large</option>
-                                        </select>
-                                    </div>
-                                </div>
-								<div class="col-md-3">
-                                    <div class="form-group">
-                                        <label class=" control-label">Height</label>
-                                        <div class="">
-                                            <input type="text" class="form-control" placeholder="Enter Vehicle Height"/>
-                                        </div>
-                                    </div>
-                                </div>
-								<div class="col-md-3">
-                                    <div class="form-group">
-                                        <label class=" control-label">Width</label>
-                                        <div class="">
-                                            <input type="text" class="form-control" placeholder="Enter Vehicle Width"/>
-                                        </div>
-                                    </div>
-                                </div>
-                               
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">Materail type</label>
-                                        <select class="form-control" name="">
-                                            <option value="" disabled selected>Select</option>
-                                            <option value="">Steel</option>
-                                            <option value="">wooden</option>
-                                      
-                                        </select>
-                                    </div>
-                                </div> 
 								<div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">Vehicle Type</label>
-                                        <select class="form-control" name="">
-                                            <option value="" disabled selected>Select</option>
-                                            <option value="">Open</option>
-                                            <option value="">Container</option>
-                                            <option value="">Troller</option>
-                                            <option value="">Other</option>
-                                        </select>
+										 <div class="form-group">
+                                        <label class="control-label">Fitness </label>
+                                        <input type="file" class="form-control "  >
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">Fuel Capacity</label>
-                                        <div class="">
-                                            <input type="text" class="form-control" name="fuel" placeholder="in liter's"/>
-                                        </div>
+								<div class="col-md-6">
+										 <div class="form-group">
+                                        <label class="control-label">Pollution  </label>
+                                        <input type="file" class="form-control "  >
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">RTO Document</label>
-                                        <div class="">
-                                            <input type="file" class="form-control" name="rto"/>
-                                        </div>
+								<div class="col-md-6">
+										 <div class="form-group">
+                                        <label class="control-label">RC  </label>
+                                        <input type="file" class="form-control "  >
+                                    </div>
+                                </div>
+								<div class="col-md-6">
+										 <div class="form-group">
+                                        <label class="control-label">Road Permit  </label>
+                                        <input type="file" class="form-control "  >
+                                    </div>
+                                </div>
+								<div class="col-md-6">
+										 <div class="form-group">
+                                        <label class="control-label">Owner ID PROOF  </label>
+                                        <input type="file" class="form-control "  >
+                                    </div>
+                                </div>
+								<div class="col-md-6">
+										 <div class="form-group">
+                                        <label class="control-label">Address Proof    </label>
+                                        <input type="file" class="form-control "  >
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label">R.C Number</label>
-                                        <input type=" text" class="form-control " name="username" placeholder="Enter R.C Number">
-                                    </div>
-                                    <!-- /.input group -->
-                                </div>
+                           
                             
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label class=" control-label">Issued Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Expiry Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label">Pollution Under Control Certificate Number</label>
-                                        <input type=" text" class="form-control " name="username" placeholder="Enter Polluction Certificate Number">
-                                    </div>
-                                    <!-- /.input group -->
-                                </div>
                             
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label class=" control-label">Issued Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Expiry Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label">Insurance Policy Number</label>
-                                        <input type=" text" class="form-control " name="username" placeholder="Enter Policy Number">
-                                    </div>
-                                    <!-- /.input group -->
-                                </div>
                             
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label class=" control-label">Issued Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Expiry Date</label>
-                                        <div class="">
-                                            <input type="date" class="form-control" name="username"/>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <br>
                             <ul class="list-inline text-center">
                                 <li><button type="button" class="btn btn-primary next-step">Submit</button></li>

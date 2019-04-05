@@ -95,10 +95,30 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ODISHA
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <button class="dropdown-item" type="button">1</button>
-                                <button class="dropdown-item" type="button">2</button>
-                                <button class="dropdown-item" type="button">3</button>
+                            <div style="min-width:300px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                               <div class="row"> 
+								   <div class="col-md-6"> 
+										<div class="district-modal-li">
+											<ul>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-6"> 
+									  <img src="img/st1.png" class=" img-fluid" alt="">
+									</div>
+								</div>
                             </div>
                         </div>
                     </li>
@@ -107,10 +127,30 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Andhra Pradesh
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <button class="dropdown-item" type="button">1</button>
-                                <button class="dropdown-item" type="button">2</button>
-                                <button class="dropdown-item" type="button">3</button>
+                            <div style="min-width:300px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                               <div class="row"> 
+								   <div class="col-md-6"> 
+										<div class="district-modal-li">
+											<ul>
+												<a href=""><li>AP-District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-6"> 
+									  <img src="img/st1.png" class=" img-fluid" alt="">
+									</div>
+								</div>
                             </div>
                         </div>
                     </li>
@@ -119,10 +159,30 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Telangana
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <button class="dropdown-item" type="button">1</button>
-                                <button class="dropdown-item" type="button">2</button>
-                                <button class="dropdown-item" type="button">3</button>
+                           <div style="min-width:400px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                               <div class="row"> 
+								   <div class="col-md-6"> 
+										<div class="district-modal-li">
+											<ul>
+												<a href=""><li>TG-District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-6"> 
+									  <img src="img/st1.png" class=" img-fluid" alt="">
+									</div>
+								</div>
                             </div>
                         </div>
                     </li>
@@ -131,10 +191,30 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 West Bengal
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <button class="dropdown-item" type="button">1</button>
-                                <button class="dropdown-item" type="button">2</button>
-                                <button class="dropdown-item" type="button">3</button>
+                          <div style="min-width:300px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                               <div class="row"> 
+								   <div class="col-md-6"> 
+										<div class="district-modal-li">
+											<ul>
+												<a href=""><li>WB-District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+												<a href=""><li>District-1 </li></a>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-6"> 
+									  <img src="img/st1.png" class=" img-fluid" alt="">
+									</div>
+								</div>
                             </div>
                         </div>
                     </li>

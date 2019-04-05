@@ -328,3 +328,9 @@ html {
 
 
 /* tabs styles */
+.district-modal-li li{
+	list-style-type:none;
+	margin:5px;
+	width:100%;
+	
+}
