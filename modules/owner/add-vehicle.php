@@ -1,6 +1,11 @@
 <?php include("header.php"); ?>
 
-
+<style>
+hr{
+	margin-top:0px
+	
+}
+</style>
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
 
