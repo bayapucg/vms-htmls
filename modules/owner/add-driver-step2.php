@@ -18,9 +18,28 @@
     <section class="content">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="m-0 pull-left">Driver Details</h3>
-                <span class="pull-right"><a href="drivers-list.php" class="btn btn-primary btn-sm">Driver List</a></span>
-                <div class="clearfix">&nbsp;</div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="mt-0 mb-0">Basic load</h3>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="stepper">
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" class="completed">
+                                    <a class="persistant-disabled" href="add-driver.php" title="Step 1">
+                                        <span class="round-tab">1</span>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a class="persistant-disabled" href=".php" title="Step 2">
+                                        <span class="round-tab">2</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>	
+                </div>
             </div>
             <div class="panel-body">
                 <div class="row">

@@ -13,9 +13,29 @@ hr{
     <section class="content">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="m-0 pull-left">Add Driver </h3>
-                <span class="pull-right"><a href="#" class="btn btn-primary btn-sm">Driver List</a></span>
-                <div class="clearfix">&nbsp;</div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h3 class="mt-0 mb-0">Add Driver</h3>
+                        
+                    </div>
+                    <div class="col-md-9">
+                        <div class="stepper">
+                            <ul class="nav nav-tabs">
+                                <li role="presentation" class="active">
+                                    <a class="persistant-disabled" href="full-load.php" title="Step 1">
+                                        <span class="round-tab">1</span>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a class="persistant-disabled" href="vechile-inforamtion-fl.php" title="Step 2">
+                                        <span class="round-tab">2</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -58,19 +78,22 @@ hr{
 					 <h3 class="m-0 pull-left">Driver Info </h3>
 				</div>
 					<div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Rto permission </label>
-										<select class="form-control">
-											<option> </option>
-											<option>Yes </option>
-											<option>No </option>
-										</select>
+										<input type="text" class="form-control" name="username"/>
                                         
                                     </div>
                                     <!-- /.input group -->
                                 </div> 
-								<div class="col-md-6">
+								<div class="col-md-4">
+                                    <div class="form-group">
+                                        <label class="control-label">Expiry Date  </label>
+                                        <input type="date" class="form-control " name="username" >
+                                    </div>
+                                    <!-- /.input group -->
+                                </div>
+								<div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Experience</label>
                                         <input type=" text" class="form-control " name="username" placeholder="Enter Experience">
