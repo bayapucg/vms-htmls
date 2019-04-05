@@ -14,7 +14,7 @@ hr{
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h3 class="m-0 pull-left">Add Vehicle </h3>
-                <span class="pull-right"><a href="vehicle-list.php" class="btn btn-primary btn-sm">Vehicles List</a></span>
+                <span class="pull-right"><a href="vehicle.php" class="btn btn-primary btn-sm">Vehicles List</a></span>
                 <div class="clearfix">&nbsp;</div>
             </div>
             <div class="panel-body">
