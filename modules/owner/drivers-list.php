@@ -87,7 +87,7 @@
 																
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-<div>  
+<div class="form-group">   
     <div class="onoffswitch1">
     <input type="checkbox" name="onoffswitch1" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
     <label class="onoffswitch1-label" for="myonoffswitch1">
