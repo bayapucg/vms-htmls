@@ -155,8 +155,8 @@
       
     </div>
   </div>
-  <div class="form-group"><a href="#"><button type="button" class="btn btn-warning btn-sm"><i class="fa fa-truck" aria-hidden="true"></i>Edit</button></a></div>
-  <div class="form-group"><a href="#"><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-truck" aria-hidden="true"></i>Delete</button></a></div>
+  <div class="form-group"><a href="#"><button type="button" class="btn btn-warning btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></div>
+  <div class="form-group"><a href="#"><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>Delete</button></a></div>
 																
                                                             </td>
                                                             
