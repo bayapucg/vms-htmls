@@ -34,11 +34,13 @@
                                                     <table width="100%">
                                                         <thead class="black white-text row">
                                                             <tr>
-                                                                <th class="col-md-2">Order Details</th>
-                                                                <th class="col-md-2">Load Details</th>
-																<th class="col-md-2">Shipping Details</th>
-                                                                <th class="col-md-2">Price</th>
-                                                                <th class="col-md-2">Status</th>
+                                                                <th class="col-md-1">Date/time</th>
+                                                                <th class="col-md-2">Booking Information</th>
+																<th class="col-md-2">Load/Board Point </th>
+                                                                <th class="col-md-2">Service-info</th>
+                                                                <th class="col-md-2">Customer Option</th>
+                                                                <th class="col-md-1">Status</th>
+                                                                <th class="col-md-1">Action</th>
                                                             </tr>
                                                         </thead>
 
@@ -58,58 +60,123 @@
                                                     <tbody class="row">
                                                         <tr>
                                                             <td class="bv-vechile-info col-md-2">
-                                                                <div class="bvv-text form-group"><i class="fa fa-calendar" aria-hidden="true"></i> 24/06/2019</div>
-																<div class="bvv-number form-group">Invoice No : TD23456</div>
-																<div class="bvv-number form-group">Order No : TD23456</div>
+                                                                <div class="bvv-text form-group"><i class="fa fa-calendar-o" aria-hidden="true"></i> 24/06/2019</div>
+                                                                <div class="bvv-text form-group"><i class="fa fa-calendar" aria-hidden="true"></i> 11 : 30 AM</div>
+																
+																
                                                                
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-                                                                <p>Size : 40cm</p>
-                                                                <p>Vehicle Type : Lorry</p>
-                                                                <p>Capacity : Lorry</p>
-                                                                <p>Height : 40cm</p>
-                                                                <p>Width : 25cm</p>
-																<p><i class="fa fa-balance-scale"></i> 16 Ton</p>
-                                                                <p>Wheel Type : Steel</p>
-                                                                <p>Axle</p>
+															<table>
+																		<thead></thead>
+																		<tbody>
+																			<tr>
+																				<th>BookingID</th>
+																				<td>: 45673</td>
+																			</tr>
+																			<tr>
+																				<th>InvoiceNo </th>
+																				<td>: 9856345</td>
+																			</tr>
+																			<tr>
+																				<th>Lorry No</th>
+																				<td>: TS67</td>
+																			</tr>
+																			<tr>
+																				<th>Way Bill No </th>
+																				<td>: 45673</td>
+																			</tr>
+																			<tr>
+																				<th>Billti No </th>
+																				<td>: 98567</td>
+																			</tr>
+																		</tbody>
+																	</table>
+
                                                             </td>
 															<td class="bv-loading-dt col-md-2">
-                                                                <div class="media">
-																 <p>Rajendra</p>
-																 <p>Hyderabad - Vijayawada</p>
-																 <p>272.2 km</p>
-                                                                    
-                                                                    <div class="media-body">
-																	
-                                                                        <p class=""><i class="fa fa-calendar"></i>06:00 - 10:00 AM</p>
-                                                                        <p class="pt-0">02/01/1995</p>
-                                                                    </div>
-																	
-                                                                <p>Vehicle Type : Lorry</p>
-                                                                <p>Capacity : Lorry</p>
-                                                                </div>
+															<table>
+																		<thead></thead>
+																		<tbody>
+																			<tr>
+																				<th>Loading Point</th>
+																				<td>:Hyderabad</td>
+																			</tr>
+																			<tr>
+																				<th>Boarding Point</th>
+																				<td>:Bangalore</td>
+																			</tr>
+																			
+																		</tbody>
+																	</table>
+                                                               
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-                                                                <h4>INR 2000.00</h4>
+                                                                <table>
+																		<thead></thead>
+																		<tbody>
+																			<tr>
+																				<th>Size</th>
+																				<td>: 20cm</td>
+																			</tr>
+																			<tr>
+																				<th>Type </th>
+																				<td>: steel</td>
+																			</tr>
+																			<tr>
+																				<th>Capacity</th>
+																				<td>: 5</td>
+																			</tr>
+																			
+																		</tbody>
+																	</table>
+                                                                
+																
+                                                            </td>
+															<td class="bv-capacity col-md-2">
+                                                               <table>
+																		<thead></thead>
+																		<tbody>
+																			<tr>
+																				<th></th>
+																				<th>Date</th>
+																				<th>Time</th>
+																			</tr>
+																			<tr>
+																				<td>Hyderabad</td>
+																				<td>08/05/2019</td>
+																				<td>11:00AM</td>
+																			</tr>
+																			<tr>
+																				<td>Bangalore</td>
+																				<td>09/05/2019</td>
+																				<td>05:00PM</td>
+																			</tr>
+																			
+																		</tbody>
+																	</table>
+                                                                
+																
+                                                            </td>
+															<td class="bv-capacity col-md-2">
+                                                               <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block">Complete</button></div>
+<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >On Way</button></div>
+<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >Reject</button></div>
+
+  <!-- Modal -->
+  
+<div><a href="#"><button type="button" class="btn btn-default btn-sm btn-block">Cance1</button></a></div>
                                                                 
 																
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-<div>  
-    <div class="onoffswitch2">
-    <input type="checkbox" name="onoffswitch2" class="onoffswitch2-checkbox" id="myonoffswitch2" checked>
-    <label class="onoffswitch2-label" for="myonoffswitch2">
-        <span class="onoffswitch2-inner"></span>
-        <span class="onoffswitch2-switch"></span>
-    </label>
-    </div>
-</div>
-                                                                <div class="form-group"><button type="button" class="btn btn-success" ><i class="fa fa-print" aria-hidden="true"></i>Print</button></div>
-																<div class="form-group"><button type="button" class="btn btn-warning" ><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></div>
+<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" disabled>Reject</button></div>
+<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >Print</button></div>
+<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >Print Tax Invoice</button></div>
 
   <!-- Modal -->
   
-  <div><a href="#"><button type="button" class="btn btn-danger"><i class="fa fa-truck" aria-hidden="true"></i>Track</button></a></div>
+<div><a href="#"><button type="button" class="btn btn-default btn-sm btn-block">Refund</button></a></div>
 																
                                                             </td>
                                                             

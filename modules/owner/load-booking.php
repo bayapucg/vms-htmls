@@ -16,40 +16,38 @@
 
     <section class="content">
         <div class="panel with-nav-tabs panel-default">
-            <div class="panel-heading">
-                Select your load type
-            </div>
-            <div class="panel-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="panel  panel-default back-load">
-                            <a class="" href="full-load.php">
-                                <div class="panel-body">
-                                    <h3 class="text-center"><i class="fa fa-edit"></i> Full Load</h3>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="panel  panel-default back-load">
-                            <a class="" href="part-load.php">
-                                <div class="panel-body">
-                                    <h3 class="text-center"><i class="fa fa-edit"></i> Part Load</h3>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="panel  panel-default back-load">
-                            <a class="" href="box-load.php">
-                                <div class="panel-body">
-                                    <h3 class="text-center"><i class="fa fa-edit"></i> Box</h3>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+            
+				<div class="panel-body border-1px-ddd py-3 px-4">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="nav nav-tabs">
+								<li class="active">	<a data-toggle="tab" href="#tab1">Create Bookings</a>
+								</li>
+								<li>	<a data-toggle="tab" href="#tab2">Manage Bookings</a>
+								</li>
+								<li>	<a data-toggle="tab" href="#tab3">Cancel Bookings</a>
+								</li>
+								<li>	<a data-toggle="tab" href="#tab4">Deliver Bookings</a>
+								</li>
+							</ul>
+							<div class="tab-content">
+								<div id="tab1" class="tab-pane fade in active">
+									
+									
+									
+								</div>
+								<div id="tab2" class="tab-pane fade">
+									
+								</div>
+								<div id="tab3" class="tab-pane fade">
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				
+			</div>
         </div>
     </section>
     <!-- /.content -->
