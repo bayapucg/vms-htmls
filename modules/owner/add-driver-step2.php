@@ -20,7 +20,7 @@
             <div class="panel-heading">
                 <div class="row">
                     <div class="col-md-3">
-                        <h3 class="mt-0 mb-0">Basic load</h3>
+                        <h3 class="mt-0 mb-0">Upload Documents</h3>
                     </div>
                     <div class="col-md-9">
                         <div class="stepper">

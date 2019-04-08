@@ -38,7 +38,7 @@ hr{
                 </div>
             </div>
             <div class="panel-body">
-                <div class="row">
+                <div class="">
                 <div class="col-md-12 ">
 					 <h3 class="m-0 pull-left">Basic details </h3>
 				</div>
@@ -46,7 +46,7 @@ hr{
                 <div class="row">
                     <div class="col-md-12">
                         <form role="form">
-                            <div class="row">
+                            <div class="">
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Name</label>
@@ -77,7 +77,7 @@ hr{
 				<div class="col-md-12 ">
 					 <h3 class="m-0 pull-left">Driver Info </h3>
 				</div>
-					<div class="row">
+					<div class="">
                                 <div class="col-md-4">
                                     <div class="form-group">
                                         <label class="control-label">Rto permission </label>
@@ -230,10 +230,6 @@ hr{
 								
 									</div>	
 									
-								
-							
-                                </div>
-								
 								<div class="col-md-6">
 										 <div class="form-group">
                                         <label class="control-label">Size category    </label>
@@ -262,12 +258,16 @@ hr{
                                         <input type="file" class="form-control "  >
                                     </div>
                                 </div>
-								<div class="col-md-6">
+							<div class="col-md-6">
 										 <div class="form-group">
                                         <label class="control-label">Material name   </label>
                                         <input type="text" class="form-control "  >
                                     </div>
                                 </div>
+								
+                                </div>
+								
+								
 								
                     </div>
 								

@@ -63,11 +63,32 @@
                                                                 </div>
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-                                                                <p>DL No : AP1420110062821</p>
-                                                                <p>RTO Permission : yes</p>
-																<p>Vehicle : Lorry</p>
-                                                                <p>Experience : 6</p>
-                                                                <p>Address : hyderabad </p>
+															<table>
+															<thead></thead>
+															<tbody>
+															<tr>
+															<th>DL No</th>
+															<td>: AP142011006282</td>
+															</tr>
+															<tr>
+															<th>RTO Permission </th>
+															<td>: yes</td>
+															</tr>
+															<tr>
+															<th>Vehicle </th>
+															<td>: Lorry</td>
+															</tr>
+															<tr>
+															<th>Experience </th>
+															<td>: 6</td>
+															</tr>
+															<tr>
+															<th>Address </th>
+															<td>: hyderabad</td>
+															</tr>
+															</tbody>
+															</table>
+                                                             
                                                             </td>
 															<td class="bv-rating col-md-2">
                                                                 <p>4.5</p>
@@ -87,17 +108,11 @@
 																
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-<div class="form-group">   
-    <div class="onoffswitch1">
-    <input type="checkbox" name="onoffswitch1" class="onoffswitch1-checkbox" id="myonoffswitch1" checked>
-    <label class="onoffswitch1-label" for="myonoffswitch1">
-        <span class="onoffswitch1-inner"></span>
-        <span class="onoffswitch1-switch"></span>
-    </label>
-    </div>
-</div>
+
+
                                                                 
-																<div class="form-group"><button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#myModal"><i class="fa fa-info" aria-hidden="true"></i>Details</button></div>
+																<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" data-toggle="modal" data-target="#myModal" disabled>Active</button></div>
+																<div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" data-toggle="modal" data-target="#myModal">Details</button></div>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -107,10 +122,10 @@
       <div class="modal-content">
         <div class="modal-header btn-danger">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Vehicle Details</h4>
+          <h4 class="modal-title">Driver Details</h4>
         </div>
         <div class="modal-body">
-		<table class="table-responsive">
+		<table class="table-responsive table-bordered" style="width:100%">
 		<thead></thead>
 		<tbody class="row">
 		<tr>
@@ -155,8 +170,8 @@
       
     </div>
   </div>
-  <div class="form-group"><a href="#"><button type="button" class="btn btn-warning btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Edit</button></a></div>
-  <div class="form-group"><a href="#"><button type="button" class="btn btn-danger btn-sm"><i class="fa fa-trash" aria-hidden="true"></i>Delete</button></a></div>
+  <div class="form-group"><a href="#"><button type="button" class="btn btn-default btn-sm btn-block">Edit</button></a></div>
+  <div class="form-group"><a href="#"><button type="button" class="btn btn-default btn-sm btn-block">Delete</button></a></div>
 																
                                                             </td>
                                                             
