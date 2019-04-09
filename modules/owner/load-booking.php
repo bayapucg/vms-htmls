@@ -13,12 +13,9 @@
             <li class="active">Load Booking</li>
         </ol>
     </section>
-
-    <section class="content">
+<section class="content">
         <div class="panel with-nav-tabs panel-default">
-            
-            
-				<div class="panel-body border-1px-ddd py-3 px-4">
+            <div class="panel-body border-1px-ddd py-3 px-4">
 					<div class="row">
 						<div class="col-md-12">
 							<ul class="nav nav-tabs">
@@ -49,7 +46,6 @@
     </section>
 	<section class="content">
 		<div class="panel with-nav-tabs panel-default">
-			
 			<div class="panel-body ">
 				<div class="tab-content">
 					<form action="" method="">
@@ -72,8 +68,7 @@
                                                                 <th class="col-md-1">Action</th>
                                                             </tr>
                                                         </thead>
-
-                                                    </table>
+													</table>
                                                 </div>
                                             </h4>
 										</div>
@@ -92,10 +87,7 @@
                                                             <td class="bv-vechile-info col-md-2">
                                                                 <div class="bvv-text form-group"><i class="fa fa-calendar-o" aria-hidden="true"></i> 24/06/2019</div>
                                                                 <div class="bvv-text form-group"><i class="fa fa-calendar" aria-hidden="true"></i> 11 : 30 AM</div>
-																
-																
-                                                               
-                                                            </td>
+															 </td>
                                                             <td class="bv-capacity col-md-2">
 															<table>
 																		<thead></thead>
@@ -122,8 +114,7 @@
 																			</tr>
 																		</tbody>
 																	</table>
-
-                                                            </td>
+																</td>
 															<td class="bv-loading-dt col-md-2">
 															<table>
 																		<thead></thead>
@@ -160,9 +151,7 @@
 																			
 																		</tbody>
 																	</table>
-                                                                
-																
-                                                            </td>
+                                                           </td>
 															<td class="bv-capacity col-md-2">
                                                                <table>
 																		<thead></thead>
@@ -185,35 +174,19 @@
 																			
 																		</tbody>
 																	</table>
-                                                                
-																
                                                             </td>
 															<td class="bv-capacity col-md-2">
                                                                <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block">Complete</button></div>
 <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >On Way</button></div>
 <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >Reject</button></div>
-
-  <!-- Modal -->
-  
 <div><a href="#"><button type="button" class="btn btn-default btn-sm btn-block">Cance1</button></a></div>
-                                                                
-																
-                                                            </td>
+                                                           </td>
                                                             <td class="bv-capacity col-md-2">
 <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" disabled>Reject</button></div>
 <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >Print</button></div>
 <div class="form-group"><button type="button" class="btn btn-default btn-sm btn-block" >Print Tax Invoice</button></div>
-
-  <!-- Modal -->
-  
 <div><a href="#"><button type="button" class="btn btn-default btn-sm btn-block">Refund</button></a></div>
-																
-                                                            </td>
-                                                            
-
-                                                            <!--<td class="bv-book col-md-1">
-                                                                <a href="order-conformation-fl.php" class="btn btn-md btn-warning">Book Now</a>
-                                                            </td>-->
+															</td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
@@ -348,8 +321,7 @@
                                             </div>
                                             <div class="table-responsive">
                                                 <table width="100%">
-
-                                                    <tbody class="row">
+													<tbody class="row">
                                                         <tr>
                                                             <td class="bv-vechile-info col-md-2">
                                                                 <div class="bvv-text">Venkateswarlu</div>
@@ -394,9 +366,7 @@
                                                             <td class="bv-price col-md-2">
                                                                 <h4>INR 2000.00</h4>
 										</td>
-										<!--<td class="bv-book col-md-1">
-                                                                <a href="order-conformation-fl.php" class="btn btn-md btn-warning">Book Now</a>
-                                                            </td>-->
+										
 										</tr>
 										</tbody>
 										</table>
@@ -577,9 +547,6 @@
                                                             <td class="bv-price col-md-2">
                                                                 <h4>INR 2000.00</h4>
 									</td>
-									<!--<td class="bv-book col-md-1">
-                                                                <a href="order-conformation-fl.php" class="btn btn-md btn-warning">Book Now</a>
-                                                            </td>-->
 									</tr>
 									</tbody>
 									</table>
