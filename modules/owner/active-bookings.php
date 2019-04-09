@@ -52,7 +52,8 @@
 									<div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
 										<h4 class="panel-title vechiles-list">
                                             <div class="expand" id="expand_content">
-                                                <div data-toggle="collapse" data-parent="#accordion" data-target="#collapse1" class="right-arrow " style="">+</div>
+                                                <div data-toggle="collapse" data-parent="#accordion" data-target="#collapse1" class="right-arrow " style=""><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+</div>
                                             </div>
                                             <div class="table-responsive">
                                                 <table width="100%">
