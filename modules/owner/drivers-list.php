@@ -15,7 +15,7 @@
 	<section class="content">
 		<div class="panel with-nav-tabs panel-default">
 			<div class="panel-heading">
-				<h4 class="m-0 pull-left">Select your module</h4>
+				<h4 class="m-0 pull-left">Driver</h4>
 				<span class="pull-right"><a href="add-driver.php" class="btn btn-primary btn-sm">+ Add driver</a></span>
 				<div class="clearfix">&nbsp;</div>
 			</div>
@@ -32,9 +32,9 @@
                                                     <table width="100%">
                                                         <thead class="black white-text row">
                                                             <tr>
-                                                                <th class="col-md-2">Driver Info</th>
+                                                                <th class="col-md-3">Driver Info</th>
                                                                 <th class="col-md-2">Basic info</th>
-																<th class="col-md-2">Rating</th>
+																<th class="col-md-3">Rating</th>
                                                                 <th class="col-md-2">Driver</th>
                                                                 <th class="col-md-2">Action</th>
                                                             </tr>
@@ -124,8 +124,8 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4 class="modal-title">Driver Details</h4>
         </div>
-        <div class="modal-body">
-		<table class="table-responsive table-bordered" style="width:100%">
+        <div class="modal-body table-responsive">
+		<table class="table-bordered" style="width:100%">
 		<thead></thead>
 		<tbody class="row">
 		<tr>
