@@ -550,7 +550,7 @@
 
 .right-arrow {
     position: absolute;
-    bottom: 5px;
+    bottom: -1px;
     left: 5px;
     background: #f00;
     color: #fff;
@@ -560,6 +560,33 @@
     width: 25px;
     font-size: 20px;
     cursor: pointer;
+}
+.right-arrow1 {
+	position: absolute;
+    bottom: 0px;
+    right: 25px;
+    color: #333;
+    padding: 0px;
+    border-radius: 0%;
+    height: 30px;
+    width: 18%;
+    cursor: pointer;
+	font-size:15px;
+}
+.right-arrow2 {
+	position: absolute;
+    bottom: -1px;
+    right: 18px;
+    color: #333;
+    padding: 0px;
+    border-radius: 0%;
+    height: 20px;
+    width: 18%;
+    cursor: pointer;
+    font-size: 12px;
+}
+.table_res {
+	margin-top:-22px;
 }
 .row-sec {
 	margin-bottom:-27px;
@@ -904,14 +931,28 @@
 .view-more:hover{
     text-decoration: underline;
 }
-
+.more_button {
+	
+}
 
 
 @media (min-width:769px){
     .dropdown .dropdown-menu{
         display: none;
     }
-    
+    /* .right-arrow1 { */
+		/* position: absolute; */
+    /* bottom: 5px; */
+    /* right: 25px; */
+    /* color: #333; */
+    /* padding: 0px; */
+    /* border-radius: 0%; */
+    /* height: 30px; */
+    /* width: 18%; */
+    /* font-size: 20px; */
+    /* cursor: pointer; */
+	/* font-size:13px; */
+	/* } */
     .dropdown:hover > a{
         background:  rgba(0, 0, 0, 0.1);
     }

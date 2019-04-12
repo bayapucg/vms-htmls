@@ -89,9 +89,9 @@
                                     <span>Loads</span><span class="caret"></span></a>
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="load-booking.php">Create Load</a></li>
-                                    <li><a href="active-bookings.php">Active Bookings</a></li>
-                                    <li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
-                                    <li><a href="load-delivery-list.php">Load Delivered List</a></li>
+                                    <li><a href="manage-load.php">Manage Load</a></li>
+                                    <!--<li><a href="cancelled-bookings.php">Cancelled Bookings</a></li>
+                                    <li><a href="load-delivery-list.php">Load Delivered List</a></li>-->
                                 </ul>
                             </li>
                             <li class="dropdown">

@@ -51,8 +51,13 @@
 										<h4 class="panel-title vechiles-list">
 											<div class="expand" id="expand_content">
 												<div data-toggle="collapse" data-parent="#accordion" data-target="#collapse1" class="right-arrow " style="">+</div>
+												<div class="form-group">
+							<a href="#">
+								<button type="button" class="btn btn-default btn-sm btn-block toggle-vechile-info-btn more_button right-arrow1">more information<i class="fa fa-arrow-down" aria-hidden="true"></i></button>
+							</a>
+						</div>
 											</div>
-											<div class="table-responsive">
+											<div class="table-responsive table_res">
 												<table width="100%">
 													<tbody class="row">
 														<tr>
@@ -299,11 +304,7 @@
 								<button type="button" class="btn btn-default btn-sm btn-block">Track</button>
 							</a>
 						</div>
-						<div class="form-group">
-							<a href="#">
-								<button type="button" class="btn btn-default btn-sm btn-block toggle-vechile-info-btn">more information</button>
-							</a>
-						</div>
+						
 						</td>
 						</tr>
 						</tbody>
@@ -681,6 +682,7 @@
 							<h4 class="panel-title vechiles-list">
 																																					<div class="expand">
 																																						<div data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="right-arrow " style="">+</div>
+																																						
 																																					</div>
 																																					<div class="table-responsive">
 																																						<table width="100%">
