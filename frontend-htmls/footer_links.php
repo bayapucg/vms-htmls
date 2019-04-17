@@ -1,9 +1,9 @@
 
-    <script type="text/javascript" src="js/bootstrapValidator.js"></script>
+    <script type="text/javascript" src="../frontend/js/bootstrapValidator.js"></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script type="text/javascript" src="js/moment.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="../frontend/js/mdb.min.js"></script>
+    <script type="text/javascript" src="../frontend/js/moment.min.js"></script>
+    <script type="text/javascript" src="../frontend/js/bootstrap-datetimepicker.min.js"></script>
       <!-- Initializations -->
   <script type="text/javascript">
     // Animations initialization
