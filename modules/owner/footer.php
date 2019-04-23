@@ -71,7 +71,7 @@
 
 <!-- Bootstrap 3.3.7 -->
 <!-- jQuery 2.2.3 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 <script src="../js/jquery.dataTables.min.js"></script>
 <script src="../js/dataTables.bootstrap.min.js"></script>
 <script src="../js/select2.full.min.js"></script>
