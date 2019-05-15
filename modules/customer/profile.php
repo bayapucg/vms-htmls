@@ -56,11 +56,29 @@
                                     <table class="table table-user-information">
                                         <tbody>
                                             <tr>
-                                                <td>Name:</td>
-                                                <td>Customer1</td>
+                                                <td>Registration No:</td>
+                                                <td>123456</td>
                                             </tr>
                                             <tr>
-                                                <td>Contact number:</td>
+                                                <td>Gst:</td>
+                                                <td>850022xxxx</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Pan</td>
+                                                <td>45676845xxxx</td>
+                                            </tr>
+
+                                            <tr>
+                                            <tr>
+                                                <td>Name</td>
+                                                <td>Rajendra</td>
+                                            </tr>
+											<tr>
+                                                <td>Company Name:</td>
+                                                <td>Prachatech</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mobile number:</td>
                                                 <td>850022xxxx</td>
                                             </tr>
                                             <tr>
@@ -70,8 +88,18 @@
 
                                             <tr>
                                             <tr>
-                                                <td>Company name or Individual</td>
-                                                <td>Prachatech</td>
+                                                <td>Address</td>
+                                                <td>Pistha House Fortune signature</td>
+                                            </tr>
+<tr>
+                                                <td>Geo Location</td>
+                                                <td>customer1@gamil.com</td>
+                                            </tr>
+
+                                            <tr>
+                                            <tr>
+                                                <td>Godan Address</td>
+                                                <td>Pistha House Fortune signature</td>
                                             </tr>
 
 

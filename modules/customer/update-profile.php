@@ -16,15 +16,15 @@
                         <form id="defaultForm" method="post" class="" action="update-profile.php">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class=" control-label">Name</label>
+                                    <label class=" control-label">Registration No</label>
                                     <div class="">
-                                        <input type="text" class="form-control" name="username" value="Customer1" />
+                                        <p>123456</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class=" control-label">Contact Number</label>
+                                    <label class=" control-label">Gst</label>
                                     <div class="">
                                         <input type="text" class="form-control" name="username" value="850022xxxx" />
                                     </div>
@@ -32,7 +32,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class=" control-label">Email</label>
+                                    <label class=" control-label">Pan</label>
                                     <div class="">
                                         <input type="mail" class="form-control" name="username" value="customer1@gmail.com" />
                                     </div>
@@ -40,9 +40,58 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label class=" control-label">Company Name or Individual</label>
+                                    <label class=" control-label">Name</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="username" value="Rajendra" />
+                                    </div>
+                                </div>
+                            </div>
+							<div class="col-md-6">
+                                <div class="form-group">
+                                    <label class=" control-label">Company Name</label>
                                     <div class="">
                                         <input type="text" class="form-control" name="username" value="Prachatech" />
+                                    </div>
+                                </div>
+                            </div>
+							<div class="col-md-6">
+                                <div class="form-group">
+                                    <label class=" control-label">Mobile Number</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="username" value="872345xxxx" />
+                                    </div>
+                                </div>
+                            </div>
+							<div class="col-md-6">
+                                <div class="form-group">
+                                    <label class=" control-label">Email Id</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="username" value="prachatech@gmail.com" />
+                                    </div>
+                                </div>
+                            </div>
+							
+							<div class="col-md-6">
+                                <div class="form-group">
+                                    <label class=" control-label">Geo Location</label> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="username" value="prachatech@gmail.com" />
+                                    </div>
+                                </div>
+                            </div>
+							<div class="col-md-6">
+                                <div class="form-group">
+                                    <label class=" control-label">Address</label>
+                                    <div class="">
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>	
+							<div class="col-md-6">
+                                <div class="form-group">
+                                    <label class=" control-label">Godan Address</label>
+                                    <div class="">
+                                        <textarea class="form-control"></textarea>
                                     </div>
                                 </div>
                             </div>
