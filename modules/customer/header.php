@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- DataTables -->
-    <link rel="stylesheet" href="../plugins/datepicker/datepicker3.css">
+   
+    <link rel="stylesheet" href="../plugins/datepicker/bootstrap-datetimepicker.min.css">
+
     <link rel="stylesheet" href="../css/dataTables.bootstrap.css">
     <link rel="stylesheet" href="../css/select2.min.css">
     <!-- Theme style -->
@@ -26,6 +28,7 @@
 
     <link rel="stylesheet" href="../css/_all-skins.min.css">
     <link rel="stylesheet" href="../css/vms.css">
+	    <link href="../css/style.min.css" rel="stylesheet">
     <!-- jQuery 2.2.3 -->
     <script src="../js/jquery-2.2.3.min.js"></script>
     <script src="../js/bootstrapValidator.min.js"></script>
@@ -83,11 +86,12 @@
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
                             <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
-                            <li><a href="#">text</a></li>
--->
+                            <li><a href="#">text</a></li>-->
+                            <li><a href="#">VMS MONEY - 5029/-</a></li>
+
 
                             <li class="dropdown user user-menu">
+							
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <img src="../img/user.png" class="user-image" alt="User Image">
                                     <span class="hidden-xs">Customer</span>

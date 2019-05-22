@@ -469,6 +469,7 @@
 
 .bg-breadcumb {
     background: #fff !important;
+	padding-top:10px;
 }
 
 .bottom-nav1 ul > li {
