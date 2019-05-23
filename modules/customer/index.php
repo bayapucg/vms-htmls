@@ -3,8 +3,23 @@
     ul li{
 	list-style-type:none;
 }
+.select_vms {
+	    border-top: 0px solid black;
+	    border-right: 0px solid black;
+	    border-left: 0px solid black;
+    
+}
+.radio-inline {
+	color:#333;
+	font-weight:400;
+}
+<!--.bg-img {
+	background-image:url("../img/banner-vehicle.jpg");
+	background-size: cover;
+	
+}-->
 </style>
-<div class="content-wrapper">
+<div class="content-wrapper ">
 
 
     
@@ -55,55 +70,68 @@
         </div>
     </section>
 	<div>
-	<img src="../img/banner-vehicle.jpg" style="width:100%;height:350px;">
+	<img src="../img/bg-back.png" class="img-responsive" style="width:100%;">
 	</div>
     <section class="content">
 	
         <!-- Info boxes -->
-        <div style="position:absolute;top:70%;left:25%;width:50%;-webkit-transform: translate(5%, -50%);
+        <div  style="position:absolute;top:66%;left:25%;width:50%;-webkit-transform: translate(5%, -50%);
   transform: translate(20%, -50%);">
-    <div class="row py-2">
+    <div class="row ">
         <div class="col-md-12 ">
-            <div class="px-5 search-main-label">
+           <!-- <div class="px-5 search-main-label">
+
+                
+			<label class="radio-inline">
+				  <input type="radio" name="opt" checked> Full Load
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="opt"> Part Load
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="opt"> Box
+				</label>
+            </div>-->
+        </div>
+    </div>
+    <div class="card col-md-12 px-5 " style="border-radius:0px;border:2px solid #d73925;">
+        <!--Card content-->
+        <div class="card-body" style="padding:0;">
+		<div class="px-3 search-main-label">
 
                 <!-- Default inline 1-->
 			<label class="radio-inline">
-				  <input type="radio" name="optradio" checked> Full Load
+				  <input type="radio" name="opt" checked> Full Load
 				</label>
 				<label class="radio-inline">
-				  <input type="radio" name="optradio"> Part Load
+				  <input type="radio" name="opt"> Part Load
 				</label>
 				<label class="radio-inline">
-				  <input type="radio" name="optradio"> Box
+				  <input type="radio" name="opt"> Box
 				</label>
             </div>
-        </div>
-    </div>
-    <div class="card col-md-12 px-5 " style="border-radius:50px;border:2px solid #333;">
-        <!--Card content-->
-        <div class="card-body" style="padding:0;">
             <!-- Form -->
             <form name="">
                 <div class="row main-search">
-                    <div class="form-group col-md-3 md-form mt-3">
-                        <select class="form-control" style="">
+                    <div class=" col-md-3 md-form mt-3">
+                        <select class="form-control select_vms" style="">
                             <option selected disabled>Pickup Point</option>
                             <option value="1">Kukatpaly</option>
                             <option value="2">Ameerpet</option>
                             <option value="3">Miyapur</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-3 md-form mt-3">
-                        <select class="form-control" style="">
+                    <div class=" col-md-3 md-form mt-3">
+                        <select class="form-control select_vms" style="">
                             <option selected>Delivery Point</option>
                             <option value="1">Guntur</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-3 md-form mt-3">
-                        <input id="datetimepicker1" type="text" class="form-control" placeholder="Date">
+                    <div class="col-md-3 md-form mt-3 ">
+                        <input type="text" class="form-control datetimepicker1 select_vms" placeholder="Date">
                     </div>
                     <div class="md-form col-md-2 md-form mt-3">
-                        <button  data-toggle="modal" data-target="#myModal" type="button" class="btn btn-indigo btn-md pull-right">Search</button>
+                        <button  data-toggle="modal" data-target="#myModal" type="button" class="btn btn-danger btn-md pull-right" >Search</button>
                     </div>
                 </div>
             </form>
@@ -119,88 +147,9 @@
 </div>
 <!-- /.content-wrapper -->
 <?php include("footer.php"); ?>
-<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <script type="text/javascript">
-    google.charts.load('current', {
-        'packages': ['corechart']
+    $(function() {
+        $('.datetimepicker1').datetimepicker();
     });
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-        var data = google.visualization.arrayToDataTable([
-            ['task', 'Hours per Day'],
-            ['BOOKING HISTORY', 8],
-            ['PAYMENT HISTORY', 8],
-            ['WALLET', 2],
-            ['DUMMY', 4],
-        ]);
-        var options = {
-            'title': '',
-            'width': 400,
-            'height': 300
-        };
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-        chart.draw(data, options);
-    }
 </script>
-<script>
-    window.onload = function() {
-        var chart = new CanvasJS.Chart("chartContainer", {
-            animationEnabled: true,
-            theme: "light2",
-            title: {
-                text: "DAY TO DAY LOADS"
-            },
-            axisY: {
-                includeZero: false
-            },
-            data: [{
-                type: "line",
-                dataPoints: [{
-                        y: 450
-                    },
-                    {
-                        y: 414
-                    },
-                    {
-                        y: 520,
-                        indexLabel: "highest",
-                        markerColor: "red",
-                        markerType: "triangle"
-                    },
-                    {
-                        y: 460
-                    },
-                    {
-                        y: 450
-                    },
-                    {
-                        y: 500
-                    },
-                    {
-                        y: 480
-                    },
-                    {
-                        y: 480
-                    },
-                    {
-                        y: 410,
-                        indexLabel: "lowest",
-                        markerColor: "DarkSlateGrey",
-                        markerType: "cross"
-                    },
-                    {
-                        y: 500
-                    },
-                    {
-                        y: 480
-                    },
-                    {
-                        y: 510
-                    }
-                ]
-            }]
-        });
-        chart.render();
-    }
-</script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
