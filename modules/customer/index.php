@@ -27,37 +27,17 @@
         <div class="row">
             <div class="col-md-6 bottom-nav1">
                 <ul class="pad-breadcumb">
-                    <li class="icon_size1"><a href="index.php">
-                            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-
-                        </a></li>
-                    <li class="icon_size1"><a href="profile.php">
-                            <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
-
-                        </a>
-                        </i>
-                    </li>
-					<li class="icon_size1"><a href="index.php">
-                            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
-
-                        </a></li>
-                    <li class="icon_size1"><a href="profile.php">
-                            <i class="fa fa-user" aria-hidden="true"></i> <span>My Profile</span>
-
-                        </a>
-                        </i>
-                    </li>
-
-
-
-
-                </ul>
+                    <li class="icon_size1">
+						<a href="index.php">
+                            <i class="fa fa-dashboard"></i> <span>Home</span>
+						</a>
+					</li>
+				</ul>
             </div>
             <div class=" col-md-6">
-
-                <ul class="bottom-nav">
-
-                    <li class="icon_size1"><i class="fa fa-heart" aria-hidden="true"></i>
+				<ul class="bottom-nav">
+					<li class="icon_size1">
+						<i class="fa fa-heart" aria-hidden="true"></i>
                         <i class="fa fa-heart" aria-hidden="true"></i>
                         <i class="fa fa-heart" aria-hidden="true"></i>
                         <i class="fa fa-heart" aria-hidden="true"></i>
@@ -70,46 +50,18 @@
         </div>
     </section>
 	<div>
-	<img src="../img/bg-back.png" class="img-responsive" style="width:100%;">
+	<img src="../img/bg-back.png" class="img-responsive" style="max-height:200px;width:100%">
 	</div>
     <section class="content">
 	
         <!-- Info boxes -->
         <div  style="position:absolute;top:66%;left:25%;width:50%;-webkit-transform: translate(5%, -50%);
   transform: translate(20%, -50%);">
-    <div class="row ">
-        <div class="col-md-12 ">
-           <!-- <div class="px-5 search-main-label">
-
-                
-			<label class="radio-inline">
-				  <input type="radio" name="opt" checked> Full Load
-				</label>
-				<label class="radio-inline">
-				  <input type="radio" name="opt"> Part Load
-				</label>
-				<label class="radio-inline">
-				  <input type="radio" name="opt"> Box
-				</label>
-            </div>-->
-        </div>
-    </div>
+ 
     <div class="card col-md-12 px-5 " style="border-radius:0px;border:2px solid #d73925;">
         <!--Card content-->
         <div class="card-body" style="padding:0;">
-		<div class="px-3 search-main-label">
-
-                <!-- Default inline 1-->
-			<label class="radio-inline">
-				  <input type="radio" name="opt" checked> Full Load
-				</label>
-				<label class="radio-inline">
-				  <input type="radio" name="opt"> Part Load
-				</label>
-				<label class="radio-inline">
-				  <input type="radio" name="opt"> Box
-				</label>
-            </div>
+		
             <!-- Form -->
             <form name="">
                 <div class="row main-search">
