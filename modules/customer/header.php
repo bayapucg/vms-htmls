@@ -19,7 +19,7 @@
 
     <!-- DataTables -->
    
-    <link rel="stylesheet" href="../plugins/datepicker/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../css/datepicker3.css">
 
     <link rel="stylesheet" href="../css/dataTables.bootstrap.css">
     <link rel="stylesheet" href="../css/select2.min.css">

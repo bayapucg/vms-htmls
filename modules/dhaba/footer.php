@@ -22,8 +22,8 @@
 <script src="../js/select2.full.min.js"></script>
 <!-- SlimScroll -->
 
-<script src="../plugins/daterangepicker/daterangepicker.js"></script>
-<script src="../plugins/datepicker/bootstrap-datepicker.js"></script>
+<script src="../js/daterangepicker.js"></script>
+<script src="../js/bootstrap-datepicker.js"></script>
 <script src="../js/jquery.slimscroll.min.js"></script>
 <!-- SlimScroll 1.3.0 -->
 
