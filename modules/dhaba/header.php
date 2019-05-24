@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- DataTables -->
-    <link rel="stylesheet" href="../plugins/datepicker/datepicker3.css">
+    <link rel="stylesheet" href="../css/datepicker3.css">
     <link rel="stylesheet" href="../css/dataTables.bootstrap.css">
     <link rel="stylesheet" href="../css/select2.min.css">
     <!-- Theme style -->
