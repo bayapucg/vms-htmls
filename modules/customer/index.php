@@ -55,17 +55,30 @@
     <section class="content">
 	
         <!-- Info boxes -->
-        <div  style="position:absolute;top:66%;left:25%;width:50%;-webkit-transform: translate(5%, -50%);
-  transform: translate(20%, -50%);">
- 
-    <div class="card col-md-12 px-5 " style="border-radius:0px;border:2px solid #d73925;">
-        <!--Card content-->
-        <div class="card-body" style="padding:0;">
+        <div>
+	
+    <div class="card col-md-12 " style="background:#000">
+       
+        <div class="card-body" style="padding-right:10%;padding-left:10%">
 		
             <!-- Form -->
             <form name="">
-                <div class="row main-search">
-                    <div class=" col-md-3 md-form mt-3">
+				<div class="px-3 ">
+					<label class="radio-inline" >
+					<label class="radio-inline" >
+					<label class="radio-inline" >
+					  <input style="background:#ddd;" type="radio" name="opt" checked> Full Load
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="opt"> Part Load
+					</label>
+					<label class="radio-inline">
+					  <input type="radio" name="opt"> Box
+					</label>
+				</div>
+                <div class="row "style="" >
+                <div>
+                    <div class=" col-md-4 " style="border-right:1px solid #ddd;background:#fff;padding:3px;">
                         <select class="form-control select_vms" style="">
                             <option selected disabled>Pickup Point</option>
                             <option value="1">Kukatpaly</option>
@@ -73,17 +86,18 @@
                             <option value="3">Miyapur</option>
                         </select>
                     </div>
-                    <div class=" col-md-3 md-form mt-3">
+                    <div class=" col-md-3" style="border-right:1px solid #ddd;background:#fff;padding:3px;">
                         <select class="form-control select_vms" style="">
                             <option selected>Delivery Point</option>
                             <option value="1">Guntur</option>
                         </select>
                     </div>
-                    <div class="col-md-3 md-form mt-3 ">
+                    <div class="col-md-3" style="background:#fff;padding:3px;">
                         <input type="text" class="form-control datetimepicker1 select_vms" placeholder="Date">
                     </div>
-                    <div class="md-form col-md-2 md-form mt-3">
-                        <button  data-toggle="modal" data-target="#myModal" type="button" class="btn btn-danger btn-md pull-right" >Search</button>
+                    <div class=" col-md-2" style="padding:0px;">
+                        <button style="border-radius:0px;padding:9px 3px;" type="button" class="btn btn-danger btn-block" >Search</button>
+                    </div>
                     </div>
                 </div>
             </form>
