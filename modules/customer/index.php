@@ -9,15 +9,26 @@
 	    border-left: 0px solid black;
     
 }
-.radio-inline {
-	color:#333;
+.text-white {
+	color:#fff;
 	font-weight:400;
 }
-<!--.bg-img {
-	background-image:url("../img/banner-vehicle.jpg");
-	background-size: cover;
-	
-}-->
+.full-load-bg{
+	background:#23b14d;
+	padding-left:5px;
+}
+.part-load-bg{
+	background:#ff7e26;
+	padding-left:5px;
+}
+.box-load-bg{
+	background:#fef200;
+	padding-left:5px;
+}
+.help-radio .col-md-2{
+	padding-left:0px;
+	padding-right:0px;
+}
 </style>
 <div class="content-wrapper ">
 
@@ -63,18 +74,32 @@
 		
             <!-- Form -->
             <form name="">
-				<div class="px-3 ">
-					<label class="radio-inline" >
-					<label class="radio-inline" >
-					<label class="radio-inline" >
-					  <input style="background:#ddd;" type="radio" name="opt" checked> Full Load
-					</label>
-					<label class="radio-inline">
-					  <input type="radio" name="opt"> Part Load
-					</label>
-					<label class="radio-inline">
-					  <input type="radio" name="opt"> Box
-					</label>
+				<div class="mb-2 row help-radio">
+					<div class="col-md-2 ">
+						<label class="text-white" >
+						   Full Load
+						</label>
+						<div class="full-load-bg">
+							<input  type="radio" name="opt" checked>
+						</div>
+					</div>
+					<div class="col-md-2 ">
+						<label class="text-white" >
+						  Part Load
+						</label>
+						<div class="part-load-bg">
+							<input  type="radio" name="opt" checked>
+						</div>
+					</div>
+					<div class="col-md-2 ">
+						<label class="text-white" >
+						   Box Load
+						</label>
+						<div class="box-load-bg">
+							<input  type="radio" name="opt" checked>
+						</div>
+					</div>
+					
 				</div>
                 <div class="row "style="" >
                 <div>
