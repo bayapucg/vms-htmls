@@ -9,6 +9,23 @@
         color: red;
         padding: 5px;
     }
+	.full-load-bg{
+	background:#23b14d;
+	padding:3px 5px;
+}
+.part-load-bg{
+	background:#ff7e26;
+	padding:3px 5px;
+}
+.box-load-bg{
+	background:#fef200;
+	padding:3px 5px;
+}
+.help-radio > .col-md-2{
+	padding-left:0px;
+	padding-right:0px;
+	
+}
 </style>
 
 <!--Carousel Wrapper-->
@@ -24,37 +41,44 @@
 <!--/.Carousel Wrapper-->
 <div style="position:absolute;top:55%;width:70%;-webkit-transform: translate(5%, -50%);
   transform: translate(20%, -50%);">
-    <div class="row py-2">
-        <div class="col-md-8 ">
-            <div class="px-5 search-main-label">
-
-                <!-- Default inline 1-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultUnchecked1" name="types" value="fullLoad">
-                    <label class="custom-control-label" for="defaultUnchecked1">Full Load</label>
-                </div>
-
-                <!-- Default inline 2-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultUnchecked2" name="types" value="partLoad">
-                    <label class="custom-control-label" for="defaultUnchecked2">Part Load</label>
-                </div>
-
-                <!-- Default inline 3-->
-                <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="defaultUnchecked3" name="types" value="box">
-                    <label class="custom-control-label" for="defaultUnchecked3">Box</label>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="card col-md-12 px-5 " style="border-radius:50px;border:2px solid #f00;">
+   
+    <div class="card col-md-12 px-5 py-2 " style="background:#000;" >
         <!--Card content-->
         <div class="card-body" style="padding:0;">
             <!-- Form -->
             <form name="">
+			
+					<div class="col-md-8" style="padding:0px;" >
+					<div class=" row help-radio">
+					<div class="col-md-2" >
+						<label class="text-white" >
+						   Full Load
+						</label>
+						<div class="full-load-bg">
+							<input  type="radio" name="opt" checked>
+						</div>
+					</div>
+					<div class="col-md-2 ">
+						<label class="text-white" >
+						  Part Load 
+						</label>
+						<div class="part-load-bg">
+							<input  type="radio" name="opt" checked>
+						</div>
+					</div>
+					<div class="col-md-2 ">
+						<label class="text-white" >
+						   Box Booking
+						</label>
+						<div class="box-load-bg">
+							<input  type="radio" name="opt" checked>
+						</div>
+					</div>
+					</div>
+					
+				</div>
                 <div class="row main-search">
-                    <div class="form-group col-md-3 md-form mt-3">
+                    <div class="form-group col-md-3 md-form " style="border-right:1px solid #ddd;background:#fff;">
                         <select class="browser-default custom-select" style="">
                             <option selected disabled>Pickup Point</option>
                             <option value="1">Kukatpaly</option>
@@ -62,17 +86,17 @@
                             <option value="3">Miyapur</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-3 md-form mt-3">
+                    <div class="form-group col-md-3 md-form " style="border-right:1px solid #ddd;background:#fff;">
                         <select class="browser-default custom-select" style="">
                             <option selected>Delivery Point</option>
                             <option value="1">Guntur</option>
                         </select>
                     </div>
-                    <div class="form-group col-md-3 md-form mt-3">
+                    <div class="form-group col-md-3 md-form " style="background:#fff;">
                         <input id="datetimepicker1" type="text" class="form-control" placeholder="Date">
                     </div>
-                    <div class="md-form col-md-2">
-                        <button  data-toggle="modal" data-target="#myModal" type="button" class="btn btn-indigo btn-md pull-right">Find Price</button>
+                    <div class=" col-md-3" style="padding:0px;margin-top:3px;">
+                        <button  data-toggle="modal" data-target="#myModal" type="button" class="btn btn-indigo  btn-block" style="box-shadow:none; ">Find Price</button>
                     </div>
                 </div>
             </form>

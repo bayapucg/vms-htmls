@@ -28,6 +28,7 @@
 .help-radio .col-md-2{
 	padding-left:0px;
 	padding-right:0px;
+	width:12%
 }
 </style>
 <div class="content-wrapper ">
@@ -68,13 +69,13 @@
         <!-- Info boxes -->
         <div>
 	
-    <div class="card col-md-12 " style="background:#000">
+    <div class="card col-md-10 col-md-offset-1 " style="background:#000;padding-top:8px;">
        
-        <div class="card-body" style="padding-right:10%;padding-left:10%">
+        <div class="card-body" style="padding-right:2%;padding-left:2%">
 		
             <!-- Form -->
             <form name="">
-				<div class="mb-2 row help-radio">
+				<div class="mb-1 row help-radio">
 					<div class="col-md-2 ">
 						<label class="text-white" >
 						   Full Load
@@ -85,7 +86,7 @@
 					</div>
 					<div class="col-md-2 ">
 						<label class="text-white" >
-						  Part Load
+						  Part Load 
 						</label>
 						<div class="part-load-bg">
 							<input  type="radio" name="opt" checked>
@@ -93,7 +94,7 @@
 					</div>
 					<div class="col-md-2 ">
 						<label class="text-white" >
-						   Box Load
+						   Box Booking
 						</label>
 						<div class="box-load-bg">
 							<input  type="radio" name="opt" checked>
@@ -103,7 +104,7 @@
 				</div>
                 <div class="row "style="" >
                 <div>
-                    <div class=" col-md-4 " style="border-right:1px solid #ddd;background:#fff;padding:3px;">
+                    <div class=" col-md-3 " style="border-right:1px solid #ddd;background:#fff;">
                         <select class="form-control select_vms" style="">
                             <option selected disabled>Pickup Point</option>
                             <option value="1">Kukatpaly</option>
@@ -111,17 +112,17 @@
                             <option value="3">Miyapur</option>
                         </select>
                     </div>
-                    <div class=" col-md-3" style="border-right:1px solid #ddd;background:#fff;padding:3px;">
+                    <div class=" col-md-3" style="border-right:1px solid #ddd;background:#fff;">
                         <select class="form-control select_vms" style="">
                             <option selected>Delivery Point</option>
                             <option value="1">Guntur</option>
                         </select>
                     </div>
-                    <div class="col-md-3" style="background:#fff;padding:3px;">
+                    <div class="col-md-3" style="background:#fff;">
                         <input type="text" class="form-control datetimepicker1 select_vms" placeholder="Date">
                     </div>
-                    <div class=" col-md-2" style="padding:0px;">
-                        <button style="border-radius:0px;padding:9px 3px;" type="button" class="btn btn-danger btn-block" >Search</button>
+                    <div class=" col-md-3" style="padding:0px;">
+                        <button style="border-radius:0px;" type="button" class="btn btn-danger btn-block" >Search</button>
                     </div>
                     </div>
                 </div>
