@@ -69,7 +69,7 @@
         <!-- Info boxes -->
         <div>
 	
-    <div class="card col-md-10 col-md-offset-1 " style="background:#000;padding-top:8px;">
+    <div class="card col-md-10 col-md-offset-1 " style="background:#000000cf;padding-top:8px;">
        
         <div class="card-body" style="padding-right:2%;padding-left:2%">
 		
