@@ -33,7 +33,7 @@
 <div class="view">
 
     <!-- Mask & flexbox options-->
-    <div class="mask rgba-black-light " style="background-image: url('img/search-bg.png'); ">
+    <div class="mask rgba-black-light " style="background-image: url('img/banner1.jpg');background-repeat: no-repeat; background-size: cover; ">
     </div>
     <!-- Mask & flexbox options-->
 
