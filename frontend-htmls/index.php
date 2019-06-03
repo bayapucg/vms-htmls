@@ -118,7 +118,7 @@
 				</div>
                 <div class="row main-search">
                     <div class="form-group col-md-3 md-form " style="border-right:1px solid #ddd;background:#fff;">
-                        <div class="ui-widget"><input class="form-control" id="tags" placeholder="Pickup point"></div>
+                        <div class="ui-widget"><input style="border-right:0px;border-left:0px;border-top:0px;" class="form-control" id="tags" placeholder="Pickup point"></div>
                     </div>
                     <div class="form-group col-md-3 md-form " style="border-right:1px solid #ddd;background:#fff;">
                         <select class="browser-default custom-select" style="">
@@ -492,7 +492,8 @@
                         $(".ui-autocomplete").css("z-index", 1000);
                     }
                   }).autocomplete("instance")._renderItem = function(ul, item) {
-                    return $("<li><div><span>&nbsp;" + item.value + "</span> &nbsp;<input type='text'  val='" + item.img + "'/></div></li>").appendTo(ul);
+                    return $("<li><div><span>&nbsp;" + item.value + "</span> &nbsp;<i class='fa fa-check-square pull-right' aria-hidden='true'></i></div></li>").appendTo(ul);
+                    //return $("<li><div><span>&nbsp;" + item.value + "</span> &nbsp;<input type='text'  val='" + item.img + "'/></div></li>").appendTo(ul);
                 };
             });
 
