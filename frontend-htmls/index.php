@@ -456,35 +456,46 @@
 
 <?php include("footer.php"); ?>
  <script>
-  $( function() {
-    var availableTags = [
-      "Bayapu " + "<span>reddy</span>",
-      "AppleScript",
-      "Asp",
-      "BASIC",
-      "C",
-      "C++",
-      "Clojure",
-      "COBOL",
-      "ColdFusion",
-      "Erlang",
-      "Fortran",
-      "Groovy",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Lisp",
-      "Perl",
-      "PHP",
-      "Python",
-      "Ruby",
-      "Scala",
-      "Scheme"
-    ];
-    $( "#tags" ).autocomplete({
-      source: availableTags
-    });
-  } );
+ 
+ $(function() {
+				$("#tags").autocomplete({
+                    source: [
+			   
+			   
+			   
+			   {
+				   label: "India",
+				   value: "India",
+				    img: "HI",
+					  
+				 },
+					{
+					  label: "Australia",
+					  value: "Australia",
+					  img:" hello",
+					  
+					  }
+					  ],
+                    minLength: 1,
+					focus: function( event, ui ) {
+						
+						return false;
+					},
+                    select: function(event, ui) {
+						var str= ui.item.value;
+						var res = str.split(",");
+						$("#tags").val(res);
+						return false;
+                    },
+                    html: true,
+                    open: function(event, ui) {
+                        $(".ui-autocomplete").css("z-index", 1000);
+                    }
+                  }).autocomplete("instance")._renderItem = function(ul, item) {
+                    return $("<li><div><span>&nbsp;" + item.value + "</span> &nbsp;<input type='text'  val='" + item.img + "'/></div></li>").appendTo(ul);
+                };
+            });
+
   </script>
 <script>
     $('#blogCarousel').carousel({
