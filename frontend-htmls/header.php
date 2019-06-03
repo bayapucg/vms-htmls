@@ -10,14 +10,16 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
-    <link href="../frontend/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="../frontend/css/mdb.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="../frontend/css/style.min.css" rel="stylesheet">
-    <link href="../frontend/css/custom.css" rel="stylesheet">
-    <link href="../frontend/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
-	<script type="text/javascript" src="../frontend/js/jquery-3.3.1.min.js"></script>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+	 <link href="css/jquery-ui.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <style type="text/css">
         @media (min-width: 800px) and (max-width: 850px) {
@@ -59,11 +61,22 @@
                             <ul class="nav navbar-nav ">
                                 <li class="dropdown show-on-hover">
                                     <a href="#" class="dropdown-toggle nav-linkbtn btn  btn-sm " style="background-color: transparent;color:#fff;border:1px solid #fff;" data-toggle="dropdown"> <i class="fa fa-user-plus mr-2"></i>Login / Signup</a>
-                                    <ul class="dropdown-menu hover-open">
-                                        <li><a href="driver-login.php">Driver Login</a></li>
-                                        <li><a href="dhaba-login.php">Dhaba Login</a></li>
-                                        <li><a href="owner-login.php">Owner Login</a></li>
-                                        <li><a href="load-provider-login.php">Load Provider Login</a></li>
+                                    <ul class="dropdown-menu hover-open" style="padding:6px;">
+                                       <form action="" style="width:auto;">
+										  <div class="form-group">
+											<label for="email">Login / Email id :</label>
+											<input type="email" class="form-control" id="email">
+										  </div>
+										  <div class="form-group">
+											<label for="pwd">Password:</label>
+											<input type="password" class="form-control" id="pwd">
+										  </div>
+										  <div >
+											<a  class="py-0 px-0 pull-left" href="">	Forgot Password</a>
+											<a  class="py-0 px-0 pull-right" href="">	New Registeration</a>
+										  </div>
+										  <button type="submit" class="btn btn-primary">Login</button>
+										</form>
                                     </ul>
                                 </li>
                             </ul>
@@ -91,33 +104,105 @@
             <div class="row">
                 <ul class="states-ul">
                     <li>
-                        <div class="dropdown">
+                        <div class="dropdown" style="">
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 ODISHA
                             </a>
-                            <div style="min-width:300px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <div style="min-width:650px;min-height:400px;background-image: url('img/sidebar-dropdown.png');background-repeat: no-repeat; background-size: cover;background-color: #e4e4e4eb; " class="dropdown-menu" aria-labelledby="dropdownMenu2" >
                                <div class="row"> 
-								   <div class="col-md-6"> 
-										<div class="district-modal-li">
-											<ul>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-											</ul>
+								   <div class="col-md-12"> 
+										<div class="district-modal-li px-4 biswajit-mn ">
+										<h3 class="py-3">ODISHA</h3>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">Top Business Hub</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Barhampur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Rourkela </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Jeypore</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">District</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">BarhampurRourkela</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Khordha  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Ganjan</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Malkangiri</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Korapur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Bhadrak  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Baleswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Mayurbhanj</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Nuapada</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4 bg-f5f5f5">
+										
+											<div class="row mt-4">
+												<div class="col-md-6 ">
+													Business
+												</div>
+												<div class="col-md-6">
+													Fleet’s
+												</div>
+												<div class="col-md-6 text-center">
+													<h1> 1,09,500 lak  </h1>
+												</div>
+												<div class="col-md-6 text-center">
+													<h1 href=""> 60,452 Fleet</h1>
+												</div>
+											</div>
+										</div>
 										</div>
 									</div>
-									<div class="col-md-6"> 
-									  <img src="img/st1.png" class=" img-fluid" alt="">
-									</div>
+									
 								</div>
                             </div>
                         </div>
@@ -127,29 +212,101 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Andhra Pradesh
                             </a>
-                            <div style="min-width:300px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <div style="min-width:650px;min-height:400px;background-image: url('img/sidebar-dropdown.png');background-repeat: no-repeat; background-size: cover;background-color: #e4e4e4eb; " class="dropdown-menu" aria-labelledby="dropdownMenu2" >
                                <div class="row"> 
-								   <div class="col-md-6"> 
-										<div class="district-modal-li">
-											<ul>
-												<a href=""><li>AP-District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-											</ul>
+								   <div class="col-md-12"> 
+										<div class="district-modal-li px-4 biswajit-mn ">
+										<h3 class="py-3">ODISHA</h3>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">Top Business Hub</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Barhampur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Rourkela </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Jeypore</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">District</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">BarhampurRourkela</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Khordha  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Ganjan</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Malkangiri</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Korapur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Bhadrak  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Baleswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Mayurbhanj</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Nuapada</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4 bg-f5f5f5">
+										
+											<div class="row mt-4">
+												<div class="col-md-6 ">
+													Business
+												</div>
+												<div class="col-md-6">
+													Fleet’s
+												</div>
+												<div class="col-md-6 text-center">
+													<h1> 1,09,500 lak  </h1>
+												</div>
+												<div class="col-md-6 text-center">
+													<h1 href=""> 60,452 Fleet</h1>
+												</div>
+											</div>
+										</div>
 										</div>
 									</div>
-									<div class="col-md-6"> 
-									  <img src="img/st1.png" class=" img-fluid" alt="">
-									</div>
+									
 								</div>
                             </div>
                         </div>
@@ -159,29 +316,101 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Telangana
                             </a>
-                           <div style="min-width:400px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                           <div style="min-width:650px;min-height:400px;background-image: url('img/sidebar-dropdown.png');background-repeat: no-repeat; background-size: cover;background-color: #e4e4e4eb; " class="dropdown-menu" aria-labelledby="dropdownMenu2" >
                                <div class="row"> 
-								   <div class="col-md-6"> 
-										<div class="district-modal-li">
-											<ul>
-												<a href=""><li>TG-District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-											</ul>
+								   <div class="col-md-12"> 
+										<div class="district-modal-li px-4 biswajit-mn ">
+										<h3 class="py-3">ODISHA</h3>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">Top Business Hub</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Barhampur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Rourkela </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Jeypore</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">District</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">BarhampurRourkela</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Khordha  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Ganjan</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Malkangiri</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Korapur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Bhadrak  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Baleswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Mayurbhanj</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Nuapada</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4 bg-f5f5f5">
+										
+											<div class="row mt-4">
+												<div class="col-md-6 ">
+													Business
+												</div>
+												<div class="col-md-6">
+													Fleet’s
+												</div>
+												<div class="col-md-6 text-center">
+													<h1> 1,09,500 lak  </h1>
+												</div>
+												<div class="col-md-6 text-center">
+													<h1 href=""> 60,452 Fleet</h1>
+												</div>
+											</div>
+										</div>
 										</div>
 									</div>
-									<div class="col-md-6"> 
-									  <img src="img/st1.png" class=" img-fluid" alt="">
-									</div>
+									
 								</div>
                             </div>
                         </div>
@@ -191,29 +420,101 @@
                             <a class=" dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 West Bengal
                             </a>
-                          <div style="min-width:300px;" class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <div style="min-width:650px;min-height:400px;background-image: url('img/sidebar-dropdown.png');background-repeat: no-repeat; background-size: cover;background-color: #e4e4e4eb; " class="dropdown-menu" aria-labelledby="dropdownMenu2" >
                                <div class="row"> 
-								   <div class="col-md-6"> 
-										<div class="district-modal-li">
-											<ul>
-												<a href=""><li>WB-District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-												<a href=""><li>District-1 </li></a>
-											</ul>
+								   <div class="col-md-12"> 
+										<div class="district-modal-li px-4 biswajit-mn ">
+										<h3 class="py-3">ODISHA</h3>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">Top Business Hub</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Barhampur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Rourkela </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Jeypore</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4">
+											<h5 style="text-decoration:underline">District</h5>
+											<div class="row mt-4">
+												<div class="col-md-3">
+													<a href="">Bhubaneswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Cuttack</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">BarhampurRourkela</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Sambelpur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Khordha  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Ganjan</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Malkangiri</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Korapur</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Bhadrak  </a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Baleswar</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Mayurbhanj</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Nuapada</a>
+												</div>
+												<div class="col-md-3">
+													<a href="">Kandhamal</a>
+												</div>
+											</div>
+										</div>
+										<div class="mt-4 bg-f5f5f5">
+										
+											<div class="row mt-4">
+												<div class="col-md-6 ">
+													Business
+												</div>
+												<div class="col-md-6">
+													Fleet’s
+												</div>
+												<div class="col-md-6 text-center">
+													<h1> 1,09,500 lak  </h1>
+												</div>
+												<div class="col-md-6 text-center">
+													<h1 href=""> 60,452 Fleet</h1>
+												</div>
+											</div>
+										</div>
 										</div>
 									</div>
-									<div class="col-md-6"> 
-									  <img src="img/st1.png" class=" img-fluid" alt="">
-									</div>
+									
 								</div>
                             </div>
                         </div>

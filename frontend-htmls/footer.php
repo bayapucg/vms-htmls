@@ -1,3 +1,5 @@
+
+
 <footer class="page-footer font-small stylish-color-dark pt-4">
     <div class="container">
         <div class="row design-top-foot">
@@ -148,6 +150,64 @@
     <!-- Copyright -->
 
 </footer>
+<!-- Modal: modalCart -->
+<div style="top:22%;" class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header btn-indigo">
+        <h4 class="modal-title" id="myModalLabel">NEW REGISTRACTION</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <!--Body-->
+	  <form>
+      <div class="modal-body">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="name">First Name</label>
+					<input type="text" class="form-control" id="name">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="name">Last Name</label>
+					<input type="text" class="form-control" id="name">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="name">Mobile Number</label>
+					<input type="text" class="form-control" id="name">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="email">Email address:</label>
+					<input type="email" class="form-control" id="email">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="name">GSTN NO. /PAN</label>
+					<input type="text" class="form-control" id="name">
+				</div>
+			</div>
+		</div>
+      </div>
+      <!--Footer-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-indigo" data-dismiss="modal">Close</button>
+        <button class="btn btn-indigo">Register</button>
+      </div>
+	  </form>
+    </div>
+  </div>
+</div>
+<!-- Modal: modalCart -->
 
 <!-- SCRIPTS -->
 <!-- JQuery -->

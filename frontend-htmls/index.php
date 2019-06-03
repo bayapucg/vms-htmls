@@ -21,9 +21,10 @@
 	background:#fef200;
 	padding:3px 5px;
 }
-.help-radio > .col-md-2{
+.help-radio > .col{
 	padding-left:0px;
 	padding-right:0px;
+	
 	
 }
 </style>
@@ -48,9 +49,9 @@
             <!-- Form -->
             <form name="">
 			
-					<div class="col-md-8" style="padding:0px;" >
+					<div class="col-md-12" style="padding:0px;" >
 					<div class=" row help-radio">
-					<div class="col-md-2" >
+					<div class="col" >
 						<label class="text-white" >
 						   Full Load
 						</label>
@@ -58,7 +59,7 @@
 							<input  type="radio" name="opt" checked>
 						</div>
 					</div>
-					<div class="col-md-2 ">
+					<div class="col ">
 						<label class="text-white" >
 						  Part Load 
 						</label>
@@ -66,25 +67,58 @@
 							<input  type="radio" name="opt" checked>
 						</div>
 					</div>
-					<div class="col-md-2 ">
+					<div class="col ">
 						<label class="text-white" >
 						   Box Booking
 						</label>
 						<div class="box-load-bg">
 							<input  type="radio" name="opt" checked>
 						</div>
+					</div>	
+					<div class="col ">
+						&nbsp;
+					</div>
+					<div class="col ">
+						&nbsp;
+					</div>
+					<div class="col text-center">
+					<a href="">
+						<img src="img/live-tracking.png" alt="live tracking">
+						<div class="text-white">
+							Live Tracking
+						</div>
+					</a>
+					</div>
+					<div class="col  text-center">
+					<a href="">
+						<img src="img/raining.png" alt="raining">
+						<div class="text-white">
+							Rain Protection
+						</div>
+					</a>
+					</div>	
+					<div class="col text-center">
+					<a href="">
+						<img src="img/mobile-payment.png" alt="Mobile Payment ">
+						<div class="text-white">
+							Mobile Payment 
+						</div>
+					</a>
+					</div>	
+					<div class="col text-center">
+					<a href="">
+						<img src="img/experiance-driver.png" alt="Experiance Driver">
+						<div class="text-white">
+							Experiance Driver
+						</div>
+					</a>
 					</div>
 					</div>
 					
 				</div>
                 <div class="row main-search">
                     <div class="form-group col-md-3 md-form " style="border-right:1px solid #ddd;background:#fff;">
-                        <select class="browser-default custom-select" style="">
-                            <option selected disabled>Pickup Point</option>
-                            <option value="1">Kukatpaly</option>
-                            <option value="2">Ameerpet</option>
-                            <option value="3">Miyapur</option>
-                        </select>
+                        <div class="ui-widget"><input class="form-control" id="tags" placeholder="Pickup point"></div>
                     </div>
                     <div class="form-group col-md-3 md-form " style="border-right:1px solid #ddd;background:#fff;">
                         <select class="browser-default custom-select" style="">
@@ -101,6 +135,9 @@
                 </div>
             </form>
             <!-- Form -->
+			<div>
+			<a href="" class="pull-right text-white" data-toggle="modal" data-target="#register-modal">Registere Now</a>
+			</div>
         </div>
     </div>
 </div>
@@ -418,6 +455,37 @@
 
 
 <?php include("footer.php"); ?>
+ <script>
+  $( function() {
+    var availableTags = [
+      "Bayapu " + "<span>reddy</span>",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+  } );
+  </script>
 <script>
     $('#blogCarousel').carousel({
         interval: 2000
