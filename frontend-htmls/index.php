@@ -43,7 +43,7 @@
 <div style="position:absolute;top:55%;width:70%;-webkit-transform: translate(5%, -50%);
   transform: translate(20%, -50%);">
    
-    <div class="card col-md-12 px-5 py-2 " style="background:#000;" >
+    <div class="card col-md-12 px-5 py-2 " style="background:#0009;" >
         <!--Card content-->
         <div class="card-body" style="padding:0;">
             <!-- Form -->
