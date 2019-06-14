@@ -76,9 +76,9 @@
                                     </div>
                                     <div class="panel-heading py-4" style="background:#ddd;position:relative;border:1px solid #ddd;">
                                         <h4 class="panel-title vechiles-list">
-                                            <div class="expand">
+                                            <!--<div class="expand">
                                                 <div data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="right-arrow " style="">+</div>
-                                            </div>
+                                            </div>-->
                                             <div class="table-responsive">
                                                 <table width="100%">
 
