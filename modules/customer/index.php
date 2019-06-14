@@ -122,7 +122,7 @@
                         <input type="text" class="form-control datetimepicker1 select_vms" placeholder="Date">
                     </div>
                     <div class=" col-md-3" style="padding:0px;">
-                        <button style="border-radius:0px;" type="button" class="btn btn-danger btn-block" >Search</button>
+                        <a href="customer-search.php"><button style="border-radius:0px;" type="button" class="btn btn-danger btn-block" >Search</button></a>
                     </div>
                     </div>
                 </div>
