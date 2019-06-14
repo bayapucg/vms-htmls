@@ -46,8 +46,7 @@
             <div class="panel-body">
                 <div class="tab-content">
                     <form action="" method="">
-                        
-						<p>Payment Successfully</p>
+                        <p>Payment Successfully</p>
                     </form>
                 </div>
 
@@ -59,18 +58,3 @@
 <!-- /.content-wrapper -->
 
 <?php include("footer.php"); ?>
-
-<script>
-    $(function() {
-        $(".expand").on("click", function() {
-            // $(this).next().slideToggle(200);
-            $expand = $(this).find(">:first-child");
-
-            if ($expand.text() == "+") {
-                $expand.text("-");
-            } else {
-                $expand.text("+");
-            }
-        });
-    });
-</script>

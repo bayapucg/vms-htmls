@@ -121,7 +121,7 @@
                                                                 <p class="text-success">520 Load</p>
                                                             </td>
                                                             <td class="bv-price col-md-2">
-                                                                <h4>INR 2000.00</h4>
+                                                                <h4>INR 6000.00</h4>
                                                             </td>
 
                                                             <td class="bv-book col-md-1">
@@ -247,18 +247,3 @@
 <!-- /.content-wrapper -->
 
 <?php include("footer.php"); ?>
-
-<script>
-    $(function() {
-        $(".expand").on("click", function() {
-            // $(this).next().slideToggle(200);
-            $expand = $(this).find(">:first-child");
-
-            if ($expand.text() == "+") {
-                $expand.text("-");
-            } else {
-                $expand.text("+");
-            }
-        });
-    });
-</script>

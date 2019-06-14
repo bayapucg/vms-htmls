@@ -57,12 +57,10 @@
                                                     <table width="100%">
                                                         <thead class="black white-text row">
                                                             <tr>
-                                                                <th class="col-md-2">Vehicle ID</th>
-                                                                <th class="col-md-2">Distance</th>
-                                                                <th class="col-md-2">Loading Date / Time</th>
-                                                                <th class="col-md-2">Duration</th>
-                                                                <th class="col-md-2">Charges</th>
-                                                                <th class="col-md-2">Total Amount</th>
+                                                                <th class="col-md-3">Vehicle ID</th>
+                                                                <th class="col-md-3">Distance</th>
+                                                                <th class="col-md-3">Charges</th>
+                                                                <th class="col-md-3">Total Amount</th>
                                                             </tr>
                                                         </thead>
 
@@ -80,27 +78,10 @@
                                                     <tbody class="row">
                                                         <tr>
                                                             <td class="bv-vechile-info col-md-2">
-                                                                <p class="bvv-number">15820</p>
-                                                                <div class="text-center">
-                                                                    <i class="fa fa-truck fa-5x"></i>
-                                                                    <br>
-                                                                    <p class="bvv-name">TATA 1109</p>
-                                                                </div>
+                                                                <h3>VMS15820</h3>
                                                             </td>
                                                             <td class="bv-capacity col-md-2">
-                                                                <h3> 500Kms</h3>
-                                                            </td>
-                                                            <td class="bv-loading-dt col-md-2">
-                                                                <div class="media">
-                                                                    <i class="fa fa-calendar fa-2x mt-2"></i>
-                                                                    <div class="media-body">
-                                                                        <p class="">06:00 - 10:00 AM</p>
-                                                                        <p class="pt-0">02/01/1995</p>
-                                                                    </div>
-                                                                </div>
-                                                            </td>
-                                                            <td class="bv col-md-2">
-                                                                <p><i class="fa fa-clock-o"></i> 16 hrs</p>
+                                                                <h4> 500Kms</h4>
                                                             </td>
                                                             <td class="bv-rating col-md-2">
 															
@@ -136,18 +117,3 @@
 <!-- /.content-wrapper -->
 
 <?php include("footer.php"); ?>
-
-<script>
-    $(function() {
-        $(".expand").on("click", function() {
-            // $(this).next().slideToggle(200);
-            $expand = $(this).find(">:first-child");
-
-            if ($expand.text() == "+") {
-                $expand.text("-");
-            } else {
-                $expand.text("+");
-            }
-        });
-    });
-</script>
