@@ -46,21 +46,8 @@
             <div class="panel-body">
                 <div class="tab-content">
                     <form action="" method="">
-                        <div class="box-body">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Type Of Payment : </label>
-                                    <input type="radio" name="payment"> Cash
-                                    <input type="radio" name="payment"> Online
-                                    <!-- /.input group -->
-                                </div>
-                            </div>
-							
-                       
-						</div>
-						<ul class="list-inline pull-right">
-                            <li><a href="#" type="button" class="btn btn-primary next-step">Proceed to Payment</a></li>
-                        </ul>
+                        
+						<p>Payment Successfully</p>
                     </form>
                 </div>
 

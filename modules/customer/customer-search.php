@@ -27,12 +27,12 @@
                                     </a>
                                 </li>
                                 <li role="presentation" class="disabled">
-                                    <a class="persistant-disabled" href="vechilelist.php" title="Step 2">
+                                    <a class="persistant-disabled" href="#" title="Step 2">
                                         <span class="round-tab">2</span>
                                     </a>
                                 </li>
                                 <li role="presentation" class="disabled">
-                                    <a class="persistant-disabled" href="vechicle-confirm.php" title="Step 3">
+                                    <a class="persistant-disabled" href="#" title="Step 3">
                                         <span class="round-tab">3</span>
                                     </a>
                                 </li>

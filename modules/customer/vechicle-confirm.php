@@ -28,7 +28,7 @@
                                     </a>
                                 </li>
                                 <li role="presentation" class="active">
-                                    <a class="persistant-disabled" href="vechile-confirm.php" title="Step 3">
+                                    <a class="persistant-disabled" href="#" title="Step 3">
                                         <span class="round-tab">3</span>
                                     </a>
                                 </li>
