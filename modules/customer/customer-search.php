@@ -41,11 +41,7 @@
                                         <span class="round-tab">4</span>
                                     </a>
                                 </li>
-                                <li role="presentation" class="disabled">
-                                    <a class="persistant-disabled" href="order-conformation-fl.php" title="Step 5">
-                                        <span class="round-tab">5</span>
-                                    </a>
-                                </li>
+                               
                                 
                             </ul>
                         </div>
