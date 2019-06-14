@@ -33,7 +33,7 @@
                                     </a>
                                 </li>
                                 <li role="presentation" class="disabled">
-                                    <a class="persistant-disabled" href="list-of-vechiles-fl.php" title="Step 4">
+                                    <a class="persistant-disabled" href="#" title="Step 4">
                                         <span class="round-tab">4</span>
                                     </a>
                                 </li>

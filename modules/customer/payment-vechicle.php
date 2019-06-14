@@ -18,22 +18,22 @@
                         <div class="stepper">
                             <ul class="nav nav-tabs">
                                 <li role="presentation" class="completed">
-                                    <a class="persistant-disabled" href="full-load.php" title="Step 1">
+                                    <a class="persistant-disabled" href="customer-search.php" title="Step 1">
                                         <span class="round-tab">1</span>
                                     </a>
                                 </li>
                                 <li role="presentation" class="completed">
-                                    <a class="persistant-disabled" href="vechile-inforamtion-fl.php" title="Step 2">
+                                    <a class="persistant-disabled" href="vechilelist.php" title="Step 2">
                                         <span class="round-tab">2</span>
                                     </a>
                                 </li>
                                 <li role="presentation" class="completed">
-                                    <a class="persistant-disabled" href="material-type-fl.php" title="Step 3">
+                                    <a class="persistant-disabled" href="vechicle-confirm.php" title="Step 3">
                                         <span class="round-tab">3</span>
                                     </a>
                                 </li>
                                 <li role="presentation" class="active">
-                                    <a class="persistant-disabled" href="list-of-vechiles-fl.php" title="Step 4">
+                                    <a class="persistant-disabled" href="#" title="Step 4">
                                         <span class="round-tab">4</span>
                                     </a>
                                 </li>
