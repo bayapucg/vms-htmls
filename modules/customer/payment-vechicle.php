@@ -46,7 +46,17 @@
             <div class="panel-body">
                 <div class="tab-content">
                     <form action="" method="">
-                        <p>Payment Successfully</p>
+                        <div class="row">
+                            <div class="col-md-12 b-vans">
+                                <div class="payment-success">
+								<div class="row">
+								<div class="col-lg-6 ">
+								<div class="text-center">
+								<i class="fa fa-check-circle fa-5x" style="color:#34bc9b" aria-hidden="true"></i>
+								<p>Payment Successfull</p>
+								</div>
+								</div>
+								</div>
                     </form>
                 </div>
 
