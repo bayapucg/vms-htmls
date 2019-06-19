@@ -14,11 +14,11 @@
                     <div class="col-md-3">
                         <h3 class="mt-0 mb-0">Vehicles List</h3>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <div class="stepper">
                             <ul class="nav nav-tabs">
                                 <li role="presentation" class="completed">
-                                    <a class="persistant-disabled" href="customer-search.php" title="Step 1">
+                                    <a class="persistant-disabled" href="" title="Step 1">
                                         <span class="round-tab">1</span>
                                     </a>
                                 </li>
@@ -40,13 +40,109 @@
                               
                                 
                             </ul>
+							
                         </div>
                     </div>
+					<div class="col-md-1 filters-list" style="cursor:pointer;">
+						<i class="fa fa-filter" aria-hidden="true"> Filters</i> 
+					</div>
                 </div>
             </div>
             <div class="panel-body">
                 <div class="tab-content">
                     <form action="" method="">
+                        <div class="row filters-content" style="display:none;">
+							<div class="col-md-3">
+								<div class="h4">
+									Loading Time
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">7:30 AM – 12:00 PM</label>
+								</div>
+								
+							</div>	
+							<div class="col-md-3">
+								<div class="h4">
+									Vechile Type</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Small</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Medium</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Large</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Ex-Large</label>
+								</div>
+							</div>	
+							<div class="col-md-3">
+								<div class="h4">
+									Pickup Point</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Kukatpaly</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Ameerpet</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Miyapur</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Ex-Large</label>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="h4">
+									Deliver Point</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Guntur</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Ameerpet</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Miyapur</label>
+								</div>
+								<div class="checkbox">
+								  <label><input type="checkbox" value="">Ex-Large</label>
+								</div>
+							</div>
+						</div></form>
                         <div class="row">
                             <div class="col-md-12 b-vans">
                                 <div class="panel-group" id="accordion">
@@ -245,5 +341,9 @@
     <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
-
+<script>
+	$(".filters-list").click(function(){
+  $(".filters-content").toggle();
+});
+</script>
 <?php include("footer.php"); ?>

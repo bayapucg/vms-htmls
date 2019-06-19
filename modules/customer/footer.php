@@ -16,7 +16,6 @@
 <script src="../js/bootstrapValidator.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="../js/bootstrap.min.js"></script>
-<script src="../js/bootstrap.min.js"></script>
 <script src="../js/jquery.dataTables.min.js"></script>
 <script src="../js/dataTables.bootstrap.min.js"></script>
 <script src="../js/select2.full.min.js"></script>

@@ -61,7 +61,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
+							<div class="row">
+							<div class="col-md-6 mx-4">
 								<div class="form-group">
 									<label class=" control-label">Email Id</label>
 									<div class="">
@@ -69,14 +70,8 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label class=" control-label">Geo Location</label> <i class="fa fa-map-marker" aria-hidden="true"></i>
-									<div class="">
-										<input type="text" class="form-control" name="username" value="prachatech@gmail.com" />
-									</div>
-								</div>
 							</div>
+						
 							<div class="col-md-6">
 								<div class="form-group">
 									<label class=" control-label">Billing Address</label>
@@ -84,6 +79,19 @@
 										<textarea class="form-control"></textarea>
 									</div>
 								</div>
+							<div style="position:relative">	
+								<a style="position: absolute;left:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Add More</a>
+								<a style="position: absolute;right:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Set location</a>
+							</div>
+								<p class="mt-5">
+									<div class="checkbox">
+										  <label><input type="checkbox" value="">Fortune Signature, Flat No 306, Nizampet X roads, Sardar Patel Nagar, IDPL Staff Cooperative Housing Society, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500085</label>
+										</div>
+								</p>
+									<div class="pull-right">
+									<a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </a> &nbsp; &nbsp;
+									<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+							</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
@@ -92,8 +100,21 @@
 										<textarea class="form-control"></textarea>
 									</div>
 								</div>
+							<div style="position:relative">	
+							<a style="position: absolute;left:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Add More</a>
+								<a style="position: absolute;right:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Set location</a>
+								
 							</div>
-							<div class="col-md-6">
+						
+								<p class="mt-5">Fortune Signature, Flat No 306, Nizampet X roads, Sardar Patel Nagar, IDPL Staff Cooperative Housing Society, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500085</p>
+								<div class="pull-right">
+									<a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </a> &nbsp; &nbsp;
+									<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+							</div>
+							</div>
+							
+							<div class="clearfix">&nbsp;</div>
+							<div class="col-md-6 mt-5">
 								<div class="row">
 									<div class="form-group col-md-9">
 										<label class=" control-label">Profile</label>
@@ -124,158 +145,30 @@
 		</div>
 		<!-- /.row -->
 	</section>
+
 </div>
-<script type="text/javascript">
-	$(document).ready(function() {
-	        $(".select2").select2();
-	        // Generate a simple captcha
-	        function randomNumber(min, max) {
-	            return Math.floor(Math.random() * (max - min + 1) + min);
-	        };
-	        $('#captchaOperation').html([randomNumber(1, 100), '+', randomNumber(1, 200), '='].join(' '));
-	
-	        $('#defaultForm').bootstrapValidator({
-	            //        live: 'disabled',
-	            message: 'This value is not valid',
-	            feedbackIcons: {
-	                valid: 'glyphicon glyphicon-ok',
-	                invalid: 'glyphicon glyphicon-remove',
-	                validating: 'glyphicon glyphicon-refresh'
-	            },
-	            fields: {
-	                firstName: {
-	                    group: '.col-lg-4',
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'The first name is required and cannot be empty'
-	                        }
-	                    }
-	                },
-	                lastName: {
-	                    group: '.col-lg-4',
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'The last name is required and cannot be empty'
-	                        }
-	                    }
-	                },
-	                username: {
-	                    message: 'The username is not valid',
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'The username is required and cannot be empty'
-	                        },
-	                        stringLength: {
-	                            min: 6,
-	                            max: 30,
-	                            message: 'The username must be more than 6 and less than 30 characters long'
-	                        },
-	                        regexp: {
-	                            regexp: /^[a-zA-Z0-9_\.]+$/,
-	                            message: 'The username can only consist of alphabetical, number, dot and underscore'
-	                        },
-	                        remote: {
-	                            type: 'POST',
-	                            url: 'remote.php',
-	                            message: 'The username is not available'
-	                        },
-	                        different: {
-	                            field: 'password,confirmPassword',
-	                            message: 'The username and password cannot be the same as each other'
-	                        }
-	                    }
-	                },
-	                email: {
-	                    validators: {
-	                        emailAddress: {
-	                            message: 'The input is not a valid email address'
-	                        }
-	                    }
-	                },
-	                password: {
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'The password is required and cannot be empty'
-	                        },
-	                        identical: {
-	                            field: 'confirmPassword',
-	                            message: 'The password and its confirm are not the same'
-	                        },
-	                        different: {
-	                            field: 'username',
-	                            message: 'The password cannot be the same as username'
-	                        }
-	                    }
-	                },
-	                confirmPassword: {
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'The confirm password is required and cannot be empty'
-	                        },
-	                        identical: {
-	                            field: 'password',
-	                            message: 'The password and its confirm are not the same'
-	                        },
-	                        different: {
-	                            field: 'username',
-	                            message: 'The password cannot be the same as username'
-	                        }
-	                    }
-	                },
-	                birthday: {
-	                    validators: {
-	                        date: {
-	                            format: 'YYYY/MM/DD',
-	                            message: 'The birthday is not valid'
-	                        }
-	                    }
-	                },
-	                gender: {
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'The gender is required'
-	                        }
-	                    }
-	                },
-	                'languages[]': {
-	                    validators: {
-	                        notEmpty: {
-	                            message: 'Please specify at least one language you can speak'
-	                        }
-	                    }
-	                },
-	                'programs[]': {
-	                    validators: {
-	                        choice: {
-	                            min: 2,
-	                            max: 4,
-	                            message: 'Please choose 2 - 4 programming languages you are good at'
-	                        }
-	                    }
-	                },
-	                captcha: {
-	                    validators: {
-	                        callback: {
-	                            message: 'Wrong answer',
-	                            callback: function(value, validator) {
-	                                var items = $('#captchaOperation').html().split(' '),
-	                                    sum = parseInt(items[0]) + parseInt(items[2]);
-	                                return value == sum;
-	                            }
-	                        }
-	                    }
-	                }
-	            }
-	        });
-	
-	        // Validate the form manually
-	        $('#validateBtn').click(function() {
-	            $('#defaultForm').bootstrapValidator('validate');
-	        });
-	
-	        $('#resetBtn').click(function() {
-	            $('#defaultForm').data('bootstrapValidator').resetForm(true);
-	        });
-	    });
-</script>
+
+
 <?php include( "footer.php"); ?>
+	<div class="modal fade" id="billingloation" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Billing Address</h4>
+        </div>
+        <div class="modal-body">
+			<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15220.805702566095!2d78.3900965!3d17.4978956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe33ae6c3ea74c04e!2sPrachaTech+Software+Solutions!5e0!3m2!1sen!2sin!4v1560753852151!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" >Use Location</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>

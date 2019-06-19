@@ -48,7 +48,7 @@
                             <div class="row">
                                 <div class="col-md-6">
 										 <div class="form-group">
-                                        <label class="control-label">Image</label>
+                                        <label class="control-label">Recent Photo </label>
                                         <input type="file" class="form-control "  >
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@
                             
                             <br>
                             <ul class="list-inline text-center">
-                                <li><button type="button" class="btn btn-primary next-step">Submit</button></li>
+                                <li><a href="add-driver-step3.php" type="button" class="btn btn-primary next-step">Submit</a></li>
                             </ul>
                         </form>
                     </div>

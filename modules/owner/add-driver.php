@@ -64,20 +64,20 @@
 							   </div>
 							   <!-- /.input group -->
 							</div>
+						
 							<div class="col-md-4">
-							   <div class="form-group">
-								  <label class="control-label">Address</label>
-								  <input type=" text" class="form-control " name="username" placeholder="Enter Address">
-							   </div>
-							   <!-- /.input group -->
-							</div>
-							<div class="col-md-4">
-							   <div class="form-group">
-								  <label>Mobile Number</label>
-								  <div class="">
-									 <input type="number" class="form-control" name="mobile" placeholder="Enter Mobile No"/>
+							 <div class="form-group">
+								<label>Mobile Number</label>
+
+								<div class="input-group date">
+								  <div class="input-group-addon">
+									<i class="fa fa-mobile"></i>
 								  </div>
-							   </div>
+								  <input type="text" class="form-control pull-right" value="+91">
+								</div>
+								<!-- /.input group -->
+							  </div>
+							 
 							</div>
 							<div class="col-md-4">
 							   <div class="form-group">
@@ -88,12 +88,17 @@
 							   </div>
 							</div>
 							<div class="col-md-4">
-							   <div class="form-group">
-								  <label>Date Of Birth </label>
-								  <div class="">
-									 <input type="number" class="form-control" name="DOB" placeholder="Date of Birth"/>
+							 <div class="form-group">
+								<label>Date of Birth</label>
+
+								<div class="input-group date">
+								  <div class="input-group-addon">
+									<i class="fa fa-calendar"></i>
 								  </div>
-							   </div>
+								  <input type="text" class="form-control pull-right" id="datepicker">
+								</div>
+								<!-- /.input group -->
+							  </div>
 							</div>
 							<div class="col-md-4">
 							   <div class="form-group">
@@ -107,6 +112,90 @@
 								  </div>
 							   </div>
 							</div>
+						
+							<div class="row ">
+							<div class="col-md-12 ">
+							<div class="col-md-4 ">
+							   <div class="form-group">
+								  <label class="control-label">Address1</label>
+								  <input type=" text" class="form-control " name="username" placeholder="Enter Address">
+							   </div>
+							   <!-- /.input group -->
+							</div>
+							<div class="col-md-4">
+							   <div class="form-group">
+								  <label class="control-label">Address2</label>
+								  <input type=" text" class="form-control " name="username" placeholder="Enter Address">
+							   </div>
+							   <!-- /.input group -->
+							</div>
+							<div class="col-md-4">
+							   <div class="form-group">
+								  <label class="control-label">City</label>
+								  <input type=" text" class="form-control " name="username" placeholder="Enter Address">
+							   </div>
+							   <!-- /.input group -->
+							</div>	
+							<div class="col-md-4">
+							   <div class="form-group">
+								  <label class="control-label">District</label>
+								  <input type=" text" class="form-control " name="username" placeholder="Enter Address">
+							   </div>
+							   <!-- /.input group -->
+							</div>
+							<div class="col-md-4">
+							   <div class="form-group">
+								  <label class="control-label">State</label>
+								<select class="form-control">
+									<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+									<option value="Andhra Pradesh">Andhra Pradesh</option>
+									<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+									<option value="Assam">Assam</option>
+									<option value="Bihar">Bihar</option>
+									<option value="Chandigarh">Chandigarh</option>
+									<option value="Chhattisgarh">Chhattisgarh</option>
+									<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+									<option value="Daman and Diu">Daman and Diu</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Goa">Goa</option>
+									<option value="Gujarat">Gujarat</option>
+									<option value="Haryana">Haryana</option>
+									<option value="Himachal Pradesh">Himachal Pradesh</option>
+									<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+									<option value="Jharkhand">Jharkhand</option>
+									<option value="Karnataka">Karnataka</option>
+									<option value="Kerala">Kerala</option>
+									<option value="Lakshadweep">Lakshadweep</option>
+									<option value="Madhya Pradesh">Madhya Pradesh</option>
+									<option value="Maharashtra">Maharashtra</option>
+									<option value="Manipur">Manipur</option>
+									<option value="Meghalaya">Meghalaya</option>
+									<option value="Mizoram">Mizoram</option>
+									<option value="Nagaland">Nagaland</option>
+									<option value="Orissa">Orissa</option>
+									<option value="Pondicherry">Pondicherry</option>
+									<option value="Punjab">Punjab</option>
+									<option value="Rajasthan">Rajasthan</option>
+									<option value="Sikkim">Sikkim</option>
+									<option value="Tamil Nadu">Tamil Nadu</option>
+									<option value="Tripura">Tripura</option>
+									<option value="Uttaranchal">Uttaranchal</option>
+									<option value="Uttar Pradesh">Uttar Pradesh</option>
+									<option value="West Bengal">West Bengal</option>
+								</select>
+							   </div>
+							   <!-- /.input group -->
+							</div>
+								<div class="col-md-4">
+							   <div class="form-group">
+								  <label class="control-label">Zipcode</label>
+								  <input type=" text" class="form-control " name="username" placeholder="Enter Zipcode">
+							   </div>
+							   <!-- /.input group -->
+							</div>
+							</div>
+							</div>
+							
 						 </div>
 						 <hr>
 				  
@@ -124,6 +213,7 @@
 									<option>voter Id</option>
 									<option>Aadhar</option>
 									<option>Passport</option>
+									<option>Driving Licence</option>
 								  </select>
 							   </div>
 							   <!-- /.input group -->
@@ -135,25 +225,7 @@
 							   </div>
 							   <!-- /.input group -->
 							</div>
-							<div class="col-md-3">
-							   <div class="form-group">
-								  <label class="control-label">Driving  </label>
-								  <select class="form-control">
-									<option>Select</option>
-									<option>Type1</option>
-									<option>Type2</option>
-									
-								  </select>
-							   </div>
-							   <!-- /.input group -->
-							</div>
-							<div class="col-md-3">
-							   <div class="form-group">
-								  <label class="control-label">Number</label>
-								  <input type=" text" class="form-control " name="" placeholder="Enter Number">
-							   </div>
-							   <!-- /.input group -->
-							</div>
+							
 						 </div>
 				   </fieldset>
 				</div>
@@ -169,6 +241,8 @@
 									<option>voter Id</option>
 									<option>Aadhar</option>
 									<option>Passport</option>
+									<option>Bank Passbook</option>
+									<option>Electricity bill</option>
 								  </select>
 							   </div>
 							   <!-- /.input group -->
@@ -193,46 +267,42 @@
 								  <input type=" text" class="form-control " name="" placeholder="Enter Driving Licence  No">
 							   </div>
 							</div>
-							<div class="col-md-3">
-							   <div class="form-group">
-								  <label class="control-label">Date Of issue</label>
-								  <input type=" text" class="form-control " name="" placeholder="Enter Date Of issue">
-							   </div>
+							<div class="col-md-12">
+							   <table class="table table-bordered">
+								
+									<tbody>
+									  <tr>
+										<th>Vechicle Class</th>
+										<th>LMV</th>
+										<th>PSVBUS</th>
+										<th>MCWG</th>
+										<th>TRANS</th>
+										<th>Batch Number</th>
+									
+									  </tr> 
+									  <tr>
+										<th>Date of Issue</th>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+									  </tr>
+									  <tr>
+										<th>Expiry Date</th>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+										<td><input type="text" class="form-control datepicker" id=""> </td>
+									  </tr>	
+									  <tr>
+									
+									
+									</tbody>
+								  </table>
 							</div>
-							<div class="col-md-3">
-							   <div class="form-group">
-								  <label class="control-label">Expiry Date</label>
-								  <input type=" text" class="form-control " name="" placeholder="Enter Expiry Date">
-							   </div>
-							</div>
-							<div class="col-md-3">
-							     <div class="form-group">
-								  <label class="control-label">Licence Type   </label>
-								  <select class="form-control">
-									<option>Select</option>
-									<option>Type 1</option>
-									<option>Type 2</option>
-								  </select>
-							   </div>
-							</div>
-							<div class="col-md-3">
-							     <div class="form-group">
-								  <label class="control-label">Batch No  </label>
-								    <input type=" text" class="form-control " name="" placeholder="Enter Batch No ">
-							   </div>
-							</div>
-							<div class="col-md-3">
-							     <div class="form-group">
-								  <label class="control-label">Date Of issue  </label>
-								    <input type=" text" class="form-control " name="" placeholder="Enter Date Of issue ">
-							   </div>
-							</div>
-							<div class="col-md-3">
-							     <div class="form-group">
-								  <label class="control-label">Expiry Date  </label>
-								    <input type=" text" class="form-control " name="" placeholder="Enter Expiry Date ">
-							   </div>
-							</div>
+							
 						 </div>
 				   </fieldset>
 				</div>
@@ -257,7 +327,42 @@
 									<div class="col-md-4">
 									   <div class="form-group">
 										  <label class="control-label">Year of passing </label>
-										  <input type=" text" class="form-control " name="" placeholder="Enter Year of passing ">
+											<select class="form-control">
+												<option>1970</option>
+												<option>1971</option>
+												<option>1972</option>
+												<option>1973</option>
+												<option>1974</option>
+												<option>1975</option>
+												<option>1976</option>
+												<option>1977</option>
+												<option>1978</option>
+												<option>1979</option>
+												<option>1980</option>
+												<option>1981</option>
+												<option>1981</option>
+												<option>1983</option>
+												<option>1984</option>
+												<option>1985</option>
+												<option>1986</option>
+												<option>1987</option>
+												<option>1988</option>
+												<option>1989</option>
+												<option>1990</option>
+												<option>1991</option>
+												<option>1992</option>
+												<option>1993</option>
+												<option>1994</option>
+												<option>1995</option>
+												<option>1996</option>
+												<option>1997</option>
+												<option>1998</option>
+												<option>1999</option>
+												<option>2000</option>
+												<option>2001</option>
+												<option>2002</option>
+												<option>2003</option>
+											</select>
 									   </div>
 									</div>
 									
@@ -281,7 +386,22 @@
 									<div class="col-md-4">
 									   <div class="form-group">
 										  <label class="control-label">Time period </label>
-										  <input type=" text" class="form-control " name="" placeholder="Enter Time period ">
+										<select class="form-control">
+												<option>Select</option>
+												<option>1st Month</option>
+												<option>2nd Month</option>
+												<option>3rd Month</option>
+												<option>4th Month</option>
+												<option>5th Month</option>
+												<option>6th Month</option>
+												<option>7th Month</option>
+												<option>8th Month</option>
+												<option>9th Month</option>
+												<option>10th Month</option>
+												<option>11th Month</option>
+												<option>12th Month</option>
+												
+											</select>
 									   </div>
 									</div>
 									
@@ -296,32 +416,80 @@
 						 <div class="">
 							<div class="col-md-3">
 							   <div class="form-group">
-								  <label class="control-label">Years  </label>
-								  <input type=" text" class="form-control " name="" placeholder="Enter Years">
+								  <label class="control-label">Years </label> <span style="font-size:20px;font-weight:600;color:red" class="pull-right" id="demo"></span>
+								 <div>
+									<div class="slidecontainer">
+									  <input type="range" min="2" max="30" value="2" class="slider" id="myRange">
+									
+									</div>
+								 </div>
 							   </div>
 							</div>
 							<div class="col-md-3">
 							   <div class="form-group">
-								  <label class="control-label">Months</label>
-								  <input type=" text" class="form-control " name="" placeholder="Enter Month">
+								  <label class="control-label">Month </label> <span style="font-size:20px;font-weight:600;color:red" class="pull-right" id="demo1"></span>
+								 <div>
+									<div class="slidecontainer">
+									  <input type="range" min="1" max="30" value="12" class="slider" id="myRange1">
+									
+									</div>
+								 </div>
 							   </div>
 							</div>
+					
 							<div class="col-md-3">
 							   <div class="form-group">
 								  <label class="control-label">Size Catagory </label>
-								  <input type=" text" class="form-control " name="" placeholder="Enter Size Catagory ">
+								 <div>
+									<ul class="list-inline select-catag">
+										<li class="list-inline-item text-center">
+											<a href="" class="active-cata"><i class="fa fa-truck fa-2x"></i><br>
+											<span>Small</span></a>
+										</li>
+										<li class="list-inline-item text-center">
+											<a href=""><i class="fa fa-truck fa-3x"></i><br>
+											<span>Medium</span></a>
+										</li>
+										<li class="list-inline-item text-center">
+										<a href="">	<i class="fa fa-truck fa-4x"></i><br>
+											<span>Large</span></a>
+										</li>
+										<li class="list-inline-item text-center">
+											<a href=""><i class="fa fa-truck fa-5x"></i><br>
+											<span>Extra Large</span>
+										</li>
+									</ul>
+									</div>
+								 </div>
 							   </div>
-							</div>
-							<div class="col-md-3">
-							     <div class="form-group">
-								  <label class="control-label">Types    </label>
-								  <select class="form-control">
-									<option>Select</option>
-									<option>Type 1</option>
-									<option>Type 2</option>
-								  </select>
+							   <div class="col-md-3">
+							   <div class="form-group">
+								  <label class="control-label">Vehicle Type</label>
+								 <div>
+									<ul class="list-inline select-catag">
+										<li class="list-inline-item text-center">
+											<a href="" class="active-cata"><i class="fa fa-truck fa-3x"></i><br>
+											<span>Open</span></a>
+										</li>
+										<li class="list-inline-item text-center">
+											<a href=""><i class="fa fa-truck fa-3x"></i><br>
+											<span>Container</span></a>
+										</li>
+										<li class="list-inline-item text-center">
+										<a href="">	<i class="fa fa-truck fa-3x"></i><br>
+											<span>Troller</span></a>
+										</li>
+										<li class="list-inline-item text-center">
+											<a href=""><i class="fa fa-truck fa-3x"></i><br>
+											<span>Some Type</span>
+										</li>
+									</ul>
+									</div>
+								 </div>
 							   </div>
-							</div>
+							
+						<div class="clearfix">&nbsp;</div>
+							<div class="row">
 							<div class="col-md-3">
 							     <div class="form-group">
 								  <label class="control-label">You have Any industrial Experience    </label>
@@ -331,6 +499,7 @@
 									<option>No</option>
 								  </select>
 							   </div>
+							</div>
 							</div>
 							
 						 </div>
@@ -349,3 +518,28 @@
 </div>
 
 <?php include("footer.php"); ?>
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+<script>
+var slider = document.getElementById("myRange1");
+var output = document.getElementById("demo1");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+<script>
+
+   //Date picker
+    $('.datepicker').datepicker({
+      autoclose: true
+    });
+</script>

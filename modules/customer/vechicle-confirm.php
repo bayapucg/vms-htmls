@@ -40,13 +40,13 @@
 							<div class="col-md-12 b-vans">
 								<div class="payment-success">
 									<div class="row">
-										<div class="col-lg-6 ">
+										<div class="col-lg-6 card col-md-offset-3">
 											<div class="text-center">	<i class="fa fa-check-circle fa-5x" style="color:#34bc9b" aria-hidden="true"></i>
 												<h3>Booking Id : VMS001</h3>
 												<h5>You successfully created your booking</h5>
 											</div>
 											<div class="table-responsive">
-												<table class="table">
+												<table class="table table-striped">
 													<thead></thead>
 													<tbody>
 														<tr>
@@ -72,11 +72,11 @@
 													</tbody>
 												</table>
 											</div>
-											<div class="col-lg-6">
+											<div class="col-lg-12">
 												<div class="form-group">
 													<label>Type Of Payment</label>
-													<input type="radio" />Cash
-													<input type="radio" />Card
+													&nbsp; &nbsp;  <input type="radio" /> Cash
+													&nbsp; &nbsp; <input type="radio" /> Online Payment 
 													<!-- /.input group -->
 												</div>
 											</div>
