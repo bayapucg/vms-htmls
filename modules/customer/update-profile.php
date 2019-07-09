@@ -23,7 +23,7 @@
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label class=" control-label">Gst</label>
+									<label class=" control-label">GSTN</label>
 									<div class="">
 										<input type="text" class="form-control" name="username" value="850022xxxx" />
 									</div>
@@ -111,7 +111,7 @@
 									<a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </a> &nbsp; &nbsp;
 									<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
 							</div>
-							</div>
+							</div>	
 							
 							<div class="clearfix">&nbsp;</div>
 							<div class="col-md-6 mt-5">

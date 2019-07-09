@@ -481,7 +481,7 @@
 										</li>
 										<li class="list-inline-item text-center">
 											<a href=""><i class="fa fa-truck fa-3x"></i><br>
-											<span>Some Type</span>
+											<span>Some Type</span></a>
 										</li>
 									</ul>
 									</div>

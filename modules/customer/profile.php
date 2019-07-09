@@ -156,7 +156,7 @@
 												<td>123456</td>
 											</tr>
 											<tr>
-												<td>Gst:</td>
+												<td>GSTN:</td>
 												<td>850022xxxx</td>
 											</tr>
 											<tr>

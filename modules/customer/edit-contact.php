@@ -66,39 +66,28 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class=" control-label">Address</label>
-                                        <div class="">
-                                            <input type="text" class="form-control" name="address" value="9-25, nimakur, guntur, andhra pradesh."/>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label class="control-label">Saved Address</label>
-                                        <div class="form-group">    
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" checked>
-                                                    Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox" checked>
-                                                    Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.
-                                                </label>
-                                            </div>
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox">
-                                                    Plot No. 177, Sri Vani Nilayam, 1st floor, Beside Sri Chaitanya High School, Sardar Patel Nagar, Opp Nizampet X-Road, Hyderabad, Telangana - 500072.
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                               <div class="col-md-6">
+								<div class="form-group">
+									<label class=" control-label"> Address</label>
+									<div class="">
+										<textarea class="form-control"></textarea>
+									</div>
+								</div>
+							<div style="position:relative">	
+								<a style="position: absolute;left:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Add More</a>
+								<a style="position: absolute;right:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Set location</a>
+							</div>
+								<p class="mt-5">
+									<div class="checkbox">
+										  <label><input type="checkbox" value="">Fortune Signature, Flat No 306, Nizampet X roads, Sardar Patel Nagar, IDPL Staff Cooperative Housing Society, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500085</label>
+										</div>
+								</p>
+									<div class="pull-right">
+									<a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </a> &nbsp; &nbsp;
+									<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+							</div>
+							</div>
+                               
                             </div>
                             <br>
                             <ul class="list-inline text-center">
@@ -115,3 +104,25 @@
 <!-- /.content-wrapper -->
 
 <?php include("footer.php"); ?>
+<div class="modal fade" id="billingloation" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Billing Address</h4>
+        </div>
+        <div class="modal-body">
+			<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15220.805702566095!2d78.3900965!3d17.4978956!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe33ae6c3ea74c04e!2sPrachaTech+Software+Solutions!5e0!3m2!1sen!2sin!4v1560753852151!5m2!1sen!2sin" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" >Use Location</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>

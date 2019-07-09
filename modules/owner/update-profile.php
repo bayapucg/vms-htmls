@@ -23,7 +23,7 @@
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
-									<label class=" control-label">Gst</label>
+									<label class=" control-label">GSTN</label>
 									<div class="">
 										<input type="text" class="form-control" name="username" value="850022xxxx" />
 									</div>
@@ -70,22 +70,6 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="form-group">
-									<label class=" control-label">Billing Address</label>
-									<div class="">
-										<textarea class="form-control"></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label class=" control-label">Godan Address</label>
-									<div class="">
-										<textarea class="form-control"></textarea>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
 								<div class="row">
 									<div class="form-group col-md-9">
 										<label class=" control-label">Profile</label>
@@ -101,6 +85,30 @@
 									</div>
 								</div>
 							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class=" control-label">Billing Address</label>
+									<div class="">
+										<textarea class="form-control"></textarea>
+									</div>
+								</div>
+							<div style="position:relative">	
+								<a style="position: absolute;left:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Add More</a>
+								<a style="position: absolute;right:12px;bottom:-10px;" data-toggle="modal" data-target="#billingloation" href="">Set location</a>
+							</div>
+								<p class="mt-5">
+									<div class="checkbox">
+										  <label><input type="checkbox" value="">Fortune Signature, Flat No 306, Nizampet X roads, Sardar Patel Nagar, IDPL Staff Cooperative Housing Society, Kukatpally Housing Board Colony, Kukatpally, Hyderabad, Telangana 500085</label>
+										</div>
+								</p>
+									<div class="pull-right">
+									<a href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i> </a> &nbsp; &nbsp;
+									<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+							</div>
+							</div>
+							
+							
+							
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
 								<div class="pull-right mr-3">

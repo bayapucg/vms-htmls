@@ -39,6 +39,7 @@
     <script src="../js/bootstrapValidator.min.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <script src="../js/bootstrap.min.js"></script>
+	<script src="../js/select2.full.min.js"></script>
 
 
 
@@ -79,11 +80,11 @@
                                     <li><a href="all-approvals.php">All Approvals</a></li>
                                 </ul>
                             </li>
-                            <li>
+                           <!-- <li>
                                 <a href="#">
                                     <span>Inventory</span>
                                 </a>
-                            </li>
+                            </li>-->
                             <li class="dropdown">
                                 <a href="load-booking.php">
                                     <span>Loads</span><span class="caret"></span></a>

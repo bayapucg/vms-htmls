@@ -16,10 +16,13 @@
     <section class="content">
         <div class="row">
             <div class="col-xs-12">
-                <div class="box box-primary">
-                    <div class="box-header">
-                        <!--<h3 class="box-title"></h3>-->
-                    </div>
+					    <div class="panel panel-default">
+					<div class="panel-heading">
+					<h3 class="mt-0 pull-left mb-0"> Contact List</h3>
+					<span class="pull-right"> <a class="btn btn-primary btn-xs " href="add-contact.php"> Add Contact</a></span>
+					<div class="clearfix">&nbsp;</div>
+				</div>
+               
                     <!-- /.box-header -->
                     <div class="box-body">
                         <div class="">
@@ -38,6 +41,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    
                                     <tr>
                                         <td>Name of the company belong to</td>
                                         <td>Customer Name</td>
@@ -52,40 +56,11 @@
                                             <a href="view-contact.php" class="btn btn-info btn-sm mb-5"><i class="fa fa-eye"></i></a><br>
                                             <a href="edit-contact.php" class="btn btn-warning btn-sm mb-5"><i class="fa fa-edit"></i></a><br>
                                             <a href="#" class="btn btn-danger btn-sm mb-5"><i class="fa fa-trash"></i></a>
+											<a href="#" class="btn btn-danger btn-sm mb-5">Book Now</a>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>Name of the company belong to</td>
-                                        <td>Customer Name</td>
-                                        <td>98xxxxxx20</td>
-                                        <td>example@gmail.com</td>
-                                        <td>653xxx122x22</td>
-                                        <td>Some Text</td>
-                                        <td>Address of the customer</td>
-                                        <td>Address he already saved before<br>
-                                            <hr>Address he already saved before</td>
-                                        <td>
-                                            <a href="view-contact.php" class="btn btn-info btn-sm mb-5"><i class="fa fa-eye"></i></a><br>
-                                            <a href="edit-contact.php" class="btn btn-warning btn-sm mb-5"><i class="fa fa-edit"></i></a><br>
-                                            <a href="#" class="btn btn-danger btn-sm mb-5"><i class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>Name of the company belong to</td>
-                                        <td>Customer Name</td>
-                                        <td>98xxxxxx20</td>
-                                        <td>example@gmail.com</td>
-                                        <td>653xxx122x22</td>
-                                        <td>Some Text</td>
-                                        <td>Address of the customer</td>
-                                        <td>Address he already saved before<br>
-                                            <hr>Address he already saved before</td>
-                                        <td>
-                                            <a href="view-contact.php" class="btn btn-info btn-sm mb-5"><i class="fa fa-eye"></i></a><br>
-                                            <a href="edit-contact.php" class="btn btn-warning btn-sm mb-5"><i class="fa fa-edit"></i></a><br>
-                                            <a href="#" class="btn btn-danger btn-sm mb-5"><i class="fa fa-trash"></i></a>
-                                        </td>
-                                    </tr>
+                                    
+									
                                 </tbody>
                             </table>
                         </div>

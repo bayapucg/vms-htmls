@@ -138,6 +138,7 @@
                             <option value="2">Ameerpet</option>
                             <option value="3">Miyapur</option>
                         </select>
+						
                     </div>
                     <div class=" col-md-3" style="border-right:1px solid #ddd;background:#fff;">
                         <select class="form-control select_vms" style="">
@@ -150,6 +151,12 @@
                     </div>
                     <div class=" col-md-3" style="padding:0px;">
                         <a data-toggle="modal" data-target="#search-index" ><button style="border-radius:0px;" type="button" class="btn btn-danger btn-block" >Search</button></a>
+                    </div> 
+					<div class=" col-md-3 mt-2" style="">
+                       <a data-toggle="modal" data-target="#billingloation" href="" class="text-white">Set Location</a>
+                    </div>
+					<div class=" col-md-3 mt-2" style="">
+                       <a data-toggle="modal" data-target="#billingloation" href="" class="text-white">Set Location</a>
                     </div>
                     </div>
 					<div class="">
@@ -295,6 +302,39 @@
             </div>
         <div class="modal-footer">
           <a href="vechilelist.php" type="button" class="btn btn-primary" >Search</a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  	<div class="modal fade" id="billingloation" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Search Address</h4>
+        </div>
+        <div class="modal-body">
+			<div class="col-md-12">
+            <div class="input-group" id="adv-search">
+                <input type="text" class="form-control" placeholder="Search for snippets" />
+                <div class="input-group-btn">
+                    <div class="btn-group" role="group">
+                      
+                        <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+		<div class="clearfix">&nbsp;
+		<div class="clearfix">&nbsp;
+		</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" >Use Location</button>
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>

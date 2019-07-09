@@ -154,13 +154,15 @@
                                                     <table width="100%">
                                                         <thead class="black white-text row">
                                                             <tr>
-                                                                <th class="col-md-2">Vehicle Info</th>
-                                                                <th class="col-md-2">Capacity</th>
-                                                                <th class="col-md-2">Loading Date / Time</th>
-                                                                <th class="col-md-1">Duration</th>
-                                                                <th class="col-md-2">Rating</th>
-                                                                <th class="col-md-2">Price</th>
-                                                                <th class="col-md-1">Book</th>
+                                                                <th class="">Vehicle Info</th>
+                                                                <th class="">Capacity</th>
+                                                                <th class="">Available Date / Time</th>
+                                                                <th class="">Estimated Time</th>
+                                                                <th class="">Rating</th>
+                                                              
+                                                                <th class="">Price</th>
+																  <th class="">No.of Load - 2</th>
+                                                                <th class="">   <a href="vechicle-confirm.php" class="btn btn-md btn-warning btn-xs">Book Now</a></th>
                                                             </tr>
                                                         </thead>
 
@@ -180,7 +182,7 @@
 
                                                     <tbody class="row">
                                                         <tr>
-                                                            <td class="bv-vechile-info col-md-2">
+                                                            <td class="bv-vechile-info ">
                                                                 <p class="bvv-number">15820</p>
                                                                 <div class="text-center">
                                                                     <i class="fa fa-truck fa-5x"></i>
@@ -188,11 +190,11 @@
                                                                     <p class="bvv-name">TATA 1109</p>
                                                                 </div>
                                                             </td>
-                                                            <td class="bv-capacity col-md-2">
+                                                            <td class="bv-capacity ">
                                                                 <p><i class="fa fa-balance-scale"></i> 16 Ton</p>
                                                                 <p><i class="fa fa-arrows-h"></i> 18 fit</p>
                                                             </td>
-                                                            <td class="bv-loading-dt col-md-2">
+                                                            <td class="bv-loading-dt ">
                                                                 <div class="media">
                                                                     <i class="fa fa-calendar fa-2x mt-2"></i>
                                                                     <div class="media-body">
@@ -201,10 +203,10 @@
                                                                     </div>
                                                                 </div>
                                                             </td>
-                                                            <td class="bv col-md-1">
+                                                            <td class="bv ">
                                                                 <p><i class="fa fa-clock-o"></i> 16 hrs</p>
                                                             </td>
-                                                            <td class="bv-rating col-md-2">
+                                                            <td class="bv-rating " style="width:100px;">
                                                                 <p>4.5</p>
                                                                 <ul class="list-inline">
                                                                     <li class="list-inline-item"><i class="fa fa-star"></i></li>
@@ -216,18 +218,36 @@
                                                                 <p class="text-mute">359 Reviews</p>
                                                                 <p class="text-success">520 Load</p>
                                                             </td>
-                                                            <td class="bv-price col-md-2">
+                                                            <td class=" ">
                                                                 <h4>INR 6000.00</h4>
+                                                            </td> 
+															<td class=" ">
+                                                               &nbsp;
                                                             </td>
 
-                                                            <td class="bv-book col-md-1">
-                                                                <a href="vechicle-confirm.php" class="btn btn-md btn-warning">Book Now</a>
+                                                            <td class="bv-book ">
+                                                                <a class="btn btn-md btn-warning">Add</a>
                                                             </td>
                                                         </tr>
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </h4>
+										<div style="position:absolute;right:0;top:0px; width:60%">
+									<div class="row">
+										<div class="col-md-5">
+											<h5 class="pull-right">Distance between Customer <i class="fa fa-user text-warning" aria-hidden="true"></i> </h5>
+										</div>
+										<div class="col-md-2">
+									<div>&nbsp;</div>
+											<div class="" style="height:3px;background-color:red; width:100%"></div>
+											<h5 class="text-center ">5KM </h5>
+										</div>
+										<div class="col-md-5">
+											<h5> <i class="fa fa-truck text-danger" aria-hidden="true"></i>    Driver</h5>
+										</div>
+									</div>
+								</div>
                                         <div class="clearfix">&nbsp;</div>
                                     </div>
 

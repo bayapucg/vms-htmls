@@ -149,16 +149,11 @@
                         </a>
                     </li>
                     <li class="treeview">
-                        <a href="#">
+                        <a href="contacts-list.php">
                             <i class="fa fa-users"></i> <span>Contacts</span>
-                            <span class="pull-right-container">
-                                <i class="fa fa-angle-left pull-right"></i>
-                            </span>
+                          
                         </a>
-                        <ul class="treeview-menu">
-                            <li><a href="add-contact.php"><i class="fa fa-circle-o"></i>Add Contact</a></li>
-                            <li><a href="contacts-list.php"><i class="fa fa-circle-o"></i>Contacts List</a></li>
-                        </ul>
+                   
                     </li>
                     <li class="treeview">
                         <a href="load-booking.php">
