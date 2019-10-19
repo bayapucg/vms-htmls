@@ -223,7 +223,7 @@
                                                   
                                                   
                                                 </th>
-                                                <th class="text-center" style="width:12%;"><a href="http://demo.prachatech.com/vms-htmls/modules/customer/vechicle-confirm.php" class="btn btn-md btn-warning">Book Now</a></th>
+                                                <th class="text-center" style="width:12%;"><a href="modules/customer/vechicle-confirm.php" class="btn btn-md btn-warning">Book Now</a></th>
                                             </tr>
                                         </thead>
 
